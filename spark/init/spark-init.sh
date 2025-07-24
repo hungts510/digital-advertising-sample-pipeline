@@ -1,0 +1,160 @@
+#!/bin/bash
+set -e
+
+echo "🚀 Initializing Spark with S3A configuration..."
+
+# Create configuration directory
+mkdir -p /opt/bitnami/spark/conf
+
+# Remove old JAR versions first to avoid conflicts
+echo "🗑️ Removing old JAR versions..."
+rm -f /opt/bitnami/spark/jars/aws-java-sdk-bundle-*.jar
+rm -f /opt/bitnami/spark/jars/hadoop-aws-*.jar
+rm -f /opt/bitnami/spark/jars/software-amazon-awssdk-bundle-*.jar
+rm -f /opt/bitnami/spark/jars/wildfly-openssl-*.jar
+
+# Download the CORRECT JAR versions that work together
+echo "📦 Downloading S3A JAR files..."
+curl -L -o /opt/bitnami/spark/jars/hadoop-aws-3.3.4.jar https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.4/hadoop-aws-3.3.4.jar
+curl -L -o /opt/bitnami/spark/jars/aws-java-sdk-bundle-1.12.470.jar https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.470/aws-java-sdk-bundle-1.12.470.jar
+
+# Additional JARs for better compatibility
+curl -L -o /opt/bitnami/spark/jars/joda-time-2.12.5.jar https://repo1.maven.org/maven2/joda-time/joda-time/2.12.5/joda-time-2.12.5.jar
+
+# Create comprehensive spark-defaults.conf
+echo "⚙️ Creating spark-defaults.conf..."
+cat > /opt/bitnami/spark/conf/spark-defaults.conf << 'EOF'
+# Basic Spark settings
+spark.sql.adaptive.enabled=true
+spark.sql.adaptive.coalescePartitions.enabled=true
+spark.jars.ivy=/tmp/.ivy2
+
+# S3A Configuration - Core settings
+spark.hadoop.fs.s3a.endpoint=http://minio:9000
+spark.hadoop.fs.s3a.access.key=minioadmin
+spark.hadoop.fs.s3a.secret.key=minioadmin
+spark.hadoop.fs.s3a.path.style.access=true
+spark.hadoop.fs.s3a.impl=org.apache.hadoop.fs.s3a.S3AFileSystem
+spark.hadoop.fs.s3a.connection.ssl.enabled=false
+
+# S3A Configuration - All timeout values in milliseconds (CRITICAL!)
+spark.hadoop.fs.s3a.connection.timeout=60000
+spark.hadoop.fs.s3a.socket.timeout=60000
+spark.hadoop.fs.s3a.request.timeout=60000
+spark.hadoop.fs.s3a.connection.establish.timeout=60000
+spark.hadoop.fs.s3a.threads.keepalivetime=60000
+spark.hadoop.fs.s3a.connection.ttl=60000
+spark.hadoop.fs.s3a.multipart.purge.age=86400000
+
+# S3A Configuration - Thread pool settings
+spark.hadoop.fs.s3a.threads.max=10
+spark.hadoop.fs.s3a.threads.core=5
+spark.hadoop.fs.s3a.connection.maximum=10
+spark.hadoop.fs.s3a.executor.capacity=48
+
+# S3A Configuration - Performance settings
+spark.hadoop.fs.s3a.multipart.size=67108864
+spark.hadoop.fs.s3a.multipart.threshold=67108864
+spark.hadoop.fs.s3a.fast.upload=true
+spark.hadoop.fs.s3a.block.size=67108864
+spark.hadoop.fs.s3a.readahead.range=65536
+
+# S3A Configuration - Retry settings
+spark.hadoop.fs.s3a.attempts.maximum=3
+spark.hadoop.fs.s3a.retry.limit=3
+
+# S3A Configuration - Additional settings
+spark.hadoop.fs.s3a.aws.credentials.provider=org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider
+spark.hadoop.fs.s3a.list.version=2
+spark.hadoop.fs.s3a.directory.marker.retention=keep
+spark.hadoop.fs.s3a.bulk.delete.page.size=250
+spark.hadoop.fs.s3a.change.detection.version.required=false
+spark.hadoop.fs.s3a.change.detection.mode=none
+spark.hadoop.fs.s3a.committer.magic.enabled=false
+spark.hadoop.fs.s3a.committer.name=file
+spark.hadoop.fs.s3a.committer.staging.tmp.path=/tmp/staging
+spark.hadoop.fs.s3a.signing-algorithm=S3SignerType
+spark.hadoop.fs.s3a.server-side-encryption.enabled=false
+spark.hadoop.fs.s3a.multipart.uploads.enabled=true
+spark.hadoop.fs.s3a.assumed.role.sts.endpoint.region=us-east-1
+EOF
+
+# Create core-site.xml with the same S3A settings
+echo "⚙️ Creating core-site.xml..."
+cat > /opt/bitnami/spark/conf/core-site.xml << 'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property>
+        <name>fs.s3a.endpoint</name>
+        <value>http://minio:9000</value>
+    </property>
+    <property>
+        <name>fs.s3a.access.key</name>
+        <value>minioadmin</value>
+    </property>
+    <property>
+        <name>fs.s3a.secret.key</name>
+        <value>minioadmin</value>
+    </property>
+    <property>
+        <name>fs.s3a.path.style.access</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>fs.s3a.impl</name>
+        <value>org.apache.hadoop.fs.s3a.S3AFileSystem</value>
+    </property>
+    <property>
+        <name>fs.s3a.connection.ssl.enabled</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>fs.s3a.connection.timeout</name>
+        <value>60000</value>
+    </property>
+    <property>
+        <name>fs.s3a.socket.timeout</name>
+        <value>60000</value>
+    </property>
+    <property>
+        <name>fs.s3a.request.timeout</name>
+        <value>60000</value>
+    </property>
+    <property>
+        <name>fs.s3a.connection.establish.timeout</name>
+        <value>60000</value>
+    </property>
+    <property>
+        <name>fs.s3a.threads.keepalivetime</name>
+        <value>60000</value>
+    </property>
+    <property>
+        <name>fs.s3a.connection.ttl</name>
+        <value>60000</value>
+    </property>
+    <property>
+        <name>fs.s3a.multipart.purge.age</name>
+        <value>86400000</value>
+    </property>
+    <property>
+        <name>fs.s3a.aws.credentials.provider</name>
+        <value>org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider</value>
+    </property>
+</configuration>
+EOF
+
+# Create staging directory
+mkdir -p /tmp/staging
+
+# Set proper permissions
+chmod 644 /opt/bitnami/spark/jars/*.jar
+
+echo "✅ Spark S3A configuration completed successfully!"
+echo "📄 Configuration files created:"
+echo "  - /opt/bitnami/spark/conf/spark-defaults.conf"
+echo "  - /opt/bitnami/spark/conf/core-site.xml"
+echo "📦 JAR files updated:"
+echo "  - hadoop-aws-3.3.4.jar (compatible with AWS SDK v1)"
+echo "  - aws-java-sdk-bundle-1.12.470.jar (AWS SDK v1)"
+echo "  - joda-time-2.12.5.jar (required dependency)"
+echo "🎉 Ready to process S3A requests!"

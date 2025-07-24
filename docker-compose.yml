@@ -1,0 +1,226 @@
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000" # S3 API
+      - "9001:9001" # MinIO Console
+    volumes:
+      - minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks:
+      - spark-net
+
+  minio-init:
+    image: minio/mc:latest
+    container_name: minio-init
+    depends_on:
+      - minio
+    entrypoint: ["/bin/sh", "/init/minio-init.sh"]
+    volumes:
+      - ./minio-init.sh:/init/minio-init.sh:ro
+      - ./data:/data:ro
+    networks:
+      - spark-net
+    restart: "no"
+
+  spark-master:
+    image: bitnami/spark:latest
+    container_name: spark-master
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - HOME=/tmp
+      - SPARK_CONF_DIR=/opt/bitnami/spark/conf
+      - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
+      # S3A Environment Variables
+      - MINIO_ENDPOINT=http://minio:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - MINIO_BUCKET=sample-bucket
+    ports:
+      - "8080:8080" # Spark master web UI
+      - "7077:7077" # Spark master port
+    depends_on:
+      - minio
+    volumes:
+      - ./spark/jobs:/opt/bitnami/spark/jobs
+      - ./spark/conf:/opt/bitnami/spark/conf
+      - ./spark/init:/opt/bitnami/spark/init
+    networks:
+      - spark-net
+    user: root
+    command: >
+      bash -c "
+        # Install curl
+        echo '📦 Installing curl...'
+        apt-get update && apt-get install -y curl
+        
+        # Run the initialization script
+        if [ -f /opt/bitnami/spark/init/spark-init.sh ]; then
+          echo '🔧 Running Spark initialization script...'
+          chmod +x /opt/bitnami/spark/init/spark-init.sh
+          /opt/bitnami/spark/init/spark-init.sh
+        else
+          echo '❌ Spark initialization script not found!'
+          exit 1
+        fi
+        
+        # Create user
+        getent passwd 1001 || echo 'sparkuser:x:1001:1001::/tmp:/bin/bash' >> /etc/passwd
+        
+        # Start Spark
+        echo '🚀 Starting Spark Master...'
+        exec /opt/bitnami/scripts/spark/entrypoint.sh /opt/bitnami/scripts/spark/run.sh
+      "
+
+  spark-worker:
+    image: bitnami/spark:latest
+    container_name: spark-worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - HOME=/tmp
+      - SPARK_CONF_DIR=/opt/bitnami/spark/conf
+      - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
+      # S3A Environment Variables
+      - MINIO_ENDPOINT=http://minio:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - MINIO_BUCKET=sample-bucket
+    depends_on:
+      - spark-master
+    volumes:
+      - ./spark/jobs:/opt/bitnami/spark/jobs
+      - ./spark/conf:/opt/bitnami/spark/conf
+      - ./spark/init:/opt/bitnami/spark/init
+    networks:
+      - spark-net
+    user: root
+    command: >
+      bash -c "
+        # Install curl
+        echo '📦 Installing curl...'
+        apt-get update && apt-get install -y curl
+        
+        # Run the initialization script
+        if [ -f /opt/bitnami/spark/init/spark-init.sh ]; then
+          echo '🔧 Running Spark initialization script...'
+          chmod +x /opt/bitnami/spark/init/spark-init.sh
+          /opt/bitnami/spark/init/spark-init.sh
+        else
+          echo '❌ Spark initialization script not found!'
+          exit 1
+        fi
+        
+        # Create user
+        getent passwd 1001 || echo 'sparkuser:x:1001:1001::/tmp:/bin/bash' >> /etc/passwd
+        
+        # Start Spark
+        echo '🚀 Starting Spark Worker...'
+        exec /opt/bitnami/scripts/spark/entrypoint.sh /opt/bitnami/scripts/spark/run.sh
+      "
+
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - spark-net
+
+  airflow-init:
+    image: apache/airflow:2.10.5
+    container_name: airflow-init
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__FERNET_KEY=s663FvIxp7DpaFGoBbOEvIovMgT4GyhXxJ5k_BQ82ks=
+      - AIRFLOW__WEBSERVER__SECRET_KEY=supersecretkey1234567890abcdef
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - _PIP_ADDITIONAL_REQUIREMENTS=pyspark boto3 minio psycopg2-binary apache-airflow-providers-apache-spark
+    entrypoint: /bin/bash
+    command: -c "airflow db init && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./spark:/opt/airflow/spark
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - spark-net
+
+  airflow-webserver:
+    image: apache/airflow:2.10.5
+    container_name: airflow-webserver
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__FERNET_KEY=s663FvIxp7DpaFGoBbOEvIovMgT4GyhXxJ5k_BQ82ks=
+      - AIRFLOW__WEBSERVER__SECRET_KEY=supersecretkey1234567890abcdef
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - _PIP_ADDITIONAL_REQUIREMENTS=pyspark boto3 minio psycopg2-binary apache-airflow-providers-apache-spark
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./spark:/opt/airflow/spark
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "8081:8080"
+    depends_on:
+      - spark-master
+      - minio
+      - postgres
+      - airflow-init
+    command: webserver
+    networks:
+      - spark-net
+
+  airflow-scheduler:
+    image: apache/airflow:2.10.5
+    container_name: airflow-scheduler
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__FERNET_KEY=s663FvIxp7DpaFGoBbOEvIovMgT4GyhXxJ5k_BQ82ks=
+      - AIRFLOW__WEBSERVER__SECRET_KEY=supersecretkey1234567890abcdef
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - _PIP_ADDITIONAL_REQUIREMENTS=pyspark boto3 minio psycopg2-binary apache-airflow-providers-apache-spark
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./spark:/opt/airflow/spark
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - airflow-webserver
+      - postgres
+      - airflow-init
+    command: scheduler
+    networks:
+      - spark-net
+
+volumes:
+  minio_data:
+  postgres_data:
+
+networks:
+  spark-net:
+    driver: bridge
