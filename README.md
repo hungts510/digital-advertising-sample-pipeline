@@ -1,4 +1,3 @@
-# Peer39 Senior-DE exercise 2025
 # PySpark + MinIO + Airflow - Local Data Pipeline (Docker Compose)
 
 ## Overview
