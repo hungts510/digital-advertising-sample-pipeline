@@ -46,8 +46,36 @@ def transform_data(spark, input_path, output_path):
     - Save transformed data
     """
     try:
-        # Read staged data
-        df = spark.read.parquet(input_path)
+        # Read staged data with retry logic
+        print(f"Reading data from {input_path}")
+        
+        # First, try to read with schema inference
+        try:
+            df = spark.read.parquet(input_path)
+        except Exception as e:
+            print(f"Error reading parquet with schema inference: {e}")
+            print("Trying to read with explicit schema...")
+            
+            # Define the schema explicitly based on our known structure
+            from pyspark.sql.types import StructType, StructField, StringType, DoubleType, DateType
+            
+            schema = StructType([
+                StructField("date", DateType(), True),
+                StructField("domain", StringType(), True),
+                StructField("format", StringType(), True),
+                StructField("country", StringType(), True),
+                StructField("ad_size", StringType(), True),
+                StructField("device", StringType(), True),
+                StructField("adSelectionEmissions", DoubleType(), True),
+                StructField("creativeDistributionEmissions", DoubleType(), True),
+                StructField("mediaDistributionEmissions", DoubleType(), True),
+                StructField("totalEmissions", DoubleType(), True),
+                StructField("domainCoverage", StringType(), True)
+            ])
+            
+            df = spark.read.schema(schema).parquet(input_path)
+        
+        print(f"Successfully read {df.count()} records")
         
         # Calculate metrics
         daily_metrics, device_format_metrics, country_rankings = calculate_metrics(df)

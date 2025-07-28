@@ -23,6 +23,7 @@ dag = DAG(
 spark_submit_cmd = (
     'docker exec spark-master spark-submit '
     '--master spark://spark-master:7077 '
+    '--jars /opt/bitnami/spark/jars/aws-java-sdk-bundle-1.12.470.jar,/opt/bitnami/spark/jars/hadoop-aws-3.3.4.jar '
     '--conf spark.hadoop.fs.s3a.endpoint=http://minio:9000 '
     '--conf spark.hadoop.fs.s3a.access.key=minioadmin '
     '--conf spark.hadoop.fs.s3a.secret.key=minioadmin '
@@ -54,16 +55,16 @@ transform_data = BashOperator(
     task_id='transform_data',
     bash_command=f'{spark_submit_cmd} /opt/bitnami/spark/jobs/transform_data.py '
                 '--input_path s3a://sample-bucket/staging/advertising_emissions.parquet '
-                '--output_path s3a://sample-bucket/transformed/advertising_emissions.parquet',
+                '--output_path s3a://sample-bucket/transformed',
     dag=dag
 )
 
-# Task 4: Final Output
+# Task 4: Business Logic Implementation (Final Output)
 final_output = BashOperator(
     task_id='final_output',
     bash_command=f'{spark_submit_cmd} /opt/bitnami/spark/jobs/final_output.py '
-                '--input_path s3a://sample-bucket/transformed/advertising_emissions.parquet '
-                '--output_path s3a://sample-bucket/final/advertising_emissions_analytics.parquet',
+                '--input_path s3a://sample-bucket/staging/advertising_emissions.parquet '
+                '--output_path s3a://sample-bucket/output',
     dag=dag
 )
 
