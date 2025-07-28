@@ -1,0 +1,1211 @@
+date,domain,format,country,ad_size,device,adSelectionEmissions,creativeDistributionEmissions,mediaDistributionEmissions,totalEmissions,domainCoverage
+07/16/2025,espn.com,banner,India,300x600,mobile,0.02393679,7.472e-05,0.00011058,0.0241221,measured
+06/27/2025,forbes.com,native,India,728x90,mobile,0.01382302,0.00023249,0.00022934,0.0086576,modeled
+07/14/2025,espn.com,display,Canada,728x90,desktop,0.01131078,0.00012349,0.00015992,0.01159419,modeled
+07/26/2025,cnn.com,audio,Canada,320x50,desktop,0.00215915,3.356e-05,0.00016849,0.0023612,modeled
+07/19/2025,weather.com,audio,Japan,320x50,tablet,0.04365177,6.959e-05,8.464e-05,0.043806,modeled
+07/02/2025,techcrunch.com,video,United Kingdom,300x250,mobile,0.01814008,5.026e-05,0.00010542,0.01829576,modeled
+07/04/2025,usatoday.com,banner,Japan,300x600,tablet,0.01649302,3.201e-05,0.0002376,0.01676264,measured
+07/01/2025,weather.com,video,India,970x250,mobile,0.00535181,2.364e-05,0.00015472,0.00553017,modeled
+07/22/2025,fox32chicago.com,display,Australia,300x250,desktop,0.02813354,9.489e-05,0.00012174,0.02835017,modeled
+07/25/2025,yahoo.com,video,Brazil,320x50,desktop,0.01307381,5.7e-05,0.00027502,0.01340583,measured
+07/03/2025,weather.com,display,Australia,728x90,desktop,0.02121044,6.087e-05,7.493e-05,0.02134623,measured
+07/12/2025,espn.com,audio,Australia,300x250,mobile,0.02587619,0.00016917,0.0002545,0.02629986,modeled
+07/08/2025,msn.com,banner,United States,970x250,tablet,0.00801047,6.492e-05,8.971e-05,0.00816511,measured
+07/20/2025,weather.com,display,United States,300x600,desktop,0.01438288,0.00014755,0.00032818,0.01485862,measured
+07/12/2025,msn.com,display,Germany,728x90,tablet,0.02178487,4.824e-05,0.00012967,0.02196278,measured
+07/26/2025,yahoo.com,display,Canada,728x90,desktop,0.0461254,8.908e-05,0.00010477,0.04631925,modeled
+07/03/2025,yahoo.com,video,India,728x90,tablet,0.01398853,0.00010858,6.605e-05,0.01416315,modeled
+07/11/2025,engadget.com,audio,France,970x250,tablet,0.01099197,0.00015749,0.00017025,0.01131971,modeled
+07/02/2025,bloomberg.com,native,India,300x250,desktop,0.01795161,0.0001628,7.317e-05,0.01818758,measured
+07/03/2025,nytimes.com,banner,United States,970x250,tablet,0.01278435,0.00010395,0.00016215,0.01305045,modeled
+06/27/2025,cnn.com,native,Japan,728x90,tablet,0.00425846,5.902e-05,0.00011736,0.00443484,modeled
+06/30/2025,yahoo.com,banner,France,300x250,tablet,0.02244606,0.00010109,0.00012579,0.02267294,measured
+07/09/2025,forbes.com,banner,United Kingdom,160x600,tablet,0.00214105,8.163e-05,0.00013965,0.00236234,measured
+07/06/2025,nytimes.com,native,Germany,728x90,mobile,0.07297998,7.152e-05,0.00016696,0.07321847,modeled
+07/10/2025,engadget.com,banner,United Kingdom,970x250,tablet,0.03620213,0.0001419,0.00033702,0.03668106,modeled
+07/22/2025,yahoo.com,banner,Australia,728x90,mobile,0.00432912,3.435e-05,8.298e-05,-0.00368829,modeled
+06/26/2025,techcrunch.com,audio,Australia,970x250,tablet,0.00359317,8.784e-05,5.913e-05,0.00374014,measured
+07/11/2025,fox32chicago.com,banner,India,970x250,mobile,0.04575209,4.231e-05,0.00010276,0.04589716,measured
+06/27/2025,engadget.com,audio,United States,300x250,desktop,0.02952962,2.646e-05,2.669e-05,0.02958277,measured
+06/28/2025,theverge.com,audio,China,300x250,tablet,0.01916572,0.00010126,0.00023148,0.01949845,modeled
+06/28/2025,nytimes.com,video,Canada,320x50,mobile,0.02435377,0.00010401,7.471e-05,0.02453249,measured
+06/30/2025,theverge.com,banner,United Kingdom,160x600,tablet,0.01984845,0.00010372,7.233e-05,0.02002449,measured
+07/14/2025,msn.com,banner,Canada,728x90,mobile,0.05422076,0.00011781,5.588e-05,0.05439445,modeled
+07/05/2025,techcrunch.com,audio,United States,320x50,tablet,0.02903278,0.00016227,0.00018067,0.02937572,measured
+06/29/2025,theverge.com,video,India,320x50,mobile,0.0136952,4.353e-05,0.00012553,0.01386426,modeled
+07/15/2025,bloomberg.com,native,India,320x50,desktop,0.02147026,8.418e-05,0.00034684,0.02190128,measured
+06/28/2025,usatoday.com,video,Japan,970x250,mobile,0.02611913,3.935e-05,5.05e-05,0.02620897,measured
+07/13/2025,theverge.com,audio,Germany,300x250,mobile,0.02370351,6.973e-05,0.0002215,0.02399474,modeled
+07/14/2025,washingtonpost.com,display,United States,728x90,tablet,0.02355306,7.872e-05,6.36e-05,0.02369538,measured
+07/03/2025,theverge.com,video,China,728x90,desktop,0.003762,9.793e-05,4.162e-05,0.00390155,measured
+07/21/2025,forbes.com,video,Australia,320x50,desktop,0.00766204,9.366e-05,0.00013944,0.00789513,measured
+07/21/2025,engadget.com,native,France,320x50,mobile,0.00583722,0.00017462,0.00027447,0.0062863,measured
+07/22/2025,bloomberg.com,display,Canada,300x250,mobile,0.02423914,0.00012109,0.00019391,0.02455415,modeled
+07/07/2025,engadget.com,banner,United States,320x50,desktop,0.0322656,0.00013285,6.838e-05,0.03246683,measured
+07/14/2025,reuters.com,native,Canada,300x600,tablet,0.01379248,0.00033983,1.852e-05,0.01415083,measured
+06/29/2025,forbes.com,audio,India,970x250,tablet,0.0112863,0.00017524,7.226e-05,0.0115338,modeled
+07/26/2025,cnn.com,audio,Canada,320x50,tablet,0.02706979,8.631e-05,7.672e-05,0.02723283,modeled
+07/23/2025,bloomberg.com,display,Australia,300x600,desktop,0.00181011,9.596e-05,6.709e-05,0.00197316,measured
+07/02/2025,theverge.com,display,China,160x600,tablet,0.01522887,0.00012037,0.00024422,0.01559346,measured
+07/22/2025,reuters.com,native,Brazil,160x600,tablet,0.01125632,4.788e-05,4.09e-05,0.00708338,measured
+07/02/2025,washingtonpost.com,display,China,300x250,desktop,0.03154629,0.00030909,0.00027092,0.0321263,modeled
+07/17/2025,fox32chicago.com,audio,Brazil,300x250,mobile,0.03895601,4.549e-05,0.00018462,0.03918613,modeled
+07/09/2025,weather.com,video,France,970x250,tablet,0.02880069,3.316e-05,0.00038297,0.02921682,modeled
+06/26/2025,nytimes.com,native,India,300x250,tablet,0.00418213,0.00021528,3.322e-05,0.00443064,modeled
+07/03/2025,techcrunch.com,audio,India,300x600,mobile,0.00693538,0.00011686,0.00014067,0.00719291,modeled
+07/26/2025,forbes.com,audio,Australia,160x600,desktop,0.01217077,0.00023336,4.2e-05,0.01244612,measured
+07/19/2025,nytimes.com,audio,Japan,160x600,tablet,0.01478292,0.00012737,0.00016451,0.0150748,measured
+07/03/2025,nytimes.com,audio,Canada,300x250,desktop,0.0098509,5.079e-05,0.00024174,0.01014342,modeled
+06/30/2025,cnn.com,audio,Canada,160x600,mobile,0.03118691,0.00010478,6.473e-05,0.03135643,modeled
+06/27/2025,techcrunch.com,audio,United States,160x600,mobile,0.01043034,8.199e-05,0.00014582,0.01065815,measured
+06/26/2025,engadget.com,audio,Australia,970x250,tablet,0.02477436,7.095e-05,0.00023804,0.02508335,measured
+07/13/2025,washingtonpost.com,native,United States,320x50,tablet,0.02952948,0.0001992,0.00013551,0.02986419,modeled
+07/17/2025,theverge.com,audio,China,300x250,mobile,0.02121169,7.521e-05,6.542e-05,0.02135232,modeled
+07/14/2025,weather.com,video,Brazil,300x250,mobile,0.06090096,0.00018267,0.00023295,0.06131658,modeled
+07/08/2025,techcrunch.com,native,Japan,320x50,desktop,0.01650906,3.78e-05,0.00026153,0.01680839,measured
+07/11/2025,cnn.com,banner,United States,728x90,desktop,0.01483934,0.00011293,8.318e-05,0.01582382,measured
+07/22/2025,cnn.com,native,France,970x250,mobile,0.02003342,5.471e-05,9.036e-05,0.01322613,modeled
+07/20/2025,espn.com,audio,United Kingdom,300x250,mobile,0.01984549,2.045e-05,3.44e-05,0.01990034,modeled
+07/14/2025,forbes.com,video,China,300x250,tablet,0.00900574,7.03e-05,0.00024298,0.00931902,measured
+07/20/2025,reuters.com,audio,Canada,160x600,tablet,0.01468596,8.214e-05,0.00010569,0.01487379,modeled
+07/07/2025,weather.com,native,United Kingdom,320x50,tablet,0.02118975,4.053e-05,0.00012241,0.02135269,measured
+07/24/2025,forbes.com,audio,Japan,300x600,mobile,0.02240925,9.865e-05,0.00013464,0.02264254,modeled
+07/10/2025,nytimes.com,display,United Kingdom,160x600,desktop,0.0169851,0.00011979,0.00050226,0.01760714,measured
+07/20/2025,yahoo.com,native,Germany,728x90,mobile,0.00859337,0.00031967,6.606e-05,0.0089791,measured
+07/21/2025,forbes.com,banner,India,300x600,desktop,0.00153513,5.379e-05,0.00017184,0.00176077,measured
+06/28/2025,techcrunch.com,native,Brazil,160x600,desktop,0.05451597,3.775e-05,0.00019086,0.05474459,measured
+06/28/2025,washingtonpost.com,native,Canada,300x600,tablet,0.0047724,0.00026627,0.00029601,0.00533468,measured
+07/07/2025,yahoo.com,video,Japan,300x250,tablet,0.01131376,0.00020483,0.00012185,0.01164044,measured
+07/02/2025,forbes.com,audio,China,300x600,mobile,0.03829821,8.367e-05,0.00013824,0.03852012,modeled
+06/29/2025,espn.com,video,India,320x50,desktop,0.01150539,0.00013035,0.00014615,0.01178189,measured
+06/27/2025,techcrunch.com,audio,United States,320x50,mobile,0.02422926,1.835e-05,0.00031361,0.02456122,modeled
+07/11/2025,washingtonpost.com,banner,Brazil,300x250,mobile,0.04578291,9.103e-05,0.0004795,0.04635343,modeled
+07/11/2025,techcrunch.com,banner,Japan,728x90,desktop,0.05115042,0.00013232,0.00033052,0.05161326,modeled
+07/13/2025,weather.com,display,Brazil,300x600,mobile,0.03440524,1.356e-05,0.0001074,0.0345262,modeled
+07/05/2025,forbes.com,video,France,320x50,tablet,0.02775231,0.00023886,3.556e-05,0.02802673,modeled
+06/28/2025,espn.com,native,,970x250,tablet,0.00292989,7.98e-05,1.351e-05,0.0030232,modeled
+07/11/2025,washingtonpost.com,banner,Brazil,970x250,desktop,0.0155424,0.00010931,5.791e-05,0.01570963,modeled
+07/25/2025,msn.com,display,Germany,728x90,desktop,0.01587051,0.00016144,8.572e-05,0.01611767,modeled
+06/27/2025,engadget.com,native,Japan,300x250,mobile,0.00838322,7.661e-05,5.245e-05,0.00851228,measured
+07/18/2025,msn.com,banner,Brazil,300x600,desktop,0.0570741,8.563e-05,7.334e-05,0.05723307,measured
+07/24/2025,fox32chicago.com,audio,China,300x250,tablet,0.01958457,7.629e-05,0.00011179,0.01977265,measured
+07/22/2025,espn.com,display,Brazil,728x90,tablet,0.0107132,5.142e-05,3.008e-05,0.0107947,modeled
+07/09/2025,yahoo.com,display,Canada,970x250,desktop,0.04127341,0.00012637,0.00016813,0.0415679,measured
+07/23/2025,washingtonpost.com,audio,Australia,300x250,mobile,0.0150692,3.562e-05,6.948e-05,0.0151743,measured
+06/28/2025,techcrunch.com,banner,India,970x250,tablet,0.00422278,4.818e-05,4.992e-05,0.00432087,measured
+07/10/2025,reuters.com,banner,Brazil,728x90,mobile,0.04931347,0.00015418,0.00014148,0.04960913,modeled
+07/13/2025,forbes.com,audio,United States,728x90,tablet,0.00783694,3.271e-05,0.00011463,0.00798428,measured
+07/01/2025,cnn.com,native,United Kingdom,300x250,tablet,0.03171084,2.173e-05,0.00020034,0.03193291,modeled
+07/22/2025,washingtonpost.com,native,Brazil,728x90,mobile,0.00959901,5.568e-05,0.00013841,0.00979309,measured
+07/13/2025,msn.com,banner,Germany,320x50,mobile,0.00807614,6.884e-05,5.985e-05,0.00820483,modeled
+07/06/2025,washingtonpost.com,audio,China,970x250,mobile,0.01027442,0.00014222,0.00014386,0.0105605,measured
+07/23/2025,msn.com,native,Australia,320x50,desktop,0.02837068,4.746e-05,0.00020137,0.02861951,measured
+07/18/2025,techcrunch.com,native,Canada,970x250,mobile,0.00324801,8.648e-05,0.00021076,0.00354524,measured
+07/08/2025,fox32chicago.com,display,China,300x250,mobile,0.00310278,4.794e-05,0.00013829,0.00328901,modeled
+06/29/2025,espn.com,banner,Germany,160x600,mobile,0.03332561,5.137e-05,0.00019588,0.03357285,measured
+07/06/2025,engadget.com,native,India,320x50,tablet,0.04306375,0.00012641,0.00011344,0.0433036,measured
+07/18/2025,fox32chicago.com,display,France,728x90,tablet,0.02193197,5.011e-05,0.00014248,0.02212456,measured
+06/28/2025,forbes.com,video,Brazil,970x250,mobile,0.01473658,0.00010708,9.516e-05,0.01493882,modeled
+07/24/2025,usatoday.com,audio,France,160x600,tablet,0.02229527,5.901e-05,0.00024506,0.01908683,modeled
+07/17/2025,reuters.com,video,China,160x600,tablet,0.01280208,8.86e-06,5.397e-05,0.01286491,modeled
+06/30/2025,bloomberg.com,display,Brazil,970x250,tablet,0.01690558,0.00024515,0.00023865,0.01738937,measured
+07/01/2025,washingtonpost.com,display,Australia,160x600,mobile,0.0013167,1.969e-05,0.00028978,0.00162617,measured
+07/02/2025,weather.com,display,China,970x250,mobile,0.02624324,0.00033263,9.13e-05,0.02666717,measured
+06/26/2025,reuters.com,audio,United States,970x250,mobile,0.00792659,8.804e-05,8.984e-05,0.00810446,measured
+07/22/2025,nytimes.com,video,Canada,970x250,desktop,0.03396997,5.456e-05,0.00010736,0.03413189,measured
+07/15/2025,theverge.com,display,United States,160x600,desktop,0.00695515,0.00014237,5.897e-05,0.00715649,modeled
+07/14/2025,washingtonpost.com,video,Australia,728x90,desktop,0.02259412,0.00027267,2.108e-05,0.02288787,modeled
+07/21/2025,theverge.com,display,Germany,160x600,mobile,0.04440162,0.00010274,4.76e-05,0.04455196,measured
+07/19/2025,cnn.com,native,France,300x600,mobile,0.01811921,0.00013951,6.722e-05,0.01832594,modeled
+06/28/2025,cnn.com,audio,Japan,160x600,tablet,0.0235243,0.00023428,8.72e-05,0.02384578,modeled
+07/26/2025,reuters.com,display,India,300x600,desktop,0.00687728,7.547e-05,0.00013917,0.00709193,modeled
+07/16/2025,washingtonpost.com,video,United Kingdom,300x250,desktop,0.0351593,7.354e-05,9.393e-05,0.03532677,measured
+07/05/2025,theverge.com,native,Australia,320x50,tablet,0.00671754,1.565e-05,3.955e-05,0.00677275,modeled
+07/26/2025,forbes.com,banner,Australia,160x600,tablet,0.00491487,6.767e-05,3.055e-05,0.00501309,measured
+07/09/2025,usatoday.com,video,Brazil,320x50,desktop,0.0159755,0.00026873,0.00028681,0.01653104,measured
+07/17/2025,washingtonpost.com,native,United Kingdom,300x250,tablet,0.01343075,0.00038426,0.00013954,0.01395456,measured
+07/02/2025,usatoday.com,audio,Germany,728x90,desktop,0.01935695,7.436e-05,0.00012998,0.01956129,modeled
+07/22/2025,engadget.com,video,Canada,300x600,desktop,0.01058941,6.793e-05,0.00035679,0.01101414,modeled
+07/04/2025,msn.com,banner,Germany,970x250,desktop,0.0384844,8.36e-06,3.44e-05,0.03852715,modeled
+06/30/2025,fox32chicago.com,video,United States,970x250,mobile,0.00850676,0.0001595,0.00031249,0.01477844,modeled
+07/12/2025,techcrunch.com,banner,China,160x600,tablet,0.02782728,2.963e-05,8.617e-05,0.02794308,modeled
+07/03/2025,theverge.com,display,India,160x600,tablet,0.02381638,6.876e-05,9.825e-05,0.02398339,modeled
+07/26/2025,cnn.com,banner,Brazil,300x250,mobile,0.01242744,0.0001828,0.00020445,0.02278643,measured
+07/15/2025,bloomberg.com,native,Canada,300x600,tablet,0.01298133,0.00010621,4.137e-05,0.0131289,modeled
+07/05/2025,forbes.com,video,India,160x600,mobile,0.01078816,0.00017104,2.852e-05,0.01098773,measured
+07/24/2025,weather.com,display,United Kingdom,160x600,mobile,0.02577823,8.24e-06,0.00039649,0.02618297,measured
+07/17/2025,yahoo.com,banner,United Kingdom,160x600,desktop,0.01057516,0.00011184,0.00014548,0.01083249,modeled
+07/19/2025,reuters.com,display,India,970x250,desktop,0.01868333,0.00010482,2.322e-05,0.01881137,modeled
+07/09/2025,forbes.com,audio,Japan,320x50,mobile,0.01897128,7.201e-05,8.5e-05,0.01912829,measured
+06/29/2025,yahoo.com,display,United Kingdom,300x600,mobile,0.00850273,9.663e-05,5.566e-05,0.00865502,modeled
+06/29/2025,engadget.com,audio,China,970x250,tablet,0.03379627,0.00011771,0.00016156,0.03407554,modeled
+07/13/2025,washingtonpost.com,display,Japan,320x50,desktop,0.03284434,1.204e-05,4.003e-05,0.04147809,measured
+07/01/2025,forbes.com,banner,United States,970x250,tablet,0.02428265,4.472e-05,7.962e-05,0.02440699,measured
+07/02/2025,usatoday.com,audio,Canada,300x600,desktop,0.00430389,3.488e-05,0.00027444,0.00461321,measured
+07/24/2025,fox32chicago.com,native,Japan,970x250,mobile,0.02388102,9.584e-05,8.228e-05,0.02405915,modeled
+07/11/2025,techcrunch.com,native,Canada,300x250,mobile,0.01829195,0.00018171,7.31e-05,0.01854676,measured
+07/17/2025,washingtonpost.com,audio,Australia,300x250,desktop,0.01621904,0.00025787,0.0002206,0.0166975,measured
+07/02/2025,techcrunch.com,banner,Canada,300x250,mobile,0.01040876,0.00013026,2.803e-05,0.01056705,modeled
+07/19/2025,forbes.com,display,India,300x250,mobile,0.01572408,0.00013016,0.00017658,0.01603083,modeled
+07/23/2025,theverge.com,audio,Canada,160x600,tablet,0.02585732,0.00014959,0.0001866,0.0261935,measured
+07/08/2025,weather.com,video,Canada,300x600,mobile,0.022851,9.747e-05,4.995e-05,0.02299842,measured
+07/22/2025,engadget.com,audio,Australia,160x600,tablet,0.03429502,8.081e-05,0.00021683,0.03459266,measured
+06/28/2025,nytimes.com,banner,Germany,300x600,tablet,0.03195143,5.426e-05,9.33e-05,0.032099,measured
+06/29/2025,usatoday.com,video,Germany,300x250,desktop,0.01298542,0.00019351,6.064e-05,0.01323957,modeled
+07/04/2025,bloomberg.com,native,Brazil,300x600,tablet,0.04319538,9.668e-05,0.00016286,0.04345491,modeled
+07/10/2025,bloomberg.com,banner,Brazil,160x600,mobile,0.03099189,8.876e-05,0.00027643,0.03135707,measured
+07/16/2025,usatoday.com,native,Japan,160x600,desktop,0.01084075,0.00021143,9.241e-05,0.01114459,measured
+06/27/2025,engadget.com,audio,United Kingdom,300x600,tablet,0.04335162,5.905e-05,0.0001063,0.04351696,measured
+07/08/2025,techcrunch.com,display,France,300x600,mobile,0.00677379,4.295e-05,0.00012978,0.00694653,modeled
+07/12/2025,techcrunch.com,banner,Canada,300x600,tablet,0.01987691,0.00016439,0.00011243,0.02015373,modeled
+07/01/2025,reuters.com,display,Canada,160x600,mobile,0.02210706,9.455e-05,0.00019093,0.02654497,measured
+07/20/2025,bloomberg.com,banner,Canada,300x600,tablet,0.00971477,5.354e-05,7.774e-05,0.00984606,modeled
+07/08/2025,reuters.com,display,Canada,970x250,tablet,0.03721159,0.00021277,8.265e-05,0.03750701,modeled
+07/17/2025,weather.com,video,Canada,970x250,tablet,0.01050569,0.00013123,0.00036553,0.01100244,modeled
+07/22/2025,weather.com,display,United States,320x50,desktop,0.0522636,4.971e-05,9.717e-05,0.05241047,modeled
+07/26/2025,espn.com,banner,Japan,300x600,tablet,0.02063627,0.00010684,0.00011588,0.02085899,measured
+07/22/2025,theverge.com,audio,Germany,160x600,desktop,0.008339,8.121e-05,0.00041782,0.00883803,modeled
+07/01/2025,fox32chicago.com,native,France,300x600,mobile,0.01083762,9.863e-05,0.00060162,0.01153787,modeled
+07/20/2025,nytimes.com,video,Brazil,320x50,tablet,0.01070966,0.00013555,0.00042946,0.01127467,measured
+07/26/2025,washingtonpost.com,audio,India,160x600,desktop,0.02551402,0.00017734,0.00023729,0.02592865,measured
+07/22/2025,fox32chicago.com,audio,Canada,300x250,tablet,0.02411075,0.00020818,0.00021218,0.02453111,modeled
+07/23/2025,techcrunch.com,audio,Brazil,728x90,mobile,0.01460094,9.317e-05,0.00017515,0.01486925,modeled
+06/28/2025,theverge.com,native,United States,300x250,mobile,0.01208694,9.629e-05,0.00013819,0.01232142,modeled
+07/12/2025,usatoday.com,banner,Canada,970x250,tablet,0.02646582,0.00031549,0.00016078,0.02694209,measured
+07/06/2025,theverge.com,native,Germany,160x600,tablet,0.04645214,0.00012905,0.00015355,0.04673475,modeled
+06/26/2025,engadget.com,audio,China,160x600,desktop,0.01154205,9.65e-05,0.00014754,0.01178609,modeled
+07/20/2025,nytimes.com,native,China,300x250,desktop,0.00916359,5.221e-05,0.00017621,0.00939201,measured
+07/22/2025,reuters.com,display,Germany,160x600,desktop,0.0461478,7.916e-05,3.273e-05,0.04625969,modeled
+07/15/2025,bloomberg.com,banner,Canada,300x600,tablet,0.00665344,0.00013793,4e-05,0.00683137,measured
+07/12/2025,yahoo.com,display,Australia,320x50,tablet,0.03065784,0.00013274,0.00012335,0.03091393,modeled
+06/26/2025,forbes.com,audio,United Kingdom,970x250,mobile,0.00923493,6.871e-05,0.0001731,0.00947674,modeled
+06/30/2025,bloomberg.com,video,Brazil,728x90,desktop,0.00516813,0.00021559,0.00017195,0.00647595,modeled
+07/18/2025,nytimes.com,banner,France,320x50,mobile,0.02328607,0.00013209,0.00032311,0.02374127,measured
+07/12/2025,techcrunch.com,display,Japan,300x250,tablet,0.01933466,0.00013799,7.497e-05,0.01954761,measured
+07/06/2025,weather.com,display,Australia,728x90,mobile,0.05240375,9.188e-05,7.464e-05,0.05257027,measured
+07/18/2025,forbes.com,audio,Australia,728x90,tablet,0.01154458,1.119e-05,9.186e-05,0.01164763,measured
+07/05/2025,washingtonpost.com,native,China,728x90,tablet,0.00087299,0.00014504,0.00018228,0.00120031,modeled
+07/10/2025,theverge.com,display,Australia,970x250,desktop,0.00704047,8.029e-05,0.00013296,0.00725373,modeled
+06/28/2025,techcrunch.com,banner,Germany,728x90,tablet,0.00573903,6.987e-05,0.00013613,0.00594503,measured
+07/17/2025,nytimes.com,display,Canada,160x600,tablet,0.01367494,4.661e-05,5.433e-05,0.01377588,modeled
+06/27/2025,usatoday.com,audio,United Kingdom,728x90,tablet,0.0132947,5.163e-05,0.00020164,0.01354797,measured
+07/07/2025,cnn.com,native,Germany,300x600,mobile,0.04204572,0.0001584,0.00013959,0.04234371,measured
+07/25/2025,forbes.com,display,China,970x250,mobile,0.00963216,0.0001555,0.00021028,0.00999794,measured
+07/02/2025,theverge.com,display,United Kingdom,970x250,mobile,0.04011517,9.675e-05,0.00040499,0.04061692,modeled
+07/18/2025,engadget.com,display,Germany,300x600,desktop,0.01935447,4.796e-05,8.934e-05,0.01949177,measured
+06/29/2025,yahoo.com,audio,India,320x50,mobile,0.02436864,5.152e-05,0.00040317,0.02482332,modeled
+07/21/2025,cnn.com,native,Australia,300x600,mobile,0.02295801,8.581e-05,0.00014612,0.02318994,modeled
+07/20/2025,usatoday.com,native,Brazil,970x250,tablet,0.01355987,1.537e-05,8.94e-05,0.01366463,modeled
+07/07/2025,espn.com,banner,United States,300x600,desktop,0.04636357,9.868e-05,0.00027335,0.04673559,modeled
+07/05/2025,nytimes.com,display,India,300x250,mobile,0.03483096,8.087e-05,0.00021269,0.03512452,measured
+07/02/2025,washingtonpost.com,audio,United Kingdom,970x250,desktop,0.00347507,0.0002196,0.00033269,0.00402735,measured
+07/14/2025,reuters.com,display,China,300x600,desktop,0.02389271,0.00010132,0.00013071,0.02412474,modeled
+07/22/2025,bloomberg.com,video,Japan,300x600,mobile,0.03685355,0.00014373,9.929e-05,0.03709658,modeled
+07/15/2025,msn.com,native,Japan,728x90,tablet,0.00598796,2.459e-05,0.00029275,0.00630529,measured
+07/08/2025,espn.com,native,Brazil,728x90,mobile,0.01606823,0.00011807,0.00014143,0.01632773,modeled
+07/15/2025,engadget.com,video,Australia,320x50,tablet,0.00498433,1.783e-05,9.383e-05,0.00509598,measured
+07/13/2025,washingtonpost.com,banner,Germany,300x250,mobile,0.01255862,6.276e-05,0.0001028,0.01272418,modeled
+07/26/2025,engadget.com,audio,Canada,970x250,mobile,0.06042323,0.0001691,0.00015955,0.06075187,measured
+07/02/2025,yahoo.com,native,Japan,300x250,desktop,0.01575928,8.095e-05,0.00022422,0.01606445,measured
+07/26/2025,nytimes.com,banner,United States,320x50,mobile,0.01564619,0.00015758,0.00017242,0.01597618,measured
+07/15/2025,fox32chicago.com,video,Australia,320x50,tablet,0.06077815,7.464e-05,0.00028366,0.06113645,measured
+07/07/2025,fox32chicago.com,display,France,300x600,mobile,0.0065236,4.921e-05,0.0004448,0.0070176,measured
+06/28/2025,washingtonpost.com,audio,China,300x250,desktop,0.03061155,0.0001196,0.00056746,0.0312986,measured
+06/29/2025,usatoday.com,audio,France,300x600,mobile,0.01593382,0.000177,0.00029734,0.01640817,measured
+07/12/2025,msn.com,audio,China,728x90,mobile,0.04789814,2.908e-05,0.00012682,0.03883232,measured
+07/25/2025,reuters.com,audio,Japan,320x50,tablet,0.02128145,0.00023693,0.00018587,0.02170425,modeled
+07/22/2025,washingtonpost.com,display,United States,320x50,tablet,0.0372216,2.655e-05,0.0001049,0.03735306,measured
+06/29/2025,forbes.com,audio,United States,160x600,mobile,0.04148248,7.265e-05,0.00013495,0.04169008,measured
+07/26/2025,reuters.com,audio,India,160x600,desktop,0.04688949,3.975e-05,7.763e-05,0.04700686,modeled
+07/22/2025,forbes.com,native,United States,320x50,mobile,0.0047564,0.00024061,0.00026718,0.00526419,modeled
+06/30/2025,techcrunch.com,banner,Brazil,970x250,desktop,0.03282556,6.407e-05,3.515e-05,0.03292479,modeled
+07/12/2025,yahoo.com,video,Canada,160x600,tablet,0.00317113,0.00020843,0.00020046,0.00358003,measured
+07/06/2025,nytimes.com,audio,Japan,320x50,desktop,0.02850971,0.00010283,6.964e-05,0.02868218,measured
+07/26/2025,forbes.com,display,Brazil,160x600,mobile,0.01329942,3.442e-05,4.875e-05,0.01338259,measured
+07/13/2025,reuters.com,native,Australia,320x50,desktop,0.03155527,1.751e-05,5.543e-05,0.03162821,measured
+07/05/2025,yahoo.com,video,Brazil,728x90,tablet,0.01393161,9.032e-05,3.756e-05,0.02316577,modeled
+07/04/2025,reuters.com,video,France,300x250,tablet,0.02302442,9.864e-05,0.00032967,0.02345272,measured
+07/24/2025,weather.com,banner,Brazil,970x250,desktop,0.0182959,0.00012355,7.318e-05,0.01849263,modeled
+06/26/2025,theverge.com,native,Brazil,970x250,desktop,0.00948987,2.607e-05,7.381e-05,0.00958975,modeled
+07/20/2025,fox32chicago.com,audio,United Kingdom,728x90,tablet,0.01314151,0.00019261,6.433e-05,0.01339844,measured
+07/19/2025,espn.com,banner,Germany,160x600,mobile,0.06253125,0.0001313,0.0001808,0.06284335,modeled
+07/01/2025,fox32chicago.com,banner,China,320x50,mobile,0.01723869,7.42e-05,8.365e-05,0.01739654,measured
+07/10/2025,espn.com,display,Brazil,728x90,desktop,0.00449975,4.148e-05,0.00038437,0.0049256,measured
+07/06/2025,forbes.com,display,Canada,300x600,tablet,0.02514419,0.00023883,8.183e-05,0.02546485,measured
+07/20/2025,msn.com,banner,Australia,728x90,desktop,0.00669887,8.555e-05,6.857e-05,0.006853,measured
+07/11/2025,,display,Brazil,320x50,mobile,0.01987068,1.784e-05,1.523e-05,0.01990376,modeled
+07/14/2025,usatoday.com,banner,United States,160x600,mobile,0.02197713,0.00024463,0.00018146,0.02240322,modeled
+07/01/2025,bloomberg.com,display,Japan,300x600,desktop,0.02496366,8.834e-05,0.0001516,0.0252036,measured
+07/03/2025,forbes.com,native,Canada,970x250,tablet,0.00426707,4.43e-05,0.00030608,0.00461745,measured
+07/25/2025,bloomberg.com,audio,United Kingdom,160x600,tablet,0.01290648,0.00018873,0.00014851,0.01324372,modeled
+07/18/2025,msn.com,audio,France,300x600,desktop,0.01927099,6.493e-05,0.00022065,0.01955657,modeled
+07/01/2025,nytimes.com,banner,Brazil,300x600,mobile,0.03231978,4.22e-05,3.769e-05,0.03239967,measured
+07/21/2025,yahoo.com,native,India,970x250,mobile,0.00242406,0.00012061,0.00017763,0.0027223,modeled
+07/19/2025,reuters.com,display,Australia,970x250,desktop,0.07401304,8.873e-05,0.00012338,0.06931429,modeled
+07/13/2025,yahoo.com,video,Australia,728x90,tablet,0.0203625,0.00010587,0.00011607,0.02058444,modeled
+07/19/2025,theverge.com,native,Australia,300x250,tablet,0.00869004,8.517e-05,0.00013239,0.0089076,measured
+07/26/2025,usatoday.com,native,India,300x600,desktop,0.01634565,0.00014805,0.00013441,0.01662811,modeled
+07/19/2025,washingtonpost.com,native,India,300x600,mobile,0.00481965,4.986e-05,0.00011494,0.00498445,modeled
+07/22/2025,washingtonpost.com,banner,United Kingdom,970x250,mobile,0.01740876,0.00012241,0.0001401,0.01767128,measured
+07/15/2025,cnn.com,native,United States,300x600,tablet,0.00196006,2.71e-05,0.00020539,0.00219254,modeled
+07/18/2025,weather.com,video,India,300x250,desktop,0.0140602,9.33e-05,0.00010146,0.01425497,modeled
+07/12/2025,forbes.com,audio,China,970x250,mobile,0.00993567,6.529e-05,0.00015061,0.01015158,modeled
+07/03/2025,msn.com,display,Japan,300x250,tablet,0.01670602,0.00016088,3.126e-05,0.01689816,modeled
+07/26/2025,weather.com,display,United States,970x250,tablet,0.00451554,6.965e-05,0.00019744,0.00478263,modeled
+07/08/2025,weather.com,video,Australia,300x600,mobile,0.02851389,5.138e-05,4.84e-06,0.02857011,measured
+07/03/2025,espn.com,audio,United States,160x600,mobile,0.01056253,0.00011127,0.00013176,0.01080556,measured
+07/13/2025,nytimes.com,native,United Kingdom,320x50,desktop,0.02531965,0.00018689,0.00011762,0.02562417,measured
+07/13/2025,weather.com,banner,China,300x250,desktop,0.01157393,3.827e-05,3.591e-05,0.01164811,modeled
+07/21/2025,engadget.com,banner,Japan,728x90,desktop,0.00330905,4.718e-05,0.00027215,0.00362838,modeled
+07/26/2025,forbes.com,native,France,728x90,tablet,0.02703998,5.564e-05,0.00050329,0.02759891,measured
+07/06/2025,bloomberg.com,display,Japan,300x600,mobile,0.01000613,0.00019877,0.00036837,0.01057327,measured
+07/10/2025,usatoday.com,display,Canada,160x600,desktop,0.02333805,4.68e-05,9.905e-05,0.02348389,measured
+07/14/2025,msn.com,native,China,320x50,desktop,0.01916638,2.312e-05,5.605e-05,0.01924555,modeled
+07/02/2025,nytimes.com,display,Canada,160x600,tablet,0.00647533,0.000123,0.00029711,0.00689543,measured
+07/16/2025,techcrunch.com,audio,Germany,160x600,desktop,0.02777791,0.00016558,6.945e-05,0.02801294,measured
+07/25/2025,engadget.com,banner,United States,160x600,desktop,0.01283832,6.817e-05,0.00018618,0.01309267,modeled
+07/22/2025,fox32chicago.com,display,Brazil,300x250,tablet,0.00966281,0.00015872,0.00036169,0.01018322,modeled
+07/16/2025,fox32chicago.com,native,India,300x250,desktop,0.02412003,6.193e-05,6.408e-05,0.02424604,measured
+07/12/2025,engadget.com,video,Australia,300x250,desktop,0.00648978,9.94e-06,0.00011176,0.00661149,measured
+07/12/2025,washingtonpost.com,native,Japan,300x250,mobile,0.01334236,0.00015213,8.172e-05,0.01357621,modeled
+07/26/2025,nytimes.com,banner,United Kingdom,300x250,mobile,0.01460089,0.00010294,0.00019074,0.01489457,modeled
+07/08/2025,fox32chicago.com,native,United Kingdom,160x600,tablet,0.02806791,9.557e-05,3.924e-05,0.02820272,measured
+07/21/2025,theverge.com,audio,France,160x600,mobile,0.02237744,4.796e-05,0.00030647,0.02273187,modeled
+06/27/2025,reuters.com,display,Germany,300x250,desktop,0.01694279,9.986e-05,0.00062295,0.0176656,measured
+07/14/2025,washingtonpost.com,audio,France,160x600,tablet,0.02840667,0.00011044,0.00011954,0.02863664,measured
+07/24/2025,espn.com,audio,United Kingdom,970x250,mobile,0.00533093,7.056e-05,6.337e-05,0.00546485,measured
+06/27/2025,usatoday.com,audio,China,160x600,mobile,0.04885625,0.00011149,0.00029904,0.04926678,modeled
+06/26/2025,usatoday.com,native,Australia,728x90,tablet,0.00996881,4.224e-05,0.00021212,0.01022317,measured
+07/14/2025,washingtonpost.com,banner,United Kingdom,320x50,desktop,0.00763412,5.816e-05,0.00040305,0.00809533,modeled
+07/08/2025,usatoday.com,banner,United Kingdom,320x50,mobile,0.01202144,2.121e-05,2.163e-05,0.01206428,modeled
+07/07/2025,espn.com,audio,India,300x600,mobile,0.0037105,0.00019429,8.407e-05,0.00398886,modeled
+06/29/2025,techcrunch.com,banner,Australia,320x50,mobile,0.07631052,0.00022777,0.00046637,0.07408294,modeled
+07/08/2025,espn.com,video,Germany,320x50,mobile,0.03369104,0.00012773,6.542e-05,0.03388419,modeled
+07/04/2025,washingtonpost.com,banner,Brazil,320x50,mobile,0.01662314,0.00013685,0.00025833,0.01701833,modeled
+07/26/2025,nytimes.com,display,Germany,300x250,mobile,0.00584544,7.145e-05,0.00012498,0.00604186,measured
+07/06/2025,usatoday.com,audio,Australia,728x90,mobile,0.0151438,3.316e-05,0.00043112,0.01560809,measured
+07/06/2025,espn.com,display,Canada,970x250,tablet,0.01391042,3.548e-05,0.00043805,0.01438394,modeled
+07/16/2025,washingtonpost.com,display,Australia,300x250,tablet,0.04558295,9.276e-05,9.076e-05,0.04576647,modeled
+07/02/2025,msn.com,video,Brazil,160x600,mobile,0.00339261,0.00012108,8.554e-05,0.00359922,modeled
+07/22/2025,espn.com,display,France,970x250,desktop,0.01631397,0.00025806,8.031e-05,0.01665234,measured
+07/18/2025,reuters.com,audio,Australia,300x600,tablet,0.02348057,0.00014321,0.00030443,0.02392821,measured
+07/09/2025,techcrunch.com,banner,United Kingdom,728x90,tablet,0.01540683,7.087e-05,0.00011128,0.01558898,measured
+07/17/2025,bloomberg.com,display,Australia,160x600,desktop,0.02187342,0.00022159,0.00010725,0.02220225,modeled
+06/26/2025,msn.com,video,China,160x600,mobile,0.00087234,0.00015441,0.00014037,0.00116713,modeled
+07/08/2025,fox32chicago.com,native,Japan,300x250,desktop,0.02425413,1.769e-05,8.582e-05,0.02435763,modeled
+07/22/2025,usatoday.com,audio,France,160x600,mobile,0.02916718,2.576e-05,0.00018754,0.02938048,modeled
+07/11/2025,washingtonpost.com,banner,United Kingdom,320x50,tablet,0.01621076,4.434e-05,6.594e-05,0.01632104,measured
+06/29/2025,forbes.com,audio,Germany,728x90,mobile,0.00669139,8.738e-05,0.0001524,0.00693117,modeled
+07/13/2025,weather.com,native,Germany,160x600,desktop,0.0123632,3.152e-05,0.00018369,0.01257842,measured
+07/19/2025,weather.com,video,France,320x50,tablet,0.03127197,0.00013003,0.00047871,0.03188071,modeled
+07/21/2025,msn.com,video,Canada,160x600,desktop,0.01441523,0.00020731,7.713e-05,0.01469967,modeled
+07/04/2025,bloomberg.com,audio,Australia,160x600,tablet,0.00833173,9.151e-05,0.00038136,0.00880459,measured
+06/29/2025,engadget.com,audio,Japan,300x600,desktop,0.01317612,1.768e-05,0.00024692,0.01344071,measured
+07/17/2025,cnn.com,audio,Germany,160x600,mobile,0.01568185,0.00010414,6.979e-05,0.01585578,modeled
+07/15/2025,yahoo.com,audio,Germany,728x90,mobile,0.01817217,2.07e-05,0.00043547,0.01862834,measured
+07/05/2025,reuters.com,banner,Canada,160x600,desktop,0.03485982,8.779e-05,0.00024222,0.03518983,measured
+07/02/2025,yahoo.com,native,Brazil,728x90,desktop,0.00966253,0.00016906,0.00010166,0.00993326,measured
+07/14/2025,nytimes.com,native,Germany,300x600,tablet,0.01197983,3.563e-05,0.00018204,0.01741864,measured
+07/20/2025,washingtonpost.com,audio,Canada,300x250,tablet,0.0169813,0.00021177,5.096e-05,0.01724403,modeled
+07/10/2025,engadget.com,display,France,300x250,mobile,0.02283012,0.00018588,0.00015443,0.02317043,measured
+07/04/2025,cnn.com,video,France,970x250,tablet,0.01251043,9.469e-05,0.00032096,0.01292607,modeled
+07/18/2025,espn.com,banner,France,300x600,mobile,0.0401087,7.594e-05,0.00031715,0.0405018,measured
+07/13/2025,forbes.com,display,China,300x600,tablet,0.01637318,0.00015022,0.00019815,0.01672155,modeled
+07/22/2025,washingtonpost.com,video,Germany,728x90,desktop,0.01210342,3.685e-05,0.00030269,0.01244296,measured
+07/18/2025,bloomberg.com,audio,Germany,970x250,mobile,0.04503156,0.00011221,0.00013085,0.04527462,modeled
+07/16/2025,techcrunch.com,native,United Kingdom,300x600,tablet,0.0056089,0.00018591,0.00016478,0.00595959,measured
+07/04/2025,yahoo.com,banner,United States,970x250,mobile,0.01354268,0.00015318,3.704e-05,0.01373289,measured
+07/16/2025,techcrunch.com,native,France,728x90,mobile,0.00680081,4.679e-05,0.00019376,0.00704137,measured
+07/04/2025,reuters.com,display,Brazil,970x250,desktop,0.01909422,0.00013139,0.00028392,0.01950952,measured
+06/27/2025,theverge.com,native,Brazil,300x250,mobile,0.02694469,0.00027597,0.00028347,0.02750413,measured
+07/02/2025,washingtonpost.com,banner,Japan,970x250,mobile,0.01516036,5.333e-05,0.0001242,0.01533789,modeled
+07/04/2025,bloomberg.com,native,France,970x250,desktop,0.02760583,5.827e-05,0.00022512,0.02788922,modeled
+07/18/2025,espn.com,native,India,300x250,desktop,0.02594014,3.636e-05,0.00027988,0.02625638,modeled
+07/18/2025,weather.com,banner,Brazil,728x90,mobile,0.02187221,0.00026721,0.00013134,0.02227076,modeled
+06/28/2025,usatoday.com,native,Germany,728x90,tablet,0.01305103,3.214e-05,5.066e-05,0.01313384,modeled
+07/17/2025,espn.com,video,France,160x600,tablet,0.03219158,0.0002497,0.00012283,0.03256411,modeled
+07/17/2025,cnn.com,audio,United Kingdom,970x250,mobile,0.01458081,8.794e-05,0.00029293,0.01496168,modeled
+07/07/2025,nytimes.com,video,United Kingdom,300x600,tablet,0.00733241,9.969e-05,0.00026154,0.00769363,measured
+07/15/2025,forbes.com,video,Japan,300x600,tablet,0.02400885,2.3e-06,0.00021631,0.02422745,measured
+07/12/2025,fox32chicago.com,native,France,160x600,desktop,0.02417568,0.00020717,0.00037879,0.02476164,measured
+07/03/2025,fox32chicago.com,video,Canada,160x600,tablet,0.04005771,8.83e-05,2.688e-05,0.04017289,modeled
+07/09/2025,techcrunch.com,banner,China,300x250,mobile,0.01449755,8.618e-05,0.00039619,0.01497992,modeled
+07/02/2025,bloomberg.com,native,Australia,970x250,mobile,0.00880153,2.387e-05,9.373e-05,0.00012851,measured
+06/28/2025,washingtonpost.com,video,France,300x600,mobile,0.00923047,2.153e-05,0.00012493,0.00937693,modeled
+07/08/2025,weather.com,banner,France,728x90,desktop,0.01775377,2.021e-05,0.00010388,0.01787787,modeled
+07/25/2025,fox32chicago.com,banner,Germany,300x250,tablet,0.00872009,9.098e-05,0.00015659,0.00896766,measured
+06/30/2025,usatoday.com,video,Japan,320x50,desktop,0.00872166,0.00017387,0.00013555,0.00903108,modeled
+07/19/2025,cnn.com,display,United States,160x600,mobile,0.00909198,1.884e-05,0.00016287,0.00927369,measured
+07/12/2025,msn.com,audio,Brazil,728x90,mobile,0.02413472,5.588e-05,0.00014908,0.02433968,modeled
+07/01/2025,bloomberg.com,audio,France,300x250,desktop,0.04734675,0.00015566,1.17e-05,0.04751412,modeled
+07/23/2025,usatoday.com,video,Germany,300x250,tablet,0.00899967,7.514e-05,0.00014143,0.00921625,modeled
+07/21/2025,nytimes.com,display,Canada,300x250,tablet,0.01894018,0.00011524,0.00012341,0.01917883,measured
+07/07/2025,techcrunch.com,native,United States,300x250,mobile,0.0169112,0.00016124,0.00016524,0.01723768,modeled
+07/23/2025,msn.com,video,Canada,320x50,tablet,0.00583237,9.054e-05,0.00012049,0.0060434,measured
+07/21/2025,reuters.com,audio,France,728x90,desktop,0.00226471,9.408e-05,5.287e-05,0.00241167,modeled
+06/26/2025,usatoday.com,display,United States,300x250,tablet,0.03257652,0.00011406,4.415e-05,0.03273473,modeled
+07/08/2025,msn.com,native,Australia,300x250,desktop,0.03157182,0.00020941,0.00010914,0.03189037,measured
+07/18/2025,theverge.com,display,Australia,160x600,tablet,0.01499218,0.00014739,0.00031851,0.01545808,modeled
+06/28/2025,weather.com,banner,China,160x600,tablet,0.00309869,3.089e-05,9.525e-05,0.00322482,modeled
+07/26/2025,usatoday.com,display,Australia,320x50,mobile,0.01299786,0.00014447,0.00031961,0.01346194,measured
+07/04/2025,techcrunch.com,banner,Germany,728x90,mobile,0.04195794,1.506e-05,6.622e-05,0.04203922,modeled
+07/10/2025,techcrunch.com,native,Japan,320x50,desktop,0.01012837,4.124e-05,0.0001821,0.01035171,modeled
+06/28/2025,forbes.com,display,France,728x90,desktop,0.02476069,8.375e-05,0.00012441,0.02496885,measured
+07/18/2025,fox32chicago.com,video,Japan,300x250,mobile,0.01233167,6.772e-05,0.00037597,0.01277536,measured
+07/23/2025,cnn.com,banner,Germany,300x250,desktop,0.02738058,6.359e-05,0.00012256,0.02756673,modeled
+07/22/2025,engadget.com,audio,United Kingdom,300x600,mobile,0.02314058,2.758e-05,0.00014865,0.02331681,modeled
+07/25/2025,nytimes.com,video,Brazil,300x250,mobile,0.02633542,0.00012002,6.74e-05,0.02652284,modeled
+06/29/2025,weather.com,native,Australia,300x250,mobile,0.00986774,9.74e-06,0.00022645,0.00932384,modeled
+07/17/2025,espn.com,video,Brazil,300x250,tablet,0.06034206,3.696e-05,0.00028243,0.06066145,measured
+07/15/2025,theverge.com,banner,United States,320x50,mobile,0.05688724,5.676e-05,0.00012269,0.05706669,measured
+06/30/2025,techcrunch.com,native,United States,970x250,mobile,0.02016173,0.00011732,0.00016775,0.02044679,modeled
+07/11/2025,reuters.com,display,Australia,728x90,desktop,0.01210457,0.00013024,9.869e-05,0.01233349,measured
+07/06/2025,techcrunch.com,audio,Brazil,320x50,tablet,0.02202441,8.146e-05,2.125e-05,0.02212712,modeled
+07/03/2025,nytimes.com,video,United States,300x600,mobile,0.03884267,5.049e-05,0.00033162,0.03922478,modeled
+07/07/2025,reuters.com,audio,Canada,300x250,tablet,0.03435571,9.859e-05,0.00019472,0.03464902,modeled
+07/18/2025,nytimes.com,audio,Brazil,320x50,desktop,0.0264611,7.123e-05,0.00011831,0.02665065,modeled
+07/11/2025,yahoo.com,audio,,728x90,desktop,0.02556381,8.213e-05,9.71e-05,0.0168664,modeled
+07/06/2025,espn.com,banner,Germany,300x600,mobile,0.00854754,0.00011247,7.852e-05,0.00873853,measured
+07/26/2025,usatoday.com,video,Germany,970x250,mobile,0.0304632,0.00016124,0.00019365,0.03081809,measured
+07/21/2025,espn.com,audio,India,320x50,desktop,0.02788953,0.00012129,0.00023426,0.02824508,measured
+07/17/2025,forbes.com,video,Germany,970x250,desktop,0.02842416,0.00010814,0.00027721,0.02880951,modeled
+07/26/2025,techcrunch.com,video,United States,300x600,mobile,0.01464887,4.391e-05,6.71e-05,0.01475987,measured
+07/25/2025,cnn.com,display,Germany,970x250,desktop,0.01299866,1.112e-05,0.0001566,0.01316638,modeled
+07/03/2025,theverge.com,native,Canada,300x250,mobile,0.02670837,0.00015969,2.668e-05,0.02689474,measured
+07/02/2025,techcrunch.com,banner,United States,160x600,mobile,0.0086318,0.00014916,0.0001143,0.00889526,modeled
+07/19/2025,yahoo.com,audio,Canada,160x600,desktop,0.02628933,2.621e-05,0.00032901,0.02664455,modeled
+07/22/2025,cnn.com,display,United States,300x250,mobile,0.0048367,9.577e-05,0.00015618,0.00508865,modeled
+07/04/2025,theverge.com,audio,United Kingdom,300x250,mobile,0.01109127,0.00011802,0.00019265,0.01140193,modeled
+07/15/2025,weather.com,audio,Germany,160x600,desktop,0.02226337,5.461e-05,7.368e-05,0.02239166,measured
+06/27/2025,weather.com,display,India,970x250,mobile,0.01192156,4.072e-05,0.00028586,0.01224814,modeled
+07/05/2025,msn.com,banner,Germany,320x50,desktop,0.01278183,9.376e-05,0.00023799,0.01311358,modeled
+07/09/2025,fox32chicago.com,banner,Japan,160x600,desktop,0.00779139,2.315e-05,6.536e-05,0.0078799,measured
+07/05/2025,bloomberg.com,native,India,728x90,mobile,0.02029131,9.646e-05,0.00017786,0.02056563,measured
+07/24/2025,washingtonpost.com,video,Japan,320x50,tablet,0.01536928,4.23e-06,0.00011994,0.01549345,modeled
+06/27/2025,usatoday.com,audio,Australia,728x90,tablet,0.03249466,0.0001913,0.0001427,0.03282866,modeled
+06/27/2025,bloomberg.com,audio,Brazil,728x90,mobile,0.01934598,0.00012974,0.00030032,0.01977604,measured
+07/05/2025,theverge.com,audio,China,728x90,desktop,0.01667348,0.00012848,8.417e-05,0.01688613,modeled
+07/26/2025,espn.com,video,France,300x250,mobile,0.00535261,5.737e-05,0.00034663,0.00575661,modeled
+06/28/2025,engadget.com,display,China,320x50,tablet,0.0260589,2.932e-05,0.00021526,0.02630348,measured
+07/25/2025,weather.com,audio,Japan,160x600,desktop,0.00630536,0.00011007,6.018e-05,0.00647561,modeled
+07/21/2025,espn.com,audio,China,300x250,desktop,0.00554436,0.0002407,0.00010219,0.00588725,measured
+07/14/2025,theverge.com,display,Australia,160x600,tablet,0.02572953,8.6e-05,5.43e-05,0.02586983,measured
+07/11/2025,washingtonpost.com,audio,China,970x250,tablet,0.01388622,3.422e-05,0.00056996,0.01449039,measured
+07/08/2025,fox32chicago.com,display,Japan,300x250,mobile,0.02898645,8.479e-05,0.0001982,0.03706092,measured
+07/22/2025,yahoo.com,video,United Kingdom,728x90,mobile,0.02771313,0.00013882,0.0002156,0.02806755,measured
+07/19/2025,weather.com,video,United Kingdom,160x600,desktop,0.0255339,9.008e-05,0.00036583,0.02598981,measured
+07/25/2025,engadget.com,audio,United States,728x90,desktop,0.01888549,8.666e-05,0.00015205,0.0191242,measured
+07/05/2025,engadget.com,banner,China,728x90,desktop,0.02001863,1.682e-05,6.477e-05,0.02010022,measured
+07/24/2025,yahoo.com,video,Canada,320x50,mobile,0.01536888,1.59e-05,0.0001355,0.01552028,modeled
+07/22/2025,cnn.com,display,France,160x600,tablet,0.01982593,2.559e-05,7.927e-05,0.01993079,measured
+07/10/2025,usatoday.com,banner,Japan,320x50,desktop,0.03929195,0.00012476,0.00019169,0.03960841,measured
+07/08/2025,bloomberg.com,display,France,970x250,mobile,0.03614426,4.119e-05,4.106e-05,0.04330294,modeled
+07/12/2025,espn.com,banner,China,728x90,mobile,0.03293866,7.853e-05,6.434e-05,0.0386876,modeled
+07/15/2025,forbes.com,native,Australia,320x50,mobile,0.00333505,9.584e-05,0.00011465,0.00354554,measured
+07/04/2025,engadget.com,banner,China,300x250,tablet,0.01246485,6.57e-06,0.00036269,0.01283412,measured
+07/17/2025,reuters.com,banner,Japan,160x600,desktop,0.00421398,6.728e-05,9.373e-05,0.00437499,measured
+07/06/2025,washingtonpost.com,video,Japan,728x90,tablet,0.02547799,1.689e-05,0.00018699,0.02568187,measured
+07/20/2025,techcrunch.com,display,Australia,970x250,desktop,0.01923768,4.749e-05,0.00018233,0.01946751,modeled
+07/19/2025,weather.com,audio,United States,970x250,tablet,0.01691509,0.00026249,0.00011457,0.01723961,measured
+07/22/2025,bloomberg.com,audio,Canada,320x50,desktop,0.00711736,0.0001177,0.00010354,0.0073386,modeled
+07/22/2025,yahoo.com,audio,Japan,728x90,tablet,0.01665752,2.587e-05,0.00020602,0.01688941,modeled
+07/24/2025,nytimes.com,native,Japan,320x50,mobile,0.01130512,0.0001017,0.00048901,0.01189583,modeled
+07/04/2025,yahoo.com,audio,China,300x600,desktop,0.01367666,0.00014119,0.00011548,0.01393333,measured
+07/11/2025,weather.com,banner,Australia,728x90,desktop,0.00961036,0.00020103,1.854e-05,0.00982992,modeled
+07/02/2025,engadget.com,native,United Kingdom,320x50,tablet,0.03335063,9.88e-06,0.0002484,0.03360891,measured
+07/01/2025,,audio,Germany,728x90,mobile,0.01685161,3.568e-05,9.556e-05,0.01698285,modeled
+07/21/2025,weather.com,native,Australia,160x600,mobile,0.02718985,0.00028709,2.824e-05,0.02750519,modeled
+06/26/2025,theverge.com,video,India,300x250,tablet,0.00754783,2.358e-05,0.00011474,0.00167443,measured
+06/26/2025,theverge.com,banner,Germany,160x600,tablet,0.03162118,2.038e-05,0.00013209,0.03177365,modeled
+07/14/2025,washingtonpost.com,audio,Brazil,300x600,tablet,0.03093836,5.902e-05,0.00015495,0.03115233,modeled
+07/06/2025,theverge.com,video,France,160x600,desktop,0.0382525,3.155e-05,2.109e-05,0.03830513,modeled
+07/03/2025,fox32chicago.com,banner,Germany,320x50,tablet,0.02114332,0.00010785,8.908e-05,0.02134024,modeled
+07/16/2025,washingtonpost.com,banner,China,300x600,desktop,0.00937674,8.556e-05,4.962e-05,0.00951191,measured
+07/17/2025,cnn.com,banner,Australia,300x600,mobile,0.0062115,0.00013533,4.64e-05,0.00639323,modeled
+07/11/2025,bloomberg.com,banner,Australia,970x250,tablet,0.00283998,4.68e-05,9.089e-05,0.00297767,modeled
+07/04/2025,theverge.com,banner,China,320x50,desktop,0.02337182,5.041e-05,0.00034079,0.02376301,modeled
+07/21/2025,techcrunch.com,video,India,320x50,tablet,0.01779256,4.129e-05,0.00018138,0.01801523,modeled
+07/09/2025,theverge.com,display,Brazil,728x90,desktop,0.04209941,0.00013277,3.055e-05,0.04226272,modeled
+06/26/2025,bloomberg.com,audio,United Kingdom,300x250,tablet,0.01218482,0.00010055,0.00020632,0.0124917,modeled
+07/19/2025,yahoo.com,display,Japan,160x600,desktop,0.01441171,6.43e-05,0.00041796,0.01489398,measured
+06/29/2025,usatoday.com,native,Canada,970x250,desktop,0.02682662,0.00011362,8.358e-05,0.02702382,modeled
+06/29/2025,,display,Germany,320x50,mobile,0.00611619,0.00011504,0.00023105,0.00646228,modeled
+07/26/2025,usatoday.com,native,Australia,160x600,mobile,0.01659453,0.00013438,0.00021884,0.01694775,modeled
+07/22/2025,bloomberg.com,banner,Germany,728x90,tablet,0.0302074,1.874e-05,9.975e-05,0.03032589,measured
+07/19/2025,theverge.com,native,China,728x90,tablet,0.02400179,8.659e-05,0.00021931,0.02430769,modeled
+07/08/2025,theverge.com,native,Germany,160x600,desktop,0.02271353,7.29e-06,0.00028178,0.02300261,modeled
+07/24/2025,bloomberg.com,audio,India,970x250,tablet,0.01121769,3.913e-05,0.0002755,0.01153231,modeled
+07/03/2025,forbes.com,native,United Kingdom,970x250,tablet,0.02596855,0.0001886,0.00016218,0.02631933,measured
+07/03/2025,engadget.com,banner,China,300x250,tablet,0.01233942,9.294e-05,5.277e-05,0.01248513,measured
+07/25/2025,engadget.com,display,Brazil,728x90,mobile,0.00459278,4.896e-05,0.00036274,0.00500448,measured
+07/04/2025,weather.com,banner,France,160x600,mobile,0.01066231,1.457e-05,0.00011787,0.01079476,modeled
+07/21/2025,yahoo.com,banner,Brazil,300x250,mobile,0.01054308,0.00017827,0.00034586,0.01106722,modeled
+07/09/2025,reuters.com,audio,India,728x90,tablet,0.01187842,0.00010129,0.00017208,0.01313377,modeled
+07/17/2025,fox32chicago.com,display,Brazil,300x600,tablet,0.01604642,6.933e-05,5.885e-05,0.0161746,measured
+07/15/2025,cnn.com,banner,France,320x50,mobile,0.00238859,3.658e-05,0.0001249,0.00255007,measured
+07/22/2025,usatoday.com,video,United States,160x600,desktop,0.00408276,9.744e-05,0.00014062,0.00432083,measured
+07/22/2025,reuters.com,native,United Kingdom,728x90,mobile,0.01055838,6.7e-05,3.911e-05,0.01066449,measured
+07/22/2025,weather.com,banner,China,160x600,mobile,0.0298372,0.00014745,4.643e-05,0.03003107,measured
+07/17/2025,fox32chicago.com,audio,United States,160x600,tablet,0.00596922,3.703e-05,0.00019878,0.00620504,modeled
+07/11/2025,espn.com,banner,Germany,160x600,tablet,0.02146166,0.00017087,0.00029428,0.0219268,modeled
+07/15/2025,weather.com,video,China,320x50,mobile,0.00368471,0.00012113,0.00028643,0.00409227,measured
+07/26/2025,espn.com,audio,China,320x50,tablet,0.01271508,8.182e-05,0.00011612,0.01291302,measured
+07/13/2025,reuters.com,video,Canada,970x250,tablet,0.01502633,0.00014884,0.00040795,0.01558311,modeled
+07/26/2025,techcrunch.com,audio,Brazil,300x600,tablet,0.04161889,5.49e-05,0.00016244,0.04183623,measured
+07/18/2025,weather.com,banner,India,300x250,mobile,0.0084578,4.623e-05,0.00012651,0.00863055,measured
+06/30/2025,techcrunch.com,display,Japan,728x90,desktop,0.00902875,5.122e-05,0.00015962,0.00923959,modeled
+07/18/2025,fox32chicago.com,banner,Brazil,300x600,tablet,0.02398565,0.00011766,0.0001896,0.02429291,modeled
+07/19/2025,msn.com,display,India,970x250,tablet,0.00525064,4.314e-05,0.00013729,0.00543107,modeled
+06/27/2025,techcrunch.com,audio,Canada,300x250,desktop,0.03471075,0.000348,0.00016724,0.03522599,measured
+07/19/2025,theverge.com,audio,Canada,300x600,tablet,0.02782529,2.335e-05,0.00021846,0.0280671,measured
+07/15/2025,espn.com,video,United Kingdom,728x90,tablet,0.05789308,4.3e-05,8.425e-05,0.05802033,modeled
+07/12/2025,msn.com,audio,Germany,320x50,desktop,0.03040908,8.498e-05,1.71e-05,0.03051117,modeled
+07/06/2025,theverge.com,audio,United States,970x250,mobile,0.01107664,0.00021557,0.00010655,0.01139876,modeled
+07/11/2025,forbes.com,video,France,300x600,desktop,0.01330958,0.00014547,0.00017163,0.01362668,measured
+07/21/2025,weather.com,video,France,970x250,mobile,0.01274494,4.973e-05,0.00072871,0.01352338,measured
+07/06/2025,reuters.com,banner,India,300x250,tablet,0.0384527,0.00011847,0.00019822,0.03876939,modeled
+07/07/2025,bloomberg.com,banner,Australia,160x600,mobile,0.01509896,0.00010634,0.00011098,0.01531628,modeled
+07/13/2025,engadget.com,audio,India,160x600,mobile,0.00791431,0.00010938,0.0001035,0.00812718,modeled
+06/27/2025,cnn.com,audio,Germany,300x600,desktop,0.0226996,0.00012896,0.00018848,0.02301704,modeled
+07/16/2025,weather.com,audio,France,970x250,tablet,0.00733967,5.919e-05,0.00010512,0.00750398,modeled
+07/20/2025,espn.com,banner,Canada,300x250,desktop,0.03270504,0.00015779,7.266e-05,0.03293549,modeled
+06/27/2025,reuters.com,native,Japan,160x600,mobile,0.00512704,0.00035863,0.00018323,0.0056689,measured
+07/16/2025,bloomberg.com,audio,United States,300x250,tablet,0.00445774,5.194e-05,0.00026909,0.00477876,measured
+07/14/2025,cnn.com,audio,Japan,300x250,mobile,0.06078023,0.00027184,0.00017776,0.06819485,measured
+07/20/2025,bloomberg.com,audio,Germany,728x90,desktop,0.01671028,3.352e-05,0.00014238,0.01688619,measured
+07/19/2025,espn.com,banner,Canada,300x600,tablet,0.00757403,5.967e-05,0.0002431,0.0078768,measured
+06/30/2025,weather.com,display,United Kingdom,728x90,tablet,0.01381751,6.545e-05,0.00012822,0.01401117,modeled
+07/19/2025,theverge.com,video,India,728x90,desktop,0.07856043,3.019e-05,0.00016447,0.07875509,measured
+07/03/2025,espn.com,banner,China,300x600,mobile,0.05123989,7.995e-05,0.00030383,0.05162367,measured
+07/16/2025,washingtonpost.com,native,China,320x50,mobile,0.00477793,7.091e-05,6.66e-05,0.00491544,measured
+06/30/2025,reuters.com,display,France,160x600,mobile,0.01585995,8.06e-05,0.00013942,0.01607996,modeled
+07/06/2025,espn.com,display,Canada,160x600,desktop,0.03019452,6.17e-06,7.998e-05,0.03028067,measured
+06/26/2025,bloomberg.com,video,Canada,970x250,tablet,0.01954584,1.141e-05,0.00020812,0.01976537,modeled
+07/06/2025,techcrunch.com,banner,India,728x90,tablet,0.00983594,7.198e-05,0.0002491,0.01015702,measured
+07/15/2025,espn.com,display,France,970x250,tablet,0.03913737,0.00013286,4.697e-05,0.0393172,measured
+06/28/2025,bloomberg.com,audio,China,160x600,tablet,0.02565385,0.00013435,0.00018636,0.02597455,modeled
+07/02/2025,msn.com,display,Germany,160x600,desktop,0.04341117,8.886e-05,0.0003385,0.04383853,measured
+07/24/2025,msn.com,display,Australia,300x600,desktop,0.04214184,0.00013699,0.00016637,0.04244519,measured
+07/17/2025,espn.com,audio,Germany,300x600,tablet,0.02339,0.00024828,0.00027744,0.02391572,modeled
+07/23/2025,fox32chicago.com,video,Brazil,300x250,mobile,0.00657473,0.00011175,6.355e-05,0.00675003,measured
+07/07/2025,techcrunch.com,native,Brazil,300x250,desktop,0.00958609,6.163e-05,3.448e-05,0.0096822,modeled
+07/16/2025,washingtonpost.com,video,China,160x600,tablet,0.00747973,0.0002249,7.628e-05,0.00778091,measured
+07/08/2025,weather.com,audio,France,160x600,mobile,0.0303116,9.492e-05,0.00019902,0.03060555,modeled
+07/22/2025,theverge.com,video,India,160x600,desktop,0.0256269,3.588e-05,0.00024152,0.0259043,measured
+07/03/2025,espn.com,banner,China,970x250,desktop,0.00528142,4.596e-05,0.00020293,0.00553031,measured
+07/09/2025,yahoo.com,video,China,970x250,mobile,0.00674258,1e-05,0.0001728,0.00692538,modeled
+06/26/2025,espn.com,banner,India,300x600,desktop,0.00352794,0.00013531,0.00010451,0.00376776,modeled
+06/27/2025,weather.com,banner,China,970x250,tablet,0.02137725,0.00010545,0.00022776,0.02171047,modeled
+07/17/2025,reuters.com,video,Brazil,728x90,mobile,0.02588991,3.343e-05,0.00010968,0.02603302,modeled
+07/15/2025,msn.com,native,Canada,300x600,tablet,0.021359,0.00021408,0.00020845,0.02178153,modeled
+06/28/2025,fox32chicago.com,native,India,728x90,tablet,0.04038332,0.00011088,0.00028073,0.04077493,measured
+06/29/2025,msn.com,banner,United Kingdom,160x600,tablet,0.02009685,0.00017063,0.00010023,0.02036772,modeled
+06/30/2025,techcrunch.com,audio,Australia,160x600,mobile,0.04609409,0.00011994,3.474e-05,0.04624878,modeled
+07/23/2025,yahoo.com,display,Australia,300x600,tablet,0.02187781,0.00013058,0.00024725,0.02285197,modeled
+07/25/2025,washingtonpost.com,banner,France,320x50,tablet,0.05676471,5.476e-05,0.00045609,0.05727556,modeled
+07/24/2025,forbes.com,audio,United States,300x600,desktop,0.01671442,4.401e-05,8.923e-05,0.01684766,measured
+07/12/2025,cnn.com,display,China,320x50,tablet,0.02504071,3.847e-05,0.00010163,0.02827172,measured
+07/09/2025,weather.com,audio,Australia,300x600,mobile,0.02148839,0.0002293,0.00024241,0.02196009,measured
+07/01/2025,washingtonpost.com,video,Australia,970x250,desktop,0.01723477,0.0001248,0.00015984,0.01751942,measured
+07/19/2025,msn.com,audio,Canada,300x600,tablet,0.00578577,0.00025577,0.00037071,0.00641226,modeled
+07/17/2025,bloomberg.com,video,United Kingdom,160x600,tablet,0.01573012,5.745e-05,4.733e-05,0.0158349,modeled
+07/09/2025,cnn.com,native,Australia,300x600,tablet,0.02606767,0.00013093,6.632e-05,0.02626493,measured
+07/12/2025,engadget.com,native,Brazil,300x250,desktop,0.02015331,0.00014829,8.679e-05,0.0203884,modeled
+07/23/2025,techcrunch.com,video,India,300x600,desktop,0.01425678,7.074e-05,7.014e-05,0.01439766,measured
+07/17/2025,cnn.com,display,Australia,970x250,mobile,0.0144871,1.801e-05,0.00010859,0.00939883,modeled
+07/08/2025,cnn.com,display,India,970x250,tablet,0.01373931,7.941e-05,0.00018923,0.01400795,modeled
+07/25/2025,washingtonpost.com,native,France,160x600,tablet,0.00545933,3.254e-05,6.857e-05,0.00556045,measured
+06/26/2025,msn.com,display,Japan,300x250,tablet,0.00490894,0.00012795,8.365e-05,0.00512054,measured
+07/26/2025,weather.com,display,France,160x600,tablet,0.01626407,3.969e-05,9.953e-05,0.0164033,measured
+07/10/2025,washingtonpost.com,video,France,320x50,mobile,0.020864,0.00010801,5.42e-05,0.02102621,modeled
+07/26/2025,washingtonpost.com,native,United Kingdom,970x250,tablet,0.01564763,4.03e-05,0.00012163,0.01580956,modeled
+07/22/2025,usatoday.com,display,China,728x90,tablet,0.00973445,0.00026642,0.00023633,0.0102372,modeled
+07/17/2025,nytimes.com,display,France,728x90,desktop,0.02228501,6.66e-05,0.00024105,0.02259266,modeled
+07/02/2025,cnn.com,native,United Kingdom,300x600,desktop,0.01599924,0.00024883,0.00025772,0.01650579,measured
+07/20/2025,usatoday.com,audio,Brazil,320x50,mobile,0.01236872,0.0002304,0.00010699,0.01270611,modeled
+07/01/2025,techcrunch.com,audio,United States,160x600,mobile,0.05531539,0.00023852,0.00016626,0.05572017,measured
+07/26/2025,bloomberg.com,banner,Brazil,970x250,tablet,0.00375341,9.812e-05,4.908e-05,0.00390062,measured
+07/10/2025,nytimes.com,display,United Kingdom,320x50,tablet,0.0099863,5.315e-05,4.868e-05,0.01008813,modeled
+07/23/2025,yahoo.com,display,Canada,728x90,mobile,0.01967905,4.505e-05,0.00011091,0.01983502,measured
+07/09/2025,weather.com,audio,Germany,728x90,tablet,0.01070634,0.00011863,0.00018014,0.01100512,measured
+07/17/2025,techcrunch.com,native,Australia,728x90,desktop,0.01300033,0.00012284,0.0003048,0.01342797,modeled
+07/21/2025,fox32chicago.com,video,Brazil,970x250,tablet,0.00163427,5.101e-05,5.811e-05,0.00174339,modeled
+07/13/2025,msn.com,native,United States,300x250,tablet,0.00944667,6.27e-06,1.235e-05,0.00946529,measured
+07/01/2025,bloomberg.com,display,Canada,320x50,mobile,0.01101181,5.377e-05,0.00033426,0.01139984,measured
+07/13/2025,weather.com,video,China,300x600,tablet,0.01855761,0.00012064,0.00108882,0.01976706,measured
+07/16/2025,washingtonpost.com,native,India,970x250,mobile,0.05031947,8.043e-05,9.414e-05,0.05049404,modeled
+07/24/2025,espn.com,native,Canada,970x250,tablet,0.01033944,0.00010646,9.48e-05,0.0105407,measured
+07/14/2025,usatoday.com,display,Canada,970x250,mobile,0.00592036,5.333e-05,0.00017389,0.00614758,modeled
+07/15/2025,techcrunch.com,audio,Canada,300x600,mobile,0.02717535,0.00026868,0.00014372,0.02758775,measured
+07/09/2025,nytimes.com,video,United Kingdom,728x90,mobile,0.03961822,7.139e-05,0.00012681,0.03981642,modeled
+06/29/2025,fox32chicago.com,banner,India,300x250,mobile,0.01521074,9.798e-05,0.00024475,0.01555346,measured
+07/15/2025,nytimes.com,video,Brazil,728x90,tablet,0.01145028,3.81e-05,0.00025833,0.01174671,measured
+07/22/2025,engadget.com,native,Brazil,300x600,mobile,0.03072746,0.00021912,8.018e-05,0.03102676,modeled
+07/13/2025,yahoo.com,native,China,300x600,tablet,0.01387538,0.00016563,9.072e-05,0.01413174,modeled
+07/16/2025,nytimes.com,display,Brazil,320x50,mobile,0.02637798,7.163e-05,0.00016968,0.02661929,measured
+07/04/2025,,display,Germany,320x50,mobile,0.00580699,8.896e-05,0.0003007,0.00619664,modeled
+07/13/2025,techcrunch.com,audio,Japan,728x90,desktop,0.02885228,3.586e-05,0.00040747,0.03773738,measured
+07/13/2025,weather.com,native,Germany,160x600,desktop,0.03604639,3.038e-05,8.582e-05,0.03616259,measured
+07/04/2025,techcrunch.com,display,Japan,970x250,tablet,0.00640924,0.00010822,8.268e-05,0.00660014,modeled
+07/13/2025,cnn.com,banner,Japan,970x250,mobile,0.00216254,7.898e-05,0.00025134,0.00249287,measured
+07/15/2025,fox32chicago.com,banner,India,728x90,desktop,0.01806956,0.00012357,0.00015505,0.01834818,measured
+07/05/2025,nytimes.com,native,United States,728x90,mobile,0.02802433,0.00010339,0.00012106,0.02824878,measured
+07/09/2025,yahoo.com,display,United States,300x250,desktop,0.01790139,0.00022454,0.00020569,0.01833162,measured
+06/27/2025,yahoo.com,native,Japan,300x250,desktop,0.00715048,8.844e-05,0.00017091,0.00740983,measured
+07/20/2025,yahoo.com,video,United States,160x600,tablet,0.01474156,1.089e-05,6.275e-05,0.0148152,measured
+07/20/2025,bloomberg.com,video,Canada,970x250,tablet,0.01187698,0.00027422,0.00019009,0.01234129,modeled
+06/27/2025,bloomberg.com,banner,Canada,970x250,desktop,0.00360879,7.743e-05,0.00032248,0.0040087,modeled
+06/29/2025,espn.com,banner,China,160x600,desktop,0.0102107,0.00016994,2.992e-05,0.01041056,measured
+06/26/2025,espn.com,video,United Kingdom,728x90,mobile,0.00032348,0.0001873,9.099e-05,0.00060177,measured
+06/28/2025,techcrunch.com,display,United States,970x250,desktop,0.01213722,9.624e-05,0.00018532,0.01241878,measured
+07/18/2025,nytimes.com,display,India,160x600,tablet,0.00076162,4.766e-05,0.00013952,0.00094879,modeled
+07/02/2025,fox32chicago.com,audio,Brazil,320x50,tablet,0.02312702,3.536e-05,0.00011311,0.02083087,modeled
+07/18/2025,usatoday.com,audio,Japan,300x600,desktop,0.01018342,9.866e-05,0.00029244,0.01057452,modeled
+06/28/2025,washingtonpost.com,banner,Brazil,970x250,tablet,0.01269162,2.245e-05,7.266e-05,0.01278673,measured
+07/08/2025,usatoday.com,display,France,970x250,desktop,0.05059613,3.936e-05,4.373e-05,0.05067921,modeled
+07/17/2025,bloomberg.com,video,India,300x600,mobile,0.01206256,7.745e-05,8.58e-05,0.0122258,measured
+07/06/2025,msn.com,video,United States,728x90,desktop,0.0037638,0.00010586,0.00015798,0.00402764,measured
+07/02/2025,reuters.com,native,Australia,300x600,tablet,0.02730459,9.709e-05,0.00038286,0.02778454,modeled
+07/18/2025,reuters.com,video,United States,970x250,mobile,0.02881039,0.00012437,0.00029973,0.02923449,modeled
+07/25/2025,bloomberg.com,native,India,320x50,tablet,0.01854517,7.19e-05,0.00016798,0.01878505,modeled
+06/27/2025,forbes.com,banner,Japan,728x90,tablet,0.00203653,9.295e-05,0.00012381,0.0022533,measured
+06/29/2025,nytimes.com,audio,France,970x250,desktop,0.02269191,0.00017028,0.00020314,0.02306534,modeled
+07/13/2025,techcrunch.com,native,Canada,970x250,tablet,0.00910504,0.00015166,0.00038655,0.00964324,measured
+07/09/2025,msn.com,video,Canada,300x600,tablet,0.03466093,2.463e-05,0.00020162,0.03488718,modeled
+07/10/2025,usatoday.com,native,Australia,970x250,mobile,0.00571737,6.636e-05,0.00017768,0.00596141,measured
+07/15/2025,msn.com,display,Japan,160x600,mobile,0.02012854,0.00017101,0.00038779,0.02068734,modeled
+07/26/2025,reuters.com,display,Germany,300x250,mobile,0.02384642,6.229e-05,1.738e-05,0.02392609,modeled
+07/03/2025,engadget.com,audio,Japan,300x600,tablet,0.04013624,7.77e-05,0.00012949,0.04034343,measured
+07/14/2025,yahoo.com,display,Germany,320x50,tablet,0.01720589,0.00011532,0.00018845,0.01750967,modeled
+07/03/2025,weather.com,banner,France,970x250,mobile,0.01344471,7.71e-05,8.026e-05,0.01360207,measured
+07/21/2025,forbes.com,audio,United Kingdom,970x250,mobile,0.00909872,4.53e-05,0.00012223,0.00926624,measured
+06/27/2025,fox32chicago.com,display,Canada,160x600,mobile,0.00756415,1.29e-06,9.825e-05,0.00766369,measured
+07/25/2025,engadget.com,native,United States,300x250,mobile,0.00525205,9.06e-05,7.999e-05,0.00542264,modeled
+07/12/2025,forbes.com,native,United States,160x600,tablet,0.02327238,2.882e-05,2.19e-05,0.0241217,modeled
+07/14/2025,techcrunch.com,display,Germany,300x250,mobile,0.01545012,5.926e-05,3.832e-05,0.0155477,modeled
+07/14/2025,weather.com,video,Germany,160x600,tablet,0.02882662,3.394e-05,6.974e-05,0.02893029,measured
+07/02/2025,forbes.com,banner,France,320x50,mobile,0.03269484,0.00012124,4.874e-05,0.03286483,modeled
+07/06/2025,weather.com,video,Canada,320x50,mobile,0.01275055,2.749e-05,0.00024857,0.01302662,modeled
+07/15/2025,usatoday.com,audio,Brazil,728x90,mobile,0.03105681,0.00026601,0.00053507,0.03185789,measured
+06/27/2025,usatoday.com,banner,United Kingdom,970x250,desktop,0.00989695,0.00013832,1.808e-05,0.01005336,modeled
+07/03/2025,engadget.com,banner,Canada,320x50,mobile,0.01917339,0.00011392,5.718e-05,0.0193445,modeled
+07/11/2025,msn.com,native,India,300x600,tablet,0.00936542,0.00015601,0.00018558,0.0038872,modeled
+06/30/2025,theverge.com,display,United States,728x90,desktop,0.04878541,0.0002254,2.499e-05,0.04903579,modeled
+07/05/2025,bloomberg.com,native,United Kingdom,970x250,mobile,0.01077151,3.227e-05,0.00022787,0.01103164,measured
+07/17/2025,fox32chicago.com,video,Australia,160x600,tablet,0.02060481,3.445e-05,6.36e-05,0.02070286,measured
+07/18/2025,reuters.com,video,Germany,300x600,mobile,0.03856415,5.916e-05,1.447e-05,0.03863778,measured
+07/13/2025,theverge.com,native,Canada,160x600,tablet,0.00631215,0.00027762,0.00026679,0.00685657,modeled
+07/01/2025,nytimes.com,display,India,300x250,tablet,0.00514815,9.583e-05,0.00025555,0.00918576,measured
+07/04/2025,washingtonpost.com,native,Canada,970x250,desktop,0.00307308,0.00017206,0.0001843,0.00342944,modeled
+06/28/2025,reuters.com,audio,Japan,320x50,mobile,0.00888033,0.00012865,0.00016656,0.00917554,modeled
+07/13/2025,bloomberg.com,display,Germany,970x250,tablet,0.02187735,9.326e-05,6.147e-05,0.02203208,modeled
+07/24/2025,theverge.com,audio,Germany,728x90,mobile,0.00905915,6.889e-05,0.00013814,0.00926618,modeled
+06/28/2025,engadget.com,display,United States,160x600,mobile,0.02681762,0.00028194,0.00015869,0.02725825,modeled
+07/05/2025,nytimes.com,banner,Germany,300x600,tablet,0.02648349,0.00015416,0.00022254,0.02686019,measured
+07/04/2025,nytimes.com,banner,Canada,970x250,mobile,0.00741545,0.00020502,0.00029439,0.00791486,modeled
+06/30/2025,usatoday.com,native,Australia,160x600,desktop,0.01846124,3.917e-05,0.00013646,0.01863687,measured
+07/01/2025,fox32chicago.com,video,Australia,970x250,tablet,0.00354314,0.00022292,7.844e-05,0.0038445,modeled
+07/02/2025,yahoo.com,display,Brazil,160x600,desktop,0.0132178,0.00021253,0.00031348,0.01374381,modeled
+07/09/2025,engadget.com,native,Canada,300x600,tablet,0.02142248,0.00024514,5.758e-05,0.0217252,modeled
+07/14/2025,yahoo.com,video,United States,300x600,tablet,0.02143056,3.627e-05,0.0002824,0.02174923,modeled
+07/08/2025,msn.com,video,United States,320x50,mobile,0.03446695,0.00025655,0.0001333,0.0348568,modeled
+07/08/2025,weather.com,audio,United States,728x90,mobile,0.06070698,3.349e-05,0.00012784,0.06086832,measured
+07/22/2025,cnn.com,audio,China,728x90,mobile,0.00692966,9.665e-05,6.006e-05,0.00708636,modeled
+07/09/2025,reuters.com,native,France,300x250,mobile,0.03536538,0.00011792,4.935e-05,0.03553265,modeled
+07/06/2025,cnn.com,display,Brazil,300x250,tablet,0.02993283,0.00023385,0.00020185,0.03036852,modeled
+07/18/2025,weather.com,display,Germany,300x600,tablet,0.00452124,7.408e-05,0.00022036,0.00481568,modeled
+07/23/2025,forbes.com,display,Japan,970x250,mobile,0.01372588,3.309e-05,0.00030498,0.01406395,modeled
+07/05/2025,nytimes.com,display,,300x250,mobile,0.01325826,0.00023394,8.656e-05,0.01357877,modeled
+07/11/2025,yahoo.com,native,China,160x600,mobile,0.01264159,5.058e-05,0.00011695,0.01280912,modeled
+07/10/2025,msn.com,video,India,300x250,desktop,0.02330891,3.474e-05,4.617e-05,0.02338982,modeled
+06/30/2025,engadget.com,audio,China,320x50,mobile,0.00299535,1.289e-05,3.662e-05,0.00304486,measured
+07/25/2025,espn.com,audio,Japan,970x250,tablet,0.0107577,9.534e-05,0.00017912,0.01103216,modeled
+07/18/2025,forbes.com,banner,United States,320x50,mobile,0.01841662,0.00021646,0.00042062,0.01905369,modeled
+07/07/2025,engadget.com,native,Japan,728x90,desktop,0.01330903,3.529e-05,0.00050523,0.01384955,modeled
+07/18/2025,msn.com,audio,France,300x250,desktop,0.03724539,0.00017704,8.316e-05,0.03750559,measured
+07/14/2025,forbes.com,native,Japan,300x600,mobile,0.03044858,9.264e-05,0.00012584,0.03066706,modeled
+07/04/2025,reuters.com,native,India,160x600,desktop,0.01570879,0.00012041,0.00035384,0.01618304,measured
+07/24/2025,fox32chicago.com,banner,Brazil,970x250,desktop,0.06655142,5.986e-05,0.00015456,0.06676584,measured
+07/21/2025,usatoday.com,banner,France,970x250,desktop,0.01542287,0.00011476,0.00011165,0.01564928,measured
+07/18/2025,msn.com,banner,United States,970x250,mobile,0.00938355,5.993e-05,8.421e-05,0.00952769,modeled
+07/06/2025,nytimes.com,native,Canada,160x600,desktop,0.01483972,2.464e-05,8.558e-05,0.01494994,modeled
+07/16/2025,theverge.com,native,Canada,160x600,tablet,0.02279092,0.00011335,0.00016116,0.02306542,modeled
+06/27/2025,bloomberg.com,banner,India,728x90,tablet,0.04169208,0.00011722,0.0003263,0.0421356,measured
+07/17/2025,espn.com,display,United States,160x600,tablet,0.06658343,0.0001549,3.963e-05,0.06677796,measured
+07/13/2025,cnn.com,display,Japan,970x250,desktop,0.02073841,9.277e-05,0.00037391,0.02120509,measured
+07/04/2025,usatoday.com,video,Japan,300x600,mobile,0.01526814,4.142e-05,8.984e-05,0.0153994,measured
+07/01/2025,theverge.com,banner,India,160x600,tablet,0.00514689,0.00029851,0.00013529,0.00558069,modeled
+06/30/2025,msn.com,video,Canada,300x250,tablet,0.00565515,0.00024771,0.00044095,0.00634381,measured
+07/17/2025,yahoo.com,banner,India,300x250,mobile,0.01903357,2.34e-05,9.168e-05,0.01914866,modeled
+07/25/2025,theverge.com,display,India,300x250,tablet,0.01400023,8.675e-05,5.105e-05,0.02110052,modeled
+07/20/2025,nytimes.com,display,India,160x600,tablet,0.0327455,7.92e-06,0.00029149,0.03304491,modeled
+06/29/2025,fox32chicago.com,audio,India,300x250,desktop,0.04173533,6.212e-05,0.00012681,0.04192426,modeled
+07/13/2025,forbes.com,video,China,728x90,desktop,0.0452543,0.00013404,0.00010233,0.04549067,measured
+07/05/2025,fox32chicago.com,banner,Brazil,300x250,mobile,0.01406004,0.0001209,0.00044969,0.01463063,measured
+06/27/2025,reuters.com,audio,Brazil,320x50,mobile,0.01441226,6.237e-05,0.00013806,0.01461268,measured
+07/06/2025,techcrunch.com,video,China,300x250,tablet,0.0173364,0.00010597,0.00012713,0.0175695,modeled
+07/10/2025,forbes.com,video,Brazil,728x90,desktop,0.03791741,3.858e-05,0.00018347,0.03813946,measured
+07/23/2025,weather.com,display,Canada,160x600,mobile,0.02358873,4.181e-05,0.00018214,0.02381268,measured
+06/26/2025,yahoo.com,display,Japan,300x600,tablet,0.02403604,3.77e-06,5.64e-05,0.0240962,modeled
+06/30/2025,techcrunch.com,banner,India,320x50,tablet,0.04778692,5.114e-05,4.513e-05,0.04788319,measured
+07/10/2025,nytimes.com,native,Brazil,300x250,mobile,0.00244024,3.223e-05,0.00012293,0.0025954,measured
+07/02/2025,weather.com,audio,Canada,970x250,desktop,0.00524234,0.00013529,6.58e-05,0.00544343,measured
+07/01/2025,forbes.com,banner,Brazil,300x600,tablet,0.0213132,0.00021647,0.00033201,0.02186168,modeled
+07/10/2025,espn.com,banner,Australia,300x600,desktop,0.02104483,3.02e-05,0.00012967,0.0212047,modeled
+07/17/2025,bloomberg.com,video,United Kingdom,728x90,tablet,0.02155532,0.00037331,1.928e-05,0.02194792,measured
+07/24/2025,bloomberg.com,display,India,160x600,tablet,0.01625339,0.0001319,0.00014645,0.01653174,modeled
+07/14/2025,usatoday.com,native,Japan,970x250,mobile,0.01985618,4.341e-05,0.00025883,0.02015842,modeled
+06/28/2025,engadget.com,audio,Canada,300x250,desktop,0.01734254,9.901e-05,0.00027791,0.01771947,measured
+07/18/2025,washingtonpost.com,native,France,970x250,tablet,0.01311362,0.00019995,4.047e-05,0.01335405,measured
+07/08/2025,weather.com,native,Germany,728x90,desktop,0.02065251,4.1e-05,5.075e-05,0.02074426,measured
+07/13/2025,espn.com,video,Germany,300x250,desktop,0.05578293,2.67e-05,0.00014083,0.05595046,measured
+07/16/2025,espn.com,native,Australia,970x250,tablet,0.00492387,0.00019169,9.645e-05,0.00963879,measured
+07/25/2025,weather.com,native,Brazil,320x50,desktop,0.03461402,0.00012873,0.00054082,0.03528357,modeled
+07/01/2025,engadget.com,display,India,160x600,tablet,0.00393399,3.497e-05,0.00026674,0.0042357,modeled
+07/14/2025,forbes.com,native,China,970x250,desktop,0.02139382,6.95e-05,0.00047685,0.02194017,modeled
+06/30/2025,cnn.com,banner,China,728x90,mobile,0.01667548,4.245e-05,0.00027921,0.01699714,measured
+07/16/2025,msn.com,audio,Japan,300x250,mobile,0.01710983,9.073e-05,0.00021846,0.01741902,modeled
+07/13/2025,theverge.com,native,Canada,320x50,mobile,0.02806352,3.452e-05,0.00010609,0.02820412,measured
+07/05/2025,reuters.com,audio,Brazil,728x90,tablet,0.00448329,0.00010814,0.00044106,0.00503249,measured
+06/27/2025,reuters.com,banner,Brazil,728x90,tablet,0.00718009,1.815e-05,7.808e-05,0.00727632,measured
+06/28/2025,reuters.com,banner,Japan,970x250,desktop,0.01380214,0.00014119,0.00010129,0.01404462,measured
+07/15/2025,usatoday.com,video,Japan,160x600,desktop,0.02191516,5.52e-05,0.00011535,0.02208571,modeled
+07/21/2025,cnn.com,video,China,160x600,mobile,0.00823607,3.012e-05,0.00023163,0.00849783,modeled
+07/20/2025,espn.com,banner,Canada,970x250,mobile,0.01169743,0.00011547,6.495e-05,0.01187785,measured
+07/20/2025,weather.com,audio,Brazil,728x90,mobile,0.01675951,8.18e-06,9.95e-05,0.01686719,modeled
+07/17/2025,msn.com,display,United States,160x600,mobile,0.00892349,0.00018647,4.105e-05,0.00915101,measured
+07/17/2025,msn.com,audio,Australia,970x250,mobile,0.01489809,0.00010716,0.00027042,0.01527567,modeled
+07/06/2025,reuters.com,audio,France,728x90,tablet,0.03065509,7.923e-05,0.000141,0.03087531,modeled
+07/06/2025,fox32chicago.com,banner,United Kingdom,160x600,desktop,0.03727097,7.805e-05,0.00015265,0.03750167,modeled
+07/12/2025,forbes.com,banner,France,300x250,tablet,0.03810516,0.0003687,0.00016259,0.03863646,measured
+06/28/2025,bloomberg.com,banner,United Kingdom,300x600,desktop,0.02454407,0.00015011,0.00030287,0.02499706,modeled
+07/08/2025,forbes.com,native,Japan,970x250,desktop,0.03438314,5.161e-05,0.00017072,0.03460547,modeled
+07/16/2025,forbes.com,display,Canada,728x90,desktop,0.03454666,0.00021666,0.00011935,0.03488268,measured
+07/04/2025,fox32chicago.com,video,Japan,160x600,desktop,0.0209617,0.00011381,0.00013745,0.02121296,measured
+07/11/2025,espn.com,video,United Kingdom,300x600,mobile,0.02056407,0.0005169,0.00011546,0.02119642,modeled
+07/02/2025,forbes.com,banner,United States,300x250,tablet,0.01533121,1.601e-05,2.085e-05,0.01536807,modeled
+07/19/2025,yahoo.com,banner,United States,970x250,mobile,0.02393941,0.00017322,0.00024303,0.02435566,measured
+07/04/2025,reuters.com,native,,160x600,mobile,0.00809809,0.00014573,0.00012112,0.00836495,measured
+07/08/2025,fox32chicago.com,banner,Brazil,300x600,tablet,0.01232564,2.309e-05,7.23e-05,0.01242103,modeled
+07/25/2025,weather.com,display,United Kingdom,300x600,mobile,0.02434277,0.00010587,0.00015145,0.0246001,measured
+06/28/2025,espn.com,video,Australia,320x50,tablet,0.00139935,9.539e-05,8.151e-05,0.00157626,measured
+07/08/2025,theverge.com,video,France,300x250,desktop,0.02128668,0.00019319,9.219e-05,0.02157206,measured
+06/26/2025,cnn.com,native,Japan,300x600,mobile,0.01803803,0.00029687,0.00016408,0.01849897,modeled
+07/26/2025,usatoday.com,native,United States,300x250,desktop,0.0163807,4.11e-05,0.00023772,0.01665951,modeled
+07/21/2025,engadget.com,audio,Germany,728x90,desktop,0.00697967,0.00019897,0.00021444,0.00739308,measured
+06/27/2025,yahoo.com,banner,China,728x90,tablet,0.01049907,4.236e-05,6.926e-05,0.01061068,measured
+07/16/2025,theverge.com,native,United Kingdom,300x600,desktop,0.00266414,0.00011763,1.333e-05,0.0027951,modeled
+07/22/2025,reuters.com,banner,France,728x90,mobile,0.01558002,7.4e-05,0.00010236,0.01575638,modeled
+07/06/2025,bloomberg.com,display,Germany,728x90,desktop,0.02340918,5.261e-05,0.00015292,0.02361471,measured
+07/14/2025,espn.com,display,Germany,300x600,desktop,0.03978876,0.00012719,9.511e-05,0.04001106,modeled
+07/10/2025,techcrunch.com,native,China,728x90,desktop,0.01676861,6.403e-05,0.00011707,0.01694971,modeled
+07/24/2025,,display,China,160x600,tablet,0.01955746,2.2e-05,2.694e-05,0.0196064,modeled
+07/21/2025,nytimes.com,audio,Japan,160x600,mobile,0.00759357,0.00012108,0.00021306,0.00792772,measured
+07/03/2025,forbes.com,display,United Kingdom,320x50,mobile,0.02947826,3.937e-05,0.00014368,0.02966131,modeled
+06/26/2025,msn.com,display,China,300x600,tablet,0.01219692,7.56e-05,9.615e-05,0.01236867,modeled
+07/03/2025,nytimes.com,native,Germany,160x600,desktop,0.02039058,4.713e-05,0.00029465,0.02073236,modeled
+07/01/2025,usatoday.com,display,Australia,320x50,tablet,0.03705467,0.00011839,0.00027152,0.03744458,modeled
+07/21/2025,forbes.com,video,India,728x90,desktop,0.00421905,0.00019147,0.00017653,0.00458705,measured
+07/11/2025,forbes.com,display,China,160x600,desktop,0.00992725,4.54e-05,0.00037806,0.01035072,modeled
+07/19/2025,cnn.com,video,United Kingdom,970x250,mobile,0.02980861,7.402e-05,3.333e-05,0.02991596,measured
+07/23/2025,reuters.com,video,Australia,728x90,tablet,0.03962262,3.035e-05,9.903e-05,0.039752,modeled
+07/10/2025,forbes.com,display,Canada,728x90,mobile,0.01478871,4.479e-05,0.00011415,0.01494766,measured
+06/30/2025,engadget.com,video,Australia,320x50,desktop,0.01657588,7.018e-05,0.00016913,0.01818851,measured
+07/24/2025,bloomberg.com,audio,Germany,300x600,desktop,0.04842684,2.195e-05,0.0001503,0.04859909,modeled
+06/28/2025,nytimes.com,display,Brazil,300x250,tablet,0.00613465,1.973e-05,0.00025749,0.00641186,measured
+07/09/2025,weather.com,video,China,300x600,desktop,0.0200048,1.839e-05,0.00011407,0.02013726,modeled
+07/09/2025,forbes.com,native,United States,300x600,mobile,0.00761247,7.33e-05,0.00021846,0.00790422,modeled
+07/11/2025,nytimes.com,native,United States,728x90,desktop,0.02537565,6.045e-05,0.00026584,0.02570194,modeled
+07/07/2025,bloomberg.com,audio,Brazil,970x250,tablet,0.0419047,0.00013813,8.375e-05,0.04212658,modeled
+06/26/2025,engadget.com,display,Germany,970x250,mobile,0.01504335,0.00023707,0.00010276,0.01538318,measured
+07/18/2025,forbes.com,display,United States,160x600,mobile,0.02543264,4.425e-05,0.00026713,0.02574401,modeled
+07/18/2025,cnn.com,banner,Canada,300x600,tablet,0.00796522,7.782e-05,0.00019836,0.00824139,modeled
+07/07/2025,yahoo.com,display,Canada,728x90,tablet,0.05393014,9.866e-05,0.000108,0.05413681,modeled
+07/13/2025,usatoday.com,native,United Kingdom,970x250,tablet,0.0126902,0.00016196,0.00018703,0.01303919,modeled
+07/23/2025,techcrunch.com,display,Canada,300x600,tablet,0.02692616,0.000226,0.00013964,0.02729179,modeled
+07/09/2025,yahoo.com,banner,India,160x600,tablet,0.02219917,6.275e-05,6.84e-05,0.02233032,modeled
+07/13/2025,usatoday.com,video,United Kingdom,160x600,desktop,0.01008665,4.68e-06,0.00019692,0.01028825,measured
+06/28/2025,cnn.com,banner,Japan,970x250,desktop,0.02282819,0.00012122,6.44e-05,0.02301381,modeled
+07/11/2025,bloomberg.com,audio,Australia,728x90,mobile,0.01023821,4.977e-05,0.00028514,0.01057312,modeled
+07/07/2025,cnn.com,audio,France,970x250,mobile,0.01919098,8.656e-05,0.00022954,0.01950709,modeled
+07/09/2025,bloomberg.com,native,India,160x600,mobile,0.00998308,0.00010904,0.00046856,0.01056067,measured
+07/14/2025,washingtonpost.com,display,Canada,300x250,desktop,0.03949814,0.00010784,0.00014249,0.03974847,measured
+07/07/2025,espn.com,video,Japan,728x90,tablet,0.0240937,0.00021602,0.00032937,0.02463909,modeled
+07/18/2025,cnn.com,audio,Canada,728x90,mobile,0.04808583,0.00010002,1.318e-05,0.04819903,modeled
+07/04/2025,fox32chicago.com,video,Canada,320x50,mobile,0.0558719,4.267e-05,0.00022692,0.05614149,modeled
+07/13/2025,fox32chicago.com,video,Brazil,160x600,mobile,0.00169526,8.518e-05,0.00010291,0.00188335,measured
+06/30/2025,washingtonpost.com,audio,Japan,970x250,desktop,0.04815817,0.00010885,0.0001352,0.05317213,measured
+07/21/2025,cnn.com,video,United States,970x250,tablet,0.02354318,2.29e-06,7.829e-05,0.02362376,measured
+06/29/2025,nytimes.com,display,United Kingdom,300x250,tablet,0.01112439,0.00013126,5.528e-05,0.01131093,measured
+07/16/2025,techcrunch.com,banner,United States,300x600,mobile,0.01936544,7.833e-05,8.202e-05,0.0195258,modeled
+07/17/2025,weather.com,audio,Canada,300x600,tablet,0.01083683,7.778e-05,1.895e-05,0.01093356,modeled
+07/26/2025,forbes.com,native,Canada,320x50,desktop,0.02896751,4.24e-05,0.00010826,0.02911816,measured
+07/05/2025,engadget.com,native,France,970x250,mobile,0.04699333,0.00014657,4.628e-05,0.04718618,measured
+07/21/2025,theverge.com,video,Australia,300x600,tablet,0.00031707,0.00012135,0.00011174,0.00055016,modeled
+06/28/2025,engadget.com,banner,Canada,300x600,mobile,0.01945231,0.00014319,0.00025468,0.01985018,measured
+06/28/2025,msn.com,video,China,728x90,desktop,0.01186159,7.678e-05,0.00017822,0.0148927,measured
+07/22/2025,engadget.com,display,China,160x600,tablet,0.02334289,9.655e-05,0.00034854,0.02378798,measured
+07/19/2025,espn.com,banner,Brazil,970x250,tablet,0.02315535,0.00014172,0.00016431,0.02346137,modeled
+07/24/2025,forbes.com,banner,United States,320x50,mobile,0.00686232,4.879e-05,4.436e-05,0.00695548,modeled
+06/28/2025,reuters.com,native,Japan,970x250,desktop,0.03431242,1.827e-05,0.00011892,0.03444961,measured
+07/07/2025,espn.com,display,Germany,160x600,tablet,0.01240463,6.07e-05,0.00010419,0.01256952,modeled
+06/30/2025,weather.com,banner,Canada,320x50,mobile,0.04908852,1.082e-05,0.00031977,0.04941912,modeled
+07/12/2025,techcrunch.com,audio,United Kingdom,728x90,tablet,0.01393521,0.00015205,0.00014175,0.014229,modeled
+07/06/2025,forbes.com,audio,United Kingdom,300x600,mobile,0.00612635,0.00021277,0.00030583,0.00664495,measured
+07/22/2025,usatoday.com,display,Australia,728x90,desktop,0.00657868,0.00012799,8.122e-05,0.00678788,modeled
+07/02/2025,techcrunch.com,audio,China,300x600,tablet,0.00383243,4.249e-05,0.00032721,0.00420213,modeled
+07/13/2025,theverge.com,banner,Germany,160x600,mobile,0.03092479,6.575e-05,0.00032825,0.03131878,modeled
+07/05/2025,theverge.com,display,India,728x90,tablet,0.03627162,4.255e-05,0.00038239,0.03669657,modeled
+07/05/2025,forbes.com,display,France,728x90,desktop,0.01230355,6.863e-05,1.79e-05,0.01868156,modeled
+06/30/2025,techcrunch.com,native,United States,160x600,desktop,0.0099884,7.478e-05,0.0001677,0.01023088,measured
+07/02/2025,theverge.com,display,United Kingdom,970x250,desktop,0.00614691,4.431e-05,0.00038796,0.00657919,modeled
+07/20/2025,nytimes.com,video,France,970x250,mobile,0.03465577,0.00019535,0.00012764,0.03497876,modeled
+06/26/2025,usatoday.com,audio,India,728x90,tablet,0.02142147,0.00013001,0.00038421,0.02193569,measured
+07/14/2025,forbes.com,video,Japan,300x600,desktop,0.00374258,5.433e-05,0.0001601,0.00395701,modeled
+07/19/2025,engadget.com,audio,Canada,728x90,mobile,0.01780325,4.382e-05,0.00019544,0.01804252,modeled
+07/17/2025,weather.com,video,India,160x600,desktop,0.01123184,8.416e-05,0.00018928,0.01150529,modeled
+07/20/2025,msn.com,display,Canada,300x600,tablet,0.01168064,0.00014579,0.00026335,0.01208978,modeled
+06/27/2025,washingtonpost.com,native,Japan,728x90,tablet,0.00906128,5.582e-05,5.637e-05,0.00917347,measured
+07/09/2025,cnn.com,display,Brazil,728x90,desktop,0.01654704,0.00010476,0.00010096,0.01675276,measured
+07/17/2025,msn.com,banner,United Kingdom,728x90,mobile,0.02052458,5.46e-05,8.975e-05,0.02066892,modeled
+07/08/2025,theverge.com,display,United Kingdom,728x90,mobile,0.02175155,5.923e-05,0.00012692,0.0219377,modeled
+07/02/2025,engadget.com,display,Brazil,970x250,tablet,0.02231639,0.00010153,8.84e-05,0.02250631,measured
+07/14/2025,bloomberg.com,native,Australia,300x600,mobile,0.03522535,0.00012591,0.00016011,0.03551138,measured
+06/30/2025,yahoo.com,banner,Germany,300x250,tablet,0.00618224,9.067e-05,7.854e-05,0.00635146,modeled
+06/27/2025,espn.com,video,Canada,320x50,tablet,0.02389327,1.51e-06,0.00010857,0.02400335,measured
+07/15/2025,msn.com,video,Brazil,320x50,tablet,0.0106408,0.00014617,1.874e-05,0.01080571,modeled
+07/11/2025,techcrunch.com,banner,India,300x250,mobile,0.01726088,0.00012482,0.0004317,0.0178174,measured
+07/24/2025,engadget.com,banner,Brazil,300x250,desktop,0.01118868,0.00010608,2.033e-05,0.01131509,measured
+07/13/2025,espn.com,display,Germany,970x250,mobile,0.01659499,0.0001849,0.00043446,0.01721435,measured
+07/11/2025,bloomberg.com,native,Brazil,300x600,desktop,0.02269343,1.75e-05,0.00032806,0.02303899,measured
+07/12/2025,weather.com,display,Canada,320x50,desktop,0.00353606,2.803e-05,0.00034679,0.00391088,measured
+06/26/2025,usatoday.com,banner,China,970x250,mobile,0.01567698,5.076e-05,0.00021929,0.01594703,modeled
+07/08/2025,weather.com,video,France,728x90,tablet,0.01887895,0.0001738,0.0001563,0.01920905,measured
+07/05/2025,cnn.com,audio,United States,320x50,desktop,0.01987158,0.00016963,0.00012408,0.0201653,modeled
+07/10/2025,theverge.com,native,United States,300x600,desktop,0.007632,0.0001426,0.00010541,0.00788001,measured
+07/06/2025,cnn.com,video,United Kingdom,320x50,mobile,0.02071126,9.49e-06,0.00012015,0.0208409,measured
+07/12/2025,washingtonpost.com,video,Australia,160x600,tablet,0.01077843,9.1e-06,0.00012314,0.01091067,measured
+07/23/2025,msn.com,banner,Japan,320x50,tablet,0.01580258,0.0001091,0.00029249,0.01620418,modeled
+07/08/2025,reuters.com,display,Canada,300x250,tablet,0.03265013,5.715e-05,0.00015345,0.03286072,modeled
+07/21/2025,techcrunch.com,audio,Japan,320x50,mobile,0.02413279,5.853e-05,3.129e-05,0.02422261,measured
+07/17/2025,washingtonpost.com,audio,Brazil,728x90,desktop,0.01411762,0.000188,2.963e-05,0.01433525,modeled
+07/16/2025,nytimes.com,display,Brazil,970x250,tablet,0.00691276,4.193e-05,5.591e-05,0.0070106,modeled
+07/21/2025,forbes.com,video,India,320x50,mobile,0.02749711,4.892e-05,0.00022412,0.02777015,measured
+06/30/2025,weather.com,video,United Kingdom,160x600,mobile,0.01724592,1.381e-05,9.537e-05,0.0173551,measured
+07/22/2025,reuters.com,banner,France,728x90,desktop,0.03331806,9.371e-05,0.00010151,0.03351328,modeled
+06/26/2025,msn.com,banner,Australia,728x90,desktop,0.03790539,3.136e-05,8.08e-05,0.03801756,measured
+07/04/2025,washingtonpost.com,banner,Germany,970x250,mobile,0.03120521,0.00013551,4.615e-05,0.03138687,measured
+07/21/2025,washingtonpost.com,display,Australia,970x250,tablet,0.02354982,4.822e-05,1.36e-05,0.03080332,modeled
+07/24/2025,reuters.com,audio,United Kingdom,970x250,tablet,0.01289622,0.00028297,0.0002697,0.0134489,modeled
+07/26/2025,cnn.com,display,United Kingdom,320x50,tablet,0.01606256,1.724e-05,1.422e-05,0.01609403,measured
+07/19/2025,nytimes.com,video,Germany,320x50,mobile,0.01728735,0.00011224,0.00022178,0.01762137,modeled
+07/09/2025,usatoday.com,display,United Kingdom,300x600,mobile,0.02552752,0.0001354,0.00016399,0.02582691,modeled
+07/11/2025,theverge.com,display,Brazil,320x50,desktop,0.03735433,5.38e-05,0.00013671,0.03754484,measured
+07/16/2025,bloomberg.com,video,United States,320x50,tablet,0.00277534,5.282e-05,0.00026467,0.00309283,modeled
+07/08/2025,bloomberg.com,native,France,160x600,desktop,0.02647499,4.85e-06,0.00047498,0.02695483,measured
+07/25/2025,theverge.com,display,France,728x90,desktop,0.01877859,9.523e-05,7.992e-05,0.01895374,measured
+07/25/2025,techcrunch.com,display,United States,300x250,mobile,0.01197244,9.311e-05,0.00020338,0.01226892,measured
+07/11/2025,theverge.com,video,United Kingdom,970x250,mobile,0.02121432,5.346e-05,6.027e-05,0.02132805,measured
+07/12/2025,engadget.com,native,Canada,970x250,desktop,0.00706067,0.0001743,0.00025633,0.0074913,measured
+07/20/2025,techcrunch.com,native,United States,728x90,tablet,0.0237825,0.00017344,0.00012082,0.02407677,modeled
+07/05/2025,nytimes.com,audio,Germany,970x250,mobile,0.03016482,0.00012335,0.00024584,0.03053401,modeled
+07/21/2025,forbes.com,audio,Germany,320x50,mobile,0.0063964,0.00010142,0.00010028,0.0065981,measured
+07/02/2025,theverge.com,video,China,300x250,desktop,0.00129963,0.00019347,0.00025682,0.00174992,measured
+07/25/2025,yahoo.com,banner,Germany,160x600,tablet,0.02161146,3.985e-05,2.101e-05,0.02167232,modeled
+07/09/2025,usatoday.com,banner,China,300x250,tablet,0.00127128,5.249e-05,0.00021889,0.00154265,modeled
+07/12/2025,yahoo.com,video,France,320x50,mobile,0.01264491,0.00011997,0.00019884,0.01296372,measured
+07/19/2025,nytimes.com,video,Japan,160x600,desktop,0.02708108,1.041e-05,6.915e-05,0.02716063,modeled
+07/09/2025,washingtonpost.com,video,Brazil,320x50,tablet,0.02367531,0.00022209,0.00029081,0.02418821,modeled
+07/17/2025,espn.com,video,Australia,970x250,mobile,0.02079614,0.00019486,0.00016543,0.02115643,modeled
+07/18/2025,msn.com,video,Canada,160x600,mobile,0.00358923,0.00013379,0.00029762,0.00402064,measured
+07/15/2025,,display,Australia,160x600,tablet,0.05375688,5.122e-05,4.601e-05,0.05385412,modeled
+07/07/2025,washingtonpost.com,display,Brazil,160x600,desktop,0.03022616,0.00011331,0.00016957,0.03050904,modeled
+06/28/2025,cnn.com,native,Germany,320x50,tablet,0.03934167,0.00015072,0.00019378,0.03968617,measured
+07/07/2025,washingtonpost.com,audio,Japan,320x50,mobile,0.01139378,0.00014233,4.41e-05,0.01158021,measured
+07/24/2025,espn.com,banner,Brazil,728x90,desktop,0.02063535,8.116e-05,2.714e-05,0.02074365,measured
+06/27/2025,espn.com,banner,Australia,160x600,desktop,0.0227092,5.132e-05,0.00017848,0.022939,modeled
+07/10/2025,cnn.com,banner,Germany,320x50,desktop,0.00710907,0.00015177,0.00039243,0.00765327,measured
+07/02/2025,forbes.com,audio,Japan,970x250,tablet,0.0055148,3.55e-05,3.675e-05,0.00558705,modeled
+07/02/2025,reuters.com,video,United Kingdom,160x600,tablet,0.014053,0.0001103,0.00021811,0.01438142,modeled
+06/29/2025,bloomberg.com,audio,Canada,300x250,mobile,0.02033632,0.00013341,0.00012628,0.02059601,modeled
+06/30/2025,washingtonpost.com,display,United States,300x250,tablet,0.01015945,3.636e-05,0.00011579,0.00951626,measured
+07/15/2025,forbes.com,video,China,728x90,desktop,0.00744154,0.0001079,6.044e-05,0.00760988,measured
+07/21/2025,forbes.com,native,China,300x250,mobile,0.01112999,0.0001737,0.00029613,0.01159982,measured
+07/04/2025,engadget.com,native,Australia,320x50,tablet,0.03623397,7.995e-05,8.414e-05,0.03639806,measured
+07/20/2025,yahoo.com,audio,Japan,728x90,mobile,0.02400452,3.852e-05,0.00022565,0.02426869,modeled
+07/17/2025,yahoo.com,native,Australia,320x50,tablet,0.00971615,6.999e-05,0.00022916,0.0100153,measured
+07/15/2025,reuters.com,banner,Australia,300x250,tablet,0.00247844,5.04e-05,0.00017534,0.00270418,measured
+07/06/2025,forbes.com,audio,Brazil,970x250,tablet,0.02540544,0.00011274,0.00011086,0.02562905,modeled
+07/12/2025,theverge.com,video,Japan,728x90,tablet,0.03066495,3.523e-05,5.411e-05,0.03075429,measured
+07/24/2025,washingtonpost.com,banner,India,300x250,tablet,0.02176216,3.158e-05,0.00040134,0.02219508,modeled
+06/29/2025,bloomberg.com,display,Japan,320x50,tablet,0.01033186,0.00015136,4.241e-05,0.01052563,measured
+06/28/2025,bloomberg.com,native,Germany,300x250,desktop,0.0433207,8.425e-05,8.073e-05,0.04348568,modeled
+07/09/2025,forbes.com,audio,Brazil,320x50,mobile,0.01309493,4.372e-05,0.00011174,0.01325038,measured
+07/26/2025,cnn.com,display,China,970x250,desktop,0.00562188,5.186e-05,0.00023898,0.00591273,modeled
+07/09/2025,fox32chicago.com,native,Brazil,970x250,mobile,0.01951981,3.457e-05,0.00011482,0.0196692,modeled
+07/23/2025,engadget.com,native,Canada,320x50,desktop,0.03730201,5.704e-05,5.001e-05,0.03740906,measured
+06/30/2025,fox32chicago.com,banner,France,728x90,mobile,0.02475233,7.06e-06,0.00010667,0.02486607,modeled
+07/16/2025,bloomberg.com,video,India,300x250,mobile,0.03951259,7.016e-05,0.00025548,0.03983822,modeled
+07/20/2025,cnn.com,native,Germany,160x600,mobile,0.00616937,6.801e-05,0.00010077,0.00633814,measured
+06/26/2025,reuters.com,banner,Australia,320x50,desktop,0.02381441,8.779e-05,0.00034458,0.02424679,modeled
+06/29/2025,engadget.com,audio,China,970x250,tablet,0.01088844,8.699e-05,0.00010384,0.01107928,measured
+07/05/2025,fox32chicago.com,audio,Australia,320x50,tablet,0.01645315,7.669e-05,6.108e-05,0.01458452,measured
+06/28/2025,cnn.com,native,Canada,970x250,mobile,0.02874797,4.726e-05,7.106e-05,0.02886628,measured
+06/26/2025,yahoo.com,audio,France,970x250,mobile,0.00361982,5.314e-05,7.477e-05,0.00374773,modeled
+07/25/2025,washingtonpost.com,native,Australia,970x250,tablet,0.00183314,6.96e-05,0.00033439,0.00223713,measured
+07/19/2025,engadget.com,display,France,970x250,tablet,0.00437721,8.112e-05,0.00010927,0.0045676,measured
+06/28/2025,espn.com,native,United Kingdom,160x600,mobile,0.02613561,0.00013749,0.00050269,0.02677579,modeled
+07/03/2025,usatoday.com,video,Canada,728x90,tablet,0.02004972,4.153e-05,8.304e-05,0.02017429,modeled
+06/27/2025,reuters.com,video,India,160x600,mobile,0.01129243,4.84e-05,0.00038989,0.01173072,measured
+07/06/2025,msn.com,audio,Germany,300x600,tablet,0.02658588,0.00011834,5.135e-05,0.02675557,modeled
+06/29/2025,engadget.com,audio,United Kingdom,300x600,desktop,0.02730542,0.00017704,0.00011084,0.0275933,measured
+07/22/2025,cnn.com,video,Canada,970x250,mobile,0.01027771,0.00021892,7.335e-05,0.01056998,modeled
+07/18/2025,cnn.com,display,Canada,728x90,desktop,0.0083566,3.582e-05,0.00012497,0.00851739,measured
+07/23/2025,fox32chicago.com,display,Brazil,320x50,tablet,0.02000607,0.00016106,0.00019549,0.02036262,measured
+07/01/2025,weather.com,video,France,300x600,mobile,0.0241584,0.00019542,5.483e-05,0.02440865,measured
+07/21/2025,weather.com,display,India,300x250,mobile,0.00410524,0.00012643,0.00012048,0.00435216,measured
+06/30/2025,usatoday.com,native,Germany,300x250,mobile,0.03229102,8.086e-05,7.986e-05,0.03245174,modeled
+07/20/2025,fox32chicago.com,display,India,160x600,mobile,0.02554619,8.869e-05,0.00012946,0.03421472,modeled
+07/24/2025,usatoday.com,display,United States,300x600,tablet,0.07042339,0.00018553,0.00022279,0.07083171,measured
+07/25/2025,nytimes.com,audio,China,970x250,mobile,0.01815205,8.504e-05,0.00010437,0.01834146,measured
+07/18/2025,theverge.com,audio,United States,320x50,mobile,0.01953603,5.561e-05,4.438e-05,0.01963602,measured
+07/19/2025,msn.com,audio,United Kingdom,300x600,mobile,0.01603097,0.00010356,0.00025874,0.01639328,modeled
+07/12/2025,theverge.com,display,China,728x90,mobile,0.00839949,8.555e-05,0.00019442,0.00867946,modeled
+07/19/2025,engadget.com,display,India,300x250,desktop,0.02392186,0.00023571,0.000106,0.02426357,modeled
+07/20/2025,reuters.com,display,Brazil,728x90,tablet,0.0077826,8.981e-05,0.00011042,0.00798283,modeled
+07/14/2025,washingtonpost.com,video,China,970x250,mobile,0.01194633,5.336e-05,0.00016618,0.01216587,modeled
+07/12/2025,reuters.com,native,Canada,300x250,desktop,0.00946753,0.00013916,0.00021547,0.00982215,modeled
+07/18/2025,fox32chicago.com,native,Germany,728x90,mobile,0.022135,3.421e-05,0.0001608,0.02233002,measured
+06/28/2025,msn.com,audio,Japan,160x600,tablet,0.03380159,0.00014606,0.00021174,0.0341594,measured
+07/09/2025,weather.com,audio,Germany,728x90,mobile,0.01691813,8.178e-05,0.00030007,0.01729998,measured
+07/18/2025,yahoo.com,audio,Germany,320x50,desktop,0.02053549,0.00010361,0.00066833,0.02130742,modeled
+07/15/2025,reuters.com,video,India,300x250,mobile,0.01302439,8.13e-06,0.00011651,0.01314903,modeled
+07/05/2025,fox32chicago.com,audio,Germany,160x600,desktop,0.01523004,0.00010158,0.00019011,0.01552173,measured
+07/25/2025,engadget.com,banner,United States,300x600,mobile,0.00204204,0.00012053,0.00012749,0.00229006,measured
+06/28/2025,washingtonpost.com,native,Canada,160x600,tablet,0.01349954,1.694e-05,0.00034174,0.01385822,measured
+07/22/2025,yahoo.com,video,Brazil,970x250,mobile,0.01181704,0.00013356,6.634e-05,0.01201694,modeled
+06/28/2025,theverge.com,banner,India,970x250,mobile,0.02095768,6.834e-05,0.00020922,0.02123525,measured
+07/19/2025,forbes.com,audio,Japan,970x250,desktop,0.01331239,3.98e-05,0.00013188,0.01348407,modeled
+07/16/2025,msn.com,audio,United States,300x600,desktop,0.01587089,9.99e-05,0.00025326,0.01622405,modeled
+07/20/2025,theverge.com,display,United States,728x90,desktop,0.00644984,0.00015293,4.451e-05,0.00664728,modeled
+07/22/2025,msn.com,audio,Australia,300x250,mobile,0.02546605,0.00013008,9.056e-05,0.02568669,measured
+07/23/2025,weather.com,display,India,160x600,mobile,0.00866481,4.137e-05,0.0001413,0.00884748,measured
+06/28/2025,washingtonpost.com,banner,Japan,728x90,mobile,0.02717682,7.452e-05,1.117e-05,0.02726251,modeled
+07/26/2025,usatoday.com,display,United States,160x600,desktop,0.01072315,5.207e-05,0.00018922,0.01096444,modeled
+07/06/2025,engadget.com,video,United States,728x90,tablet,0.02450511,9.332e-05,0.000245,0.02484342,measured
+07/14/2025,washingtonpost.com,audio,Brazil,160x600,desktop,0.03216166,5.624e-05,6.492e-05,0.03228282,measured
+07/11/2025,reuters.com,audio,France,970x250,desktop,0.01570623,9.318e-05,8.635e-05,0.01855659,modeled
+07/05/2025,bloomberg.com,display,Germany,300x600,desktop,0.09630237,0.00020557,7.988e-05,0.09658782,measured
+07/21/2025,msn.com,native,United States,300x600,mobile,0.00670082,4.663e-05,0.00026035,0.00700781,measured
+07/16/2025,theverge.com,display,China,970x250,mobile,0.03306992,0.0002072,6.325e-05,0.03334037,modeled
+07/07/2025,msn.com,audio,Germany,300x600,desktop,0.02358767,4.278e-05,0.00037821,0.02400867,modeled
+07/05/2025,forbes.com,native,Japan,728x90,tablet,0.00814702,2.681e-05,5.086e-05,0.00822469,modeled
+07/12/2025,usatoday.com,display,Brazil,728x90,tablet,0.01653989,0.00013458,0.00020592,0.01688039,measured
+07/06/2025,usatoday.com,banner,Germany,300x600,mobile,0.00661035,6.149e-05,8.835e-05,0.00676018,measured
+06/26/2025,theverge.com,native,Brazil,300x600,desktop,0.00576999,5.416e-05,0.00032239,0.00614653,modeled
+07/21/2025,theverge.com,banner,Brazil,320x50,mobile,0.00504853,9.774e-05,0.00032722,0.00547349,modeled
+07/22/2025,techcrunch.com,banner,United States,160x600,mobile,0.03954637,0.00024347,0.00016741,0.03995724,measured
+07/25/2025,fox32chicago.com,video,Canada,300x250,tablet,0.02313539,5.499e-05,3.953e-05,0.0232299,modeled
+07/16/2025,yahoo.com,display,United States,160x600,tablet,0.01488477,0.00017605,1.092e-05,0.01507173,modeled
+07/18/2025,engadget.com,display,United Kingdom,300x600,tablet,0.01140786,0.00012356,0.00013366,0.01166508,modeled
+07/11/2025,reuters.com,audio,China,728x90,desktop,0.03812254,0.00016422,3.471e-05,0.03832147,modeled
+07/14/2025,theverge.com,audio,France,970x250,mobile,0.01775906,4.461e-05,7.059e-05,0.01787427,modeled
+07/02/2025,forbes.com,display,China,970x250,tablet,0.00469222,9.982e-05,0.00030915,0.00510119,modeled
+07/24/2025,bloomberg.com,native,Canada,160x600,mobile,0.02125248,2.198e-05,0.00012808,0.02140254,measured
+06/29/2025,msn.com,banner,France,320x50,mobile,0.02404173,7.562e-05,0.00016787,0.02428522,measured
+07/13/2025,usatoday.com,banner,China,970x250,desktop,0.00955399,6.903e-05,0.00010518,0.00972819,modeled
+07/18/2025,nytimes.com,banner,Japan,970x250,tablet,0.04333626,3.372e-05,1.31e-05,0.04338308,modeled
+06/29/2025,bloomberg.com,video,Japan,300x250,mobile,0.04154802,9.104e-05,4.393e-05,0.04032196,modeled
+07/03/2025,msn.com,audio,United Kingdom,300x600,mobile,0.03094212,0.00012537,0.00038368,0.03145116,modeled
+07/20/2025,cnn.com,native,United States,320x50,tablet,0.01927878,0.00035275,0.00012182,0.01975335,measured
+06/28/2025,yahoo.com,native,China,300x250,desktop,0.02510666,0.00013821,9.418e-05,0.02533905,modeled
+07/17/2025,weather.com,native,China,728x90,tablet,0.01147165,0.00014015,4.028e-05,0.01165209,modeled
+07/21/2025,yahoo.com,audio,China,300x250,mobile,0.00887119,7.453e-05,0.0003759,0.00932162,modeled
+07/16/2025,usatoday.com,banner,United Kingdom,300x250,tablet,0.02804361,8.838e-05,8.716e-05,0.02821914,modeled
+07/18/2025,espn.com,display,Japan,160x600,mobile,0.05937609,7.965e-05,7.091e-05,0.05952665,modeled
+07/19/2025,techcrunch.com,display,Germany,300x600,mobile,0.06673474,2.635e-05,0.00031551,0.06707661,modeled
+07/12/2025,theverge.com,video,Germany,160x600,mobile,0.01685468,0.00013999,0.00019703,0.0171917,measured
+07/15/2025,msn.com,banner,Germany,728x90,tablet,0.02771953,0.00035313,0.00051028,0.02858294,measured
+07/22/2025,nytimes.com,banner,France,320x50,desktop,0.00928023,0.00011988,2.38e-05,0.00942391,modeled
+07/17/2025,usatoday.com,display,China,300x600,mobile,0.02980536,0.00017335,1.335e-05,0.02999206,measured
+07/09/2025,techcrunch.com,video,Brazil,300x250,tablet,0.01638381,0.00013981,0.00017299,0.01669661,modeled
+07/03/2025,nytimes.com,native,Canada,728x90,mobile,0.00537766,2.988e-05,0.00011953,0.00552707,measured
+07/01/2025,cnn.com,banner,India,728x90,mobile,0.01177136,6.351e-05,3.725e-05,0.01187213,modeled
+07/10/2025,fox32chicago.com,video,Japan,728x90,mobile,0.01707528,0.00023613,4.488e-05,0.01735629,measured
+07/19/2025,fox32chicago.com,banner,Japan,300x250,tablet,0.01398855,0.00012919,2.857e-05,0.01414632,modeled
+06/30/2025,nytimes.com,display,France,320x50,tablet,0.01720539,0.00016981,5.479e-05,0.01742999,modeled
+07/01/2025,cnn.com,video,Germany,728x90,tablet,0.01848375,0.00016156,0.00054637,0.01919168,measured
+07/08/2025,bloomberg.com,audio,United States,300x600,desktop,0.01778178,4.524e-05,7.292e-05,0.01789993,measured
+07/23/2025,fox32chicago.com,video,Japan,300x600,tablet,0.00438132,0.00024883,0.00024786,0.00487801,modeled
+07/24/2025,techcrunch.com,video,United Kingdom,300x600,mobile,0.00597439,4.299e-05,0.00014049,0.00615787,modeled
+07/20/2025,yahoo.com,audio,Canada,970x250,mobile,0.03378827,0.00012009,0.00017909,0.03408745,measured
+07/18/2025,weather.com,banner,China,728x90,desktop,0.01940789,3.146e-05,0.00014188,0.01958124,measured
+07/24/2025,washingtonpost.com,audio,Australia,728x90,mobile,0.01615692,2.158e-05,0.00039158,0.01657008,modeled
+07/04/2025,washingtonpost.com,video,Canada,300x600,desktop,0.01015629,2.221e-05,9.317e-05,0.01027167,modeled
+07/10/2025,yahoo.com,native,Canada,320x50,mobile,0.01355712,7.892e-05,0.00010701,0.01374306,measured
+07/08/2025,usatoday.com,audio,Japan,300x600,tablet,0.01648312,9.337e-05,0.00014369,0.01555395,measured
+07/16/2025,cnn.com,banner,Canada,300x600,desktop,0.02226679,0.00011618,0.00018924,0.0225722,measured
+07/06/2025,forbes.com,video,Japan,970x250,tablet,0.02795956,4.616e-05,7.619e-05,0.02808191,measured
+06/30/2025,,native,Canada,160x600,tablet,0.03389409,5.97e-05,0.0001209,0.0340747,measured
+07/20/2025,techcrunch.com,video,Australia,728x90,tablet,0.01408394,0.00033347,6.326e-05,0.01448067,measured
+07/19/2025,techcrunch.com,native,Brazil,320x50,desktop,0.00777463,8.263e-05,0.0001152,0.00797247,modeled
+07/06/2025,forbes.com,native,Brazil,300x600,desktop,0.00591966,7.754e-05,0.000135,0.00613219,measured
+07/07/2025,forbes.com,display,Canada,728x90,mobile,0.01097425,7.398e-05,6.883e-05,0.01111706,modeled
+07/09/2025,forbes.com,audio,Canada,300x250,tablet,0.00593337,5.933e-05,5.47e-05,0.0060474,measured
+07/21/2025,techcrunch.com,audio,China,160x600,mobile,0.00487774,1.182e-05,0.00015722,-0.00217053,measured
+07/02/2025,nytimes.com,audio,Canada,160x600,tablet,0.01154319,0.00017015,9.874e-05,0.01181209,modeled
+07/24/2025,msn.com,native,China,300x250,desktop,0.01958211,4.868e-05,0.00012911,0.0197599,modeled
+07/02/2025,nytimes.com,banner,India,160x600,desktop,0.00238723,5.861e-05,6.363e-05,0.00250947,measured
+07/07/2025,theverge.com,banner,Germany,728x90,tablet,0.03170083,9.336e-05,0.00022983,0.03202401,modeled
+07/09/2025,theverge.com,video,Germany,320x50,mobile,0.03657185,5.475e-05,0.00014471,0.03677131,modeled
+07/22/2025,reuters.com,video,China,300x600,tablet,0.00626052,0.00010883,0.00019249,0.00656184,measured
+07/17/2025,,native,United Kingdom,300x600,desktop,0.02071227,5.47e-05,0.00041566,0.02118263,modeled
+07/12/2025,reuters.com,display,United Kingdom,970x250,mobile,0.01684091,3.148e-05,0.00020543,0.01707782,measured
+07/07/2025,engadget.com,native,Germany,728x90,desktop,0.03234448,3.206e-05,0.00010852,0.03248506,measured
+07/24/2025,theverge.com,banner,China,160x600,tablet,0.00435042,0.00018756,0.00012307,0.00466105,measured
+07/26/2025,bloomberg.com,video,United Kingdom,160x600,mobile,0.00798503,0.00016315,0.00013196,0.01599098,modeled
+07/20/2025,cnn.com,native,Canada,160x600,desktop,0.02964046,0.0001138,5.639e-05,0.02981065,measured
+07/04/2025,cnn.com,native,Brazil,320x50,tablet,0.01063576,4.091e-05,4.717e-05,0.01072384,modeled
+07/08/2025,washingtonpost.com,display,Germany,970x250,tablet,0.00325034,0.00029394,0.00016349,0.00370777,measured
+07/10/2025,bloomberg.com,video,Brazil,160x600,mobile,0.02265791,0.00017558,8.437e-05,0.02291786,modeled
+07/22/2025,espn.com,native,India,728x90,desktop,0.00468528,0.00013936,4.385e-05,0.00486848,modeled
+07/17/2025,usatoday.com,audio,United States,728x90,mobile,0.02741592,1.989e-05,4.082e-05,0.02747663,measured
+07/18/2025,washingtonpost.com,banner,China,300x250,mobile,0.00968471,0.00013352,0.00038014,0.01289418,modeled
+07/20/2025,nytimes.com,native,United States,300x250,desktop,0.02263197,5.006e-05,0.0002512,0.02293322,modeled
+07/06/2025,theverge.com,video,Germany,300x250,mobile,0.00385215,3.7e-05,0.00014172,0.00403088,modeled
+07/12/2025,bloomberg.com,audio,France,160x600,mobile,0.02850778,7.058e-05,0.00010358,0.02868194,measured
+06/29/2025,espn.com,banner,Canada,160x600,desktop,0.01356073,0.00017452,6.93e-05,0.01380455,modeled
+07/10/2025,usatoday.com,native,France,320x50,tablet,0.00695531,6.696e-05,0.00030565,0.00732792,measured
+07/11/2025,techcrunch.com,video,China,320x50,desktop,0.00954507,6.763e-05,3.028e-05,0.00964298,modeled
+07/15/2025,techcrunch.com,video,Canada,970x250,tablet,0.01397858,9.859e-05,4.391e-05,0.01412108,measured
+07/06/2025,fox32chicago.com,native,China,160x600,tablet,0.03494752,9.766e-05,8.669e-05,0.03513187,measured
+07/16/2025,reuters.com,display,United Kingdom,728x90,tablet,0.01963957,0.00011796,2.206e-05,0.01977959,modeled
+07/09/2025,usatoday.com,video,France,160x600,desktop,0.02019738,0.00018653,6.846e-05,0.02045237,modeled
+07/16/2025,usatoday.com,banner,Canada,300x600,mobile,0.01102914,6.287e-05,0.00022984,0.01979003,measured
+07/16/2025,forbes.com,video,France,300x600,desktop,0.00642785,0.00011411,0.00010212,0.00664407,modeled
+07/25/2025,forbes.com,native,China,300x600,mobile,0.0489874,6.682e-05,1.072e-05,0.04906494,modeled
+07/01/2025,yahoo.com,banner,France,970x250,desktop,0.02591246,0.00010999,0.0001514,0.02617386,modeled
+07/26/2025,msn.com,video,France,300x600,desktop,0.03662462,1.614e-05,6.001e-05,0.03670077,modeled
+07/09/2025,nytimes.com,audio,Germany,728x90,mobile,0.01607654,9.092e-05,0.00011463,0.01628209,measured
+07/05/2025,techcrunch.com,native,Canada,160x600,desktop,0.00384589,5.559e-05,0.00037397,0.00427546,modeled
+07/11/2025,engadget.com,banner,Brazil,160x600,mobile,0.00614226,7.903e-05,0.00018306,0.00640436,measured
+07/23/2025,espn.com,display,Germany,160x600,mobile,0.02815567,0.00012913,8.367e-05,0.02836847,measured
+07/05/2025,yahoo.com,native,Germany,728x90,desktop,0.00747206,0.00024622,0.00024062,0.0079589,measured
+07/25/2025,forbes.com,native,Brazil,160x600,mobile,0.01696792,0.0002045,3.771e-05,0.01721013,modeled
+07/19/2025,reuters.com,banner,United States,160x600,tablet,0.00139712,9.015e-05,0.00014936,0.00163663,measured
+07/01/2025,techcrunch.com,audio,Canada,970x250,mobile,0.00428092,0.00014667,1.782e-05,0.00444541,measured
+07/16/2025,theverge.com,video,France,160x600,desktop,0.02102009,0.0001228,0.00014296,0.02128586,modeled
+07/25/2025,bloomberg.com,native,China,970x250,desktop,0.00368269,0.00018182,8.601e-05,0.00395052,modeled
+07/04/2025,techcrunch.com,native,Australia,970x250,tablet,0.01077993,4.542e-05,0.0002116,0.01103694,modeled
+07/24/2025,espn.com,display,Japan,300x600,tablet,0.01033492,2.804e-05,0.00025365,0.01061662,modeled
+07/17/2025,techcrunch.com,banner,United Kingdom,970x250,tablet,0.01551832,0.00016232,0.00013127,0.01581191,measured
+07/20/2025,nytimes.com,display,Australia,300x250,desktop,0.00856143,1.327e-05,0.0001447,0.00871939,modeled
+07/22/2025,forbes.com,display,Australia,970x250,mobile,0.01259613,0.00013609,7.952e-05,0.01281174,modeled
+07/01/2025,nytimes.com,banner,India,160x600,tablet,0.02148055,7.952e-05,6.336e-05,0.02162343,modeled
+07/22/2025,espn.com,display,France,160x600,mobile,0.0106125,2.304e-05,0.00041201,0.01104755,modeled
+07/16/2025,espn.com,native,United Kingdom,300x250,mobile,0.02114806,2.151e-05,0.00039823,0.0215678,modeled
+06/28/2025,bloomberg.com,banner,United States,320x50,desktop,0.00606368,4.898e-05,0.00010668,0.00621934,modeled
+07/17/2025,msn.com,audio,Australia,300x600,mobile,0.01619874,0.00013358,1.588e-05,0.0163482,modeled
+07/25/2025,usatoday.com,display,Canada,728x90,mobile,0.0163939,6.398e-05,0.00014664,0.01660451,measured
+07/17/2025,engadget.com,banner,United Kingdom,160x600,tablet,0.01229625,5.504e-05,0.00011655,0.01246783,modeled
+07/08/2025,cnn.com,video,Japan,320x50,mobile,0.04798453,5.592e-05,0.00028209,0.04832253,modeled
+07/15/2025,bloomberg.com,banner,Canada,970x250,mobile,0.01775826,8.573e-05,0.00014768,0.01799167,measured
+07/23/2025,nytimes.com,audio,Australia,300x250,mobile,0.02283068,5.952e-05,0.00026913,0.02931048,measured
+07/09/2025,engadget.com,native,United Kingdom,320x50,tablet,0.02287083,2.513e-05,1.086e-05,0.02290682,measured
+07/02/2025,techcrunch.com,native,India,728x90,mobile,0.04701737,9.447e-05,3.547e-05,0.04714731,modeled
+07/26/2025,espn.com,banner,United Kingdom,160x600,tablet,0.01117036,0.00015034,0.00011123,0.01143193,modeled
+06/26/2025,techcrunch.com,native,Japan,970x250,desktop,0.01490275,0.00013164,0.00016188,0.01519627,measured
+07/17/2025,forbes.com,audio,France,300x600,desktop,0.02406632,0.00013067,7.018e-05,0.02426717,measured
+07/16/2025,techcrunch.com,video,Australia,728x90,mobile,0.00950194,3.938e-05,7.961e-05,0.00962093,measured
+06/29/2025,forbes.com,banner,France,300x600,mobile,0.014458,7.643e-05,0.00032057,0.014855,modeled
+06/30/2025,fox32chicago.com,audio,China,728x90,mobile,0.01953453,7.34e-05,5.132e-05,0.01965926,measured
+07/09/2025,theverge.com,audio,India,300x600,desktop,0.01250489,0.00024684,0.00039085,0.01314258,measured
+06/29/2025,engadget.com,native,France,970x250,mobile,0.01238212,1.531e-05,8.87e-05,0.01248613,measured
+06/30/2025,engadget.com,audio,United States,320x50,mobile,0.04036291,7.268e-05,0.00021077,0.04064636,modeled
+07/12/2025,engadget.com,video,Brazil,160x600,mobile,0.01585933,2.038e-05,0.00013034,0.01601005,modeled
+07/18/2025,usatoday.com,video,France,970x250,tablet,0.02880964,4.917e-05,0.00022632,0.02908513,modeled
+06/27/2025,forbes.com,banner,Germany,300x600,mobile,0.01707654,0.00013629,0.00016358,0.0173764,modeled
+07/06/2025,techcrunch.com,audio,United Kingdom,970x250,mobile,0.00681588,6.304e-05,9.827e-05,0.00697719,measured
+07/05/2025,msn.com,display,Germany,300x600,desktop,0.00944346,9.645e-05,0.00044163,0.00998154,modeled
+07/23/2025,espn.com,native,Brazil,320x50,desktop,0.03367028,0.0001837,7.167e-05,0.03392564,measured
+07/02/2025,fox32chicago.com,banner,China,970x250,desktop,0.03714831,0.00022755,6.965e-05,0.0374455,modeled
+07/08/2025,espn.com,display,United Kingdom,160x600,desktop,0.02211086,0.00011265,0.00010675,0.02233026,measured
+07/26/2025,espn.com,video,Australia,300x250,desktop,0.01817386,0.00011661,0.00011244,0.01840291,measured
+07/03/2025,espn.com,banner,Australia,160x600,tablet,0.03259386,2.527e-05,9.793e-05,0.03271707,measured
+07/08/2025,cnn.com,native,United Kingdom,970x250,tablet,0.02671342,0.00025728,0.00027194,0.02724264,measured
+07/25/2025,reuters.com,audio,United Kingdom,728x90,mobile,0.0178985,7.293e-05,0.00010242,0.01807384,modeled
+07/11/2025,espn.com,audio,United Kingdom,728x90,mobile,0.01286323,1.316e-05,0.00040066,0.01327706,measured
+07/22/2025,msn.com,native,India,300x250,tablet,0.01543906,4.118e-05,0.00017492,0.01565516,measured
+07/22/2025,nytimes.com,video,United Kingdom,300x600,tablet,0.00881825,0.00015255,6.774e-05,0.00903854,modeled
+07/01/2025,espn.com,banner,Germany,300x600,mobile,0.02756213,6.327e-05,0.00015871,0.02672877,measured
+07/23/2025,msn.com,video,India,160x600,tablet,0.0290201,5.218e-05,0.00022831,0.02930059,modeled
+06/26/2025,msn.com,audio,Japan,160x600,desktop,0.00277251,0.00021608,0.00025567,0.00324425,modeled
+07/14/2025,usatoday.com,video,India,970x250,desktop,0.01503292,0.00017944,0.00026726,0.01547961,measured
+07/17/2025,espn.com,video,France,300x600,tablet,0.0161005,7.985e-05,5.895e-05,0.0162393,modeled
+07/02/2025,reuters.com,display,India,320x50,mobile,0.0167619,1.969e-05,0.00021861,0.0170002,measured
+07/16/2025,washingtonpost.com,audio,Germany,728x90,desktop,0.02773503,1.411e-05,0.00032399,0.02807313,measured
+07/16/2025,reuters.com,audio,India,728x90,mobile,0.00968441,0.00043091,0.00015276,0.01026808,modeled
+07/22/2025,reuters.com,banner,Japan,300x600,desktop,0.04076212,3.578e-05,0.00010105,0.04089896,measured
+07/17/2025,cnn.com,display,Canada,728x90,desktop,0.01039246,1.931e-05,4.056e-05,0.01045234,modeled
+07/04/2025,cnn.com,video,United Kingdom,300x600,tablet,0.01458745,0.00010663,5.179e-05,0.01228899,modeled
+07/24/2025,usatoday.com,audio,Japan,320x50,tablet,0.0120187,4.389e-05,0.00012278,0.01218538,measured
+06/29/2025,techcrunch.com,audio,Canada,300x600,tablet,0.02589549,8.716e-05,8.019e-05,0.02606283,modeled
+07/24/2025,washingtonpost.com,video,India,970x250,desktop,0.03266276,0.00010415,0.00014252,0.03290943,measured
+06/30/2025,forbes.com,video,Canada,970x250,tablet,0.00654962,0.00015177,0.00017881,0.00688021,measured
+07/09/2025,usatoday.com,display,India,320x50,mobile,0.02318526,6.755e-05,9.336e-05,0.02334617,modeled
+07/12/2025,engadget.com,native,Japan,320x50,desktop,0.05025096,5.763e-05,4.311e-05,0.0503517,modeled
+07/16/2025,espn.com,display,United Kingdom,300x600,mobile,0.01848285,7.999e-05,0.00026933,0.01883217,modeled
+07/21/2025,theverge.com,native,Brazil,300x600,tablet,0.01432693,0.0001266,0.0003388,0.01479233,measured
+07/17/2025,reuters.com,native,United States,970x250,tablet,0.02142757,3.428e-05,0.00017491,0.02163677,modeled
+07/19/2025,espn.com,video,India,728x90,desktop,0.01218584,9.708e-05,0.00012871,0.01241163,modeled
+07/07/2025,weather.com,display,Germany,300x250,mobile,0.00527795,7.132e-05,5.206e-05,0.00540133,measured
+07/25/2025,yahoo.com,banner,France,970x250,tablet,0.0108274,0.00015143,0.0001364,0.01111522,modeled
+07/14/2025,bloomberg.com,native,United States,300x600,mobile,0.02426582,9.045e-05,0.00010304,0.02445931,measured
+06/27/2025,usatoday.com,video,Canada,160x600,mobile,0.01945684,1.633e-05,0.00021914,0.0196923,measured
+06/26/2025,msn.com,native,Germany,300x250,mobile,0.00803526,0.00011605,9.984e-05,0.00825115,measured
+06/26/2025,weather.com,native,Canada,728x90,tablet,0.00528132,4.65e-05,0.00018636,0.00551418,measured
+07/21/2025,yahoo.com,native,Canada,300x250,mobile,0.06107982,7.662e-05,0.00045134,0.06160778,measured
+07/24/2025,washingtonpost.com,native,Australia,970x250,mobile,0.00325669,6.627e-05,0.00012266,0.00344562,modeled
+07/24/2025,washingtonpost.com,audio,Brazil,160x600,tablet,0.02415785,4.805e-05,0.00016621,0.02769621,measured
+07/18/2025,theverge.com,video,Australia,300x250,desktop,0.01377639,0.00018476,0.00014796,0.01410911,measured
+07/21/2025,nytimes.com,native,Canada,300x600,tablet,0.08158296,6.931e-05,0.00028281,0.07504592,modeled
+06/26/2025,cnn.com,audio,France,728x90,tablet,0.04307284,4.26e-06,0.00021721,0.04329431,measured
+07/12/2025,engadget.com,native,France,728x90,mobile,0.01347161,3.01e-05,0.00029909,0.0138008,measured
+07/18/2025,msn.com,audio,France,970x250,tablet,0.01008739,1.524e-05,0.00015062,0.01025325,modeled
+06/30/2025,washingtonpost.com,native,Germany,300x250,tablet,0.04116146,3.048e-05,0.0002373,0.04142924,modeled
+07/02/2025,msn.com,video,France,320x50,mobile,0.00218772,0.00021566,0.00017387,0.00257726,modeled
+07/11/2025,washingtonpost.com,display,Canada,320x50,tablet,0.00550019,0.00013908,8.458e-05,0.00572384,measured
+07/09/2025,fox32chicago.com,video,Canada,320x50,mobile,0.00737657,5.191e-05,0.0002071,0.00763558,modeled
+07/04/2025,washingtonpost.com,display,Canada,320x50,desktop,0.00695641,6.44e-06,8.667e-05,0.00704951,modeled
+06/29/2025,forbes.com,audio,China,300x600,mobile,0.038424,0.00019039,8.295e-05,0.03869734,modeled
+07/03/2025,cnn.com,audio,Germany,300x250,desktop,0.01006038,4.771e-05,7.348e-05,0.01018156,modeled
+07/14/2025,yahoo.com,audio,United Kingdom,300x600,mobile,0.0097346,9.752e-05,0.0003124,0.01014452,modeled
+07/05/2025,espn.com,native,France,300x600,tablet,0.00694579,4.092e-05,0.00016935,0.00715606,modeled
+07/04/2025,yahoo.com,native,United Kingdom,300x250,mobile,0.02693971,1.969e-05,0.00039135,0.02735074,measured
+07/09/2025,washingtonpost.com,display,Germany,300x250,tablet,0.01253591,2.172e-05,2.989e-05,0.01258751,modeled
+06/27/2025,weather.com,audio,India,300x250,desktop,0.00349891,0.00017445,0.00013725,0.00381061,modeled
+07/10/2025,weather.com,video,Japan,728x90,desktop,0.03510865,7.39e-05,0.00027553,0.03545809,measured
+07/01/2025,techcrunch.com,audio,India,320x50,mobile,0.01449464,0.00012043,0.00012458,0.01473964,modeled
+07/23/2025,espn.com,video,India,320x50,desktop,0.01381405,3.794e-05,0.00021178,0.01406378,measured
+07/16/2025,washingtonpost.com,video,United States,728x90,tablet,0.00612354,0.00013221,0.00014198,0.00639773,measured
+06/29/2025,forbes.com,video,Japan,160x600,tablet,0.02694141,9.456e-05,0.00029628,0.02428149,measured
+07/05/2025,fox32chicago.com,display,France,728x90,mobile,0.02243384,9.015e-05,8.7e-06,0.02253269,modeled
+06/26/2025,forbes.com,audio,Japan,300x600,desktop,0.03805634,1.728e-05,3.815e-05,0.03811177,modeled
+07/22/2025,reuters.com,video,Australia,160x600,desktop,0.02874065,8.341e-05,2.898e-05,0.02885303,measured
+07/19/2025,yahoo.com,native,Germany,728x90,desktop,0.01004835,0.00018352,0.00014794,0.01037982,measured
+07/02/2025,fox32chicago.com,native,Germany,970x250,tablet,0.01699654,4.511e-05,0.00023564,0.0172773,modeled
+07/02/2025,yahoo.com,banner,Australia,970x250,tablet,0.01512699,0.0001286,6.579e-05,0.01532137,modeled
+06/30/2025,weather.com,banner,United Kingdom,970x250,desktop,0.06129722,0.00020651,0.00014676,0.06165049,modeled
+06/30/2025,bloomberg.com,banner,United States,300x600,tablet,0.02142144,5.065e-05,0.00021745,0.02168955,modeled
+07/22/2025,yahoo.com,video,Brazil,320x50,mobile,0.00145791,0.00024209,0.00020859,0.0019086,modeled
+07/11/2025,washingtonpost.com,banner,United Kingdom,300x250,desktop,0.00681425,0.00023817,0.00046287,0.00751529,modeled
+07/13/2025,theverge.com,native,France,160x600,desktop,0.02227116,4.174e-05,0.0001376,0.02245051,measured
+07/07/2025,bloomberg.com,native,United Kingdom,728x90,desktop,0.02461782,0.00010472,5.452e-05,0.02477706,modeled
+07/03/2025,reuters.com,banner,Canada,300x250,tablet,0.02430147,0.00018208,4.298e-05,0.02452653,measured
+06/30/2025,bloomberg.com,audio,Japan,320x50,mobile,0.0060245,4.888e-05,0.00011242,0.00618579,measured
+07/24/2025,theverge.com,banner,United Kingdom,728x90,tablet,0.02997869,0.00018071,6.422e-05,0.03022363,measured
+06/30/2025,techcrunch.com,banner,Brazil,300x250,tablet,0.01937872,0.0001758,0.00050863,0.02006315,measured
+07/09/2025,usatoday.com,native,Germany,320x50,mobile,0.01930349,0.00010049,0.00017896,0.01958295,measured
+07/11/2025,bloomberg.com,native,France,160x600,tablet,0.01289176,9.109e-05,1.593e-05,0.01299877,measured
+07/11/2025,engadget.com,audio,United Kingdom,970x250,mobile,0.01017799,0.00012016,6.087e-05,0.01035903,measured
+07/12/2025,nytimes.com,banner,France,320x50,tablet,0.03046609,1.482e-05,0.00023725,0.03071817,modeled
+07/11/2025,usatoday.com,display,Germany,160x600,desktop,0.0296013,0.0003216,9.983e-05,0.03002274,modeled
+07/22/2025,engadget.com,banner,Germany,970x250,tablet,0.0166922,0.00022661,0.00033214,0.01725095,measured
+06/30/2025,weather.com,audio,United Kingdom,300x250,mobile,0.03360801,0.00010736,0.00035605,0.03407142,modeled
+07/22/2025,usatoday.com,banner,France,300x250,tablet,0.07933305,0.00012821,0.00013849,0.07959976,modeled
+07/22/2025,yahoo.com,display,India,160x600,mobile,0.02784136,9.551e-05,0.00010708,0.02804395,modeled
+07/19/2025,espn.com,audio,United States,728x90,tablet,0.03055581,5.518e-05,0.00020217,0.03081316,modeled
+07/01/2025,engadget.com,audio,China,320x50,tablet,0.00379219,0.00024926,6.852e-05,0.01076357,measured
+07/03/2025,cnn.com,video,Germany,160x600,tablet,0.00468137,0.00020282,0.00036575,0.00524994,modeled
+06/27/2025,msn.com,native,United Kingdom,160x600,mobile,0.02115186,7.734e-05,0.00010181,0.02133101,modeled
+07/16/2025,techcrunch.com,video,Australia,320x50,desktop,0.02031624,8.076e-05,0.00011723,0.02051423,measured
+06/29/2025,washingtonpost.com,banner,United Kingdom,728x90,tablet,0.00775984,2.917e-05,0.00014257,0.00793159,measured
+06/26/2025,nytimes.com,video,United States,320x50,desktop,0.0198599,4.504e-05,8.137e-05,0.01998631,measured
+07/14/2025,usatoday.com,banner,Japan,320x50,mobile,0.01982463,3.787e-05,0.00027598,0.02013848,measured
+07/26/2025,weather.com,banner,Germany,320x50,mobile,0.02455826,4.467e-05,0.00018938,0.02479231,modeled
+07/24/2025,techcrunch.com,native,China,160x600,tablet,0.00774592,0.00014848,6.423e-05,0.00795863,modeled
+07/23/2025,bloomberg.com,video,United Kingdom,728x90,tablet,0.01523208,9.324e-05,0.00036206,0.01568739,measured
+07/16/2025,msn.com,audio,China,320x50,mobile,0.00850446,4.097e-05,3.244e-05,0.00857788,modeled
+07/21/2025,engadget.com,native,United States,728x90,desktop,0.05430097,8.56e-05,0.00028055,0.05466712,measured
+07/15/2025,yahoo.com,video,United States,320x50,tablet,0.01032676,5.582e-05,0.00012865,0.01051122,modeled
+07/23/2025,yahoo.com,video,Japan,300x250,mobile,0.01645368,0.00013568,0.00014002,0.01672938,modeled
+07/14/2025,forbes.com,native,Japan,320x50,mobile,0.01231301,0.00027486,6.13e-05,0.01264918,modeled
+07/16/2025,yahoo.com,native,Japan,160x600,tablet,0.00854629,3.882e-05,0.00022304,0.00880815,modeled
+07/25/2025,engadget.com,display,Canada,300x250,tablet,0.02315293,7.351e-05,5.922e-05,0.02328566,measured
+07/09/2025,bloomberg.com,video,United States,970x250,tablet,0.01858771,0.0001532,0.00037202,0.01911293,measured
+06/26/2025,espn.com,video,United Kingdom,160x600,mobile,0.0099507,7.331e-05,0.00018393,0.01020794,modeled
+07/17/2025,msn.com,banner,Brazil,300x250,desktop,0.01221085,2.385e-05,0.00011776,0.01235246,measured
+07/19/2025,nytimes.com,display,United Kingdom,320x50,tablet,0.00541675,0.00016235,0.00010421,0.0056833,measured
+07/11/2025,yahoo.com,native,Germany,728x90,tablet,0.01589028,4.374e-05,0.00013097,0.01606499,measured
+07/02/2025,techcrunch.com,native,Canada,160x600,desktop,0.03922182,0.00017461,5.02e-05,0.03944663,modeled
+06/27/2025,bloomberg.com,video,Japan,300x250,desktop,0.00044823,7.405e-05,0.00010479,0.00062708,modeled
+06/28/2025,forbes.com,audio,Australia,728x90,tablet,0.01245636,5.253e-05,4.909e-05,0.01255797,modeled
+07/24/2025,theverge.com,video,Japan,728x90,mobile,0.0672185,0.00027134,9.619e-05,0.06758603,modeled
+07/26/2025,techcrunch.com,display,Australia,970x250,tablet,0.01839072,0.00016434,0.00014676,0.01870182,measured
+07/08/2025,bloomberg.com,display,Germany,970x250,tablet,0.01124037,2.43e-05,0.0001346,0.01139927,modeled
+07/19/2025,theverge.com,native,Germany,320x50,desktop,0.00549952,0.00018719,0.00013003,0.00581674,measured
+07/21/2025,forbes.com,native,,728x90,tablet,0.02433407,6.391e-05,0.00023864,0.02463662,measured
+07/10/2025,forbes.com,audio,Australia,728x90,tablet,0.00976973,0.00010358,9.92e-05,0.0099725,modeled
+07/08/2025,bloomberg.com,display,United States,320x50,desktop,0.01396431,0.00016287,6.951e-05,0.01419669,modeled
+07/05/2025,bloomberg.com,native,Australia,320x50,mobile,0.02176644,0.00020234,0.00025412,0.02222291,modeled
+07/22/2025,espn.com,video,Canada,300x600,tablet,0.01001356,0.00011977,2.374e-05,0.01015707,measured
+07/01/2025,bloomberg.com,display,Australia,970x250,tablet,0.03333203,0.00039591,0.000167,0.03389495,measured
+07/26/2025,techcrunch.com,banner,United Kingdom,300x600,mobile,0.04181667,2.317e-05,5.423e-05,0.04189407,modeled
+06/29/2025,msn.com,display,United States,160x600,desktop,0.01274447,7.355e-05,0.00016778,0.0129858,modeled
+07/03/2025,engadget.com,display,United Kingdom,160x600,mobile,0.01005518,9.268e-05,0.00026024,0.0104081,measured
+07/25/2025,,audio,France,320x50,mobile,0.02389185,6.206e-05,0.00022556,0.02417947,measured
+07/24/2025,techcrunch.com,banner,France,160x600,desktop,0.01198356,8.891e-05,0.00025116,0.01232364,measured
+06/26/2025,reuters.com,audio,France,160x600,desktop,0.01440783,2.711e-05,0.00013928,0.02038443,measured
+07/15/2025,reuters.com,video,Australia,160x600,mobile,0.031586,0.00016793,5.217e-05,0.0318061,modeled
+07/12/2025,techcrunch.com,audio,United Kingdom,160x600,tablet,0.02741405,6.87e-05,0.00034944,0.02783219,modeled
+07/25/2025,nytimes.com,native,United States,300x250,tablet,0.00553504,0.00013527,0.00010063,0.00577094,modeled
+07/20/2025,msn.com,audio,United Kingdom,160x600,desktop,0.01019029,0.00016181,0.000287,0.0106391,modeled
+07/19/2025,techcrunch.com,video,France,320x50,desktop,0.00204851,0.00016379,0.00012639,0.00233869,measured
+07/13/2025,bloomberg.com,video,United Kingdom,970x250,desktop,0.01704092,2.62e-05,0.00020648,0.0172736,measured
+07/16/2025,theverge.com,video,United Kingdom,320x50,mobile,0.06829671,5.364e-05,0.00030559,0.06865594,modeled
+07/24/2025,usatoday.com,native,France,300x250,mobile,0.0165676,5.546e-05,3.418e-05,0.01665724,modeled
+07/21/2025,weather.com,native,Canada,728x90,desktop,0.04187092,9.071e-05,9.259e-05,0.03352574,modeled
+07/05/2025,usatoday.com,audio,Brazil,300x600,tablet,0.01321187,0.00013636,9.247e-05,0.00701424,modeled
+06/26/2025,nytimes.com,banner,India,300x600,tablet,0.00734334,7.621e-05,0.00011904,0.00753859,measured
+07/20/2025,nytimes.com,video,Germany,300x250,tablet,0.01462503,5.843e-05,0.0003127,0.01499617,measured
+07/18/2025,nytimes.com,audio,Canada,970x250,mobile,0.08448003,3.268e-05,1.329e-05,0.084526,measured
+07/10/2025,weather.com,video,Japan,728x90,tablet,0.01381007,9.7e-06,3.07e-05,0.01385047,measured
+07/23/2025,cnn.com,display,China,728x90,desktop,0.01088636,0.00013567,0.00010948,0.01113151,measured
+07/26/2025,weather.com,display,Japan,300x600,desktop,0.00111343,6.771e-05,0.00011486,0.001296,measured
+07/15/2025,usatoday.com,native,United Kingdom,728x90,desktop,0.01454716,0.00017625,0.00025059,0.014974,modeled
+07/26/2025,engadget.com,display,India,160x600,desktop,0.01761695,0.00029924,8.689e-05,0.01800308,measured
+06/29/2025,espn.com,video,United Kingdom,970x250,mobile,0.01508609,8.177e-05,3.378e-05,0.01520164,measured
+07/07/2025,usatoday.com,video,Canada,160x600,tablet,0.0166176,1.707e-05,7.579e-05,0.01671046,measured
+07/21/2025,weather.com,audio,France,728x90,desktop,0.01822089,2.485e-05,0.00017042,0.01841616,modeled
+07/13/2025,bloomberg.com,display,Australia,320x50,desktop,0.00821181,6.189e-05,0.00019249,0.00846618,modeled
+07/02/2025,weather.com,video,Brazil,300x600,mobile,0.01562717,0.00010472,0.00018407,0.01579464,modeled
+07/14/2025,bloomberg.com,banner,China,160x600,mobile,0.01542944,0.00010915,7.47e-05,0.01561329,modeled
+06/30/2025,msn.com,display,United States,970x250,desktop,0.02385031,6.94e-05,0.00031818,0.0242379,measured
+06/28/2025,washingtonpost.com,native,Canada,300x250,tablet,0.01850779,5.261e-05,0.00019321,0.0187536,measured
+07/20/2025,forbes.com,banner,Brazil,320x50,tablet,0.04094173,5.67e-05,7.837e-05,0.0410768,modeled
+06/29/2025,usatoday.com,video,Australia,728x90,desktop,0.00056688,9.237e-05,0.0001024,-0.00828167,modeled
+07/02/2025,msn.com,display,United States,300x250,desktop,0.02407878,0.00012226,3.542e-05,0.02423646,measured
+06/27/2025,forbes.com,display,Australia,970x250,desktop,0.03122866,4.302e-05,9.114e-05,0.03136283,modeled
+07/25/2025,usatoday.com,native,China,970x250,mobile,0.02139113,3.064e-05,7.907e-05,0.02150083,measured
+07/17/2025,bloomberg.com,display,Japan,970x250,mobile,0.00559054,0.00016557,9.775e-05,0.00585386,modeled
+07/03/2025,usatoday.com,video,France,970x250,desktop,0.00506283,2.716e-05,0.00023557,0.00532556,measured
+06/28/2025,bloomberg.com,video,Australia,160x600,desktop,0.00792756,5.588e-05,0.00013725,0.00812069,modeled
+07/06/2025,washingtonpost.com,audio,Germany,300x250,desktop,0.01292519,1.224e-05,0.0002076,0.01314503,measured
+07/03/2025,engadget.com,native,France,728x90,desktop,0.0137106,0.00010384,0.00021851,0.01403295,measured
+07/04/2025,reuters.com,native,Germany,300x250,tablet,0.00180267,0.00013746,0.00059362,0.00253375,measured
+06/29/2025,fox32chicago.com,native,India,320x50,mobile,0.022418,0.00020099,0.00025877,0.02287776,measured
+06/29/2025,nytimes.com,native,India,300x600,mobile,0.02678446,0.0001657,0.00029644,0.0272466,modeled
+06/27/2025,bloomberg.com,video,Australia,320x50,desktop,0.03806169,2.708e-05,0.00027641,0.03836518,measured
+07/08/2025,yahoo.com,banner,United Kingdom,970x250,desktop,0.01355234,0.00019497,0.0001908,0.01393811,measured
+07/26/2025,fox32chicago.com,banner,France,300x600,desktop,0.00533744,0.00021327,6.913e-05,0.00561984,modeled
+07/06/2025,espn.com,display,Canada,970x250,tablet,0.01391042,3.548e-05,0.00043805,0.01438394,modeled
+06/29/2025,usatoday.com,video,Germany,300x250,desktop,0.01298542,0.00019351,6.064e-05,0.01323957,modeled
+07/18/2025,nytimes.com,audio,Canada,970x250,mobile,0.08448003,3.268e-05,1.329e-05,0.084526,measured
+07/02/2025,usatoday.com,audio,Germany,728x90,desktop,0.01935695,7.436e-05,0.00012998,0.01956129,modeled
+07/09/2025,forbes.com,audio,Brazil,320x50,mobile,0.01309493,4.372e-05,0.00011174,0.01325038,measured
+07/24/2025,fox32chicago.com,audio,China,300x250,tablet,0.01958457,7.629e-05,0.00011179,0.01977265,measured
+07/18/2025,washingtonpost.com,banner,China,300x250,mobile,0.00968471,0.00013352,0.00038014,0.01289418,modeled
+06/29/2025,msn.com,display,United States,160x600,desktop,0.01274447,7.355e-05,0.00016778,0.0129858,modeled
+07/15/2025,msn.com,banner,Germany,728x90,tablet,0.02771953,0.00035313,0.00051028,0.02858294,measured
+07/18/2025,fox32chicago.com,video,Japan,300x250,mobile,0.01233167,6.772e-05,0.00037597,0.01277536,measured

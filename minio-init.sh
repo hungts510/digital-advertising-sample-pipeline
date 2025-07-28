@@ -5,8 +5,8 @@ MINIO_HOST="minio:9000"
 BUCKET="sample-bucket"
 ACCESS_KEY="minioadmin"
 SECRET_KEY="minioadmin"
-CSV_LOCAL_PATH="/data/sample.csv"
-CSV_REMOTE_NAME="sample.csv"
+CSV_LOCAL_PATH="/data/raw/advertising_emissions.csv"
+CSV_REMOTE_NAME="raw/advertising_emissions.csv"
 
 # Extract host and port for nc
 HOST=$(echo $MINIO_HOST | cut -d: -f1)
@@ -29,6 +29,9 @@ if ! mc ls myminio/$BUCKET >/dev/null 2>&1; then
 else
   echo "Bucket $BUCKET already exists."
 fi
+
+# Create raw directory in bucket
+mc mb -p myminio/$BUCKET/raw
 
 # Upload CSV file
 if mc ls myminio/$BUCKET/$CSV_REMOTE_NAME >/dev/null 2>&1; then
