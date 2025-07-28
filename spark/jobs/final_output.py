@@ -52,8 +52,10 @@ def feature_1_top_domains_by_emissions(df, output_path):
     # Add metadata
     result = top_domains.withColumn("generated_at", current_timestamp())
     
+    # Save as both Parquet and CSV
     result.write.mode("overwrite").parquet(f"{output_path}/top-domains-by-emissions")
-    print(f"✅ Saved top 10 domains by emissions ({result.count()} records)")
+    result.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/top-domains-by-emissions-csv")
+    print(f"✅ Saved top 10 domains by emissions ({result.count()} records) - Parquet & CSV")
     return result
 
 def feature_2_data_quality_issues(df, output_path):
@@ -111,8 +113,10 @@ def feature_2_data_quality_issues(df, output_path):
             ["column_name", "issue_count", "issue_type", "impact_percentage"]
         ).withColumn("generated_at", current_timestamp())
     
+    # Save as both Parquet and CSV
     quality_df.write.mode("overwrite").parquet(f"{output_path}/data-quality-issues")
-    print(f"✅ Saved data quality analysis ({quality_df.count()} issues found)")
+    quality_df.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/data-quality-issues-csv")
+    print(f"✅ Saved data quality analysis ({quality_df.count()} issues found) - Parquet & CSV")
     return quality_df
 
 def feature_3_emission_type_contributions(df, output_path):
@@ -144,8 +148,10 @@ def feature_3_emission_type_contributions(df, output_path):
         ["emission_type", "total_value", "percentage_contribution"]
     ).withColumn("generated_at", current_timestamp())
     
+    # Save as both Parquet and CSV
     contributions_df.write.mode("overwrite").parquet(f"{output_path}/emission-type-contributions")
-    print(f"✅ Saved emission type contributions ({contributions_df.count()} types)")
+    contributions_df.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/emission-type-contributions-csv")
+    print(f"✅ Saved emission type contributions ({contributions_df.count()} types) - Parquet & CSV")
     return contributions_df
 
 def feature_4_domain_coverage_by_format(df, output_path):
@@ -174,8 +180,10 @@ def feature_4_domain_coverage_by_format(df, output_path):
                          .withColumn("generated_at", current_timestamp())
                          .orderBy(col("avg_domain_coverage").desc()))
     
+    # Save as both Parquet and CSV
     coverage_by_format.write.mode("overwrite").parquet(f"{output_path}/domain-coverage-by-format")
-    print(f"✅ Saved domain coverage by format ({coverage_by_format.count()} formats)")
+    coverage_by_format.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/domain-coverage-by-format-csv")
+    print(f"✅ Saved domain coverage by format ({coverage_by_format.count()} formats) - Parquet & CSV")
     return coverage_by_format
 
 def feature_5_country_daily_trends(df, output_path):
@@ -195,8 +203,10 @@ def feature_5_country_daily_trends(df, output_path):
                    .withColumn("generated_at", current_timestamp())
                    .orderBy("country", "date"))
     
+    # Save as both Parquet and CSV
     daily_trends.write.mode("overwrite").parquet(f"{output_path}/country-daily-trends")
-    print(f"✅ Saved country daily trends ({daily_trends.count()} records)")
+    daily_trends.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/country-daily-trends-csv")
+    print(f"✅ Saved country daily trends ({daily_trends.count()} records) - Parquet & CSV")
     return daily_trends
 
 def feature_6_unusual_emission_patterns(df, output_path):
@@ -245,8 +255,17 @@ def feature_6_unusual_emission_patterns(df, output_path):
                        .withColumn("generated_at", current_timestamp())
                        .orderBy(col("z_score_avg").desc()))
     
+    # Save as both Parquet and CSV
     unusual_patterns.write.mode("overwrite").parquet(f"{output_path}/unusual-emission-patterns")
-    print(f"✅ Saved unusual emission patterns ({unusual_patterns.count()} domains flagged)")
+    
+    # For CSV, convert array column to string
+    unusual_patterns_csv = unusual_patterns.withColumn(
+        "pattern_flags_str", 
+        expr("array_join(filter(pattern_flags, x -> x is not null), ', ')")
+    ).drop("pattern_flags").withColumnRenamed("pattern_flags_str", "pattern_flags")
+    
+    unusual_patterns_csv.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/unusual-emission-patterns-csv")
+    print(f"✅ Saved unusual emission patterns ({unusual_patterns.count()} domains flagged) - Parquet & CSV")
     return unusual_patterns
 
 def feature_7_top_5_domains(df, output_path):
@@ -269,8 +288,10 @@ def feature_7_top_5_domains(df, output_path):
                     .withColumn("generated_at", current_timestamp())
                     .orderBy("rank"))
     
+    # Save as both Parquet and CSV
     top_5_domains.write.mode("overwrite").parquet(f"{output_path}/top-5-domains")
-    print(f"✅ Saved top 5 domains by total emissions ({top_5_domains.count()} records)")
+    top_5_domains.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/top-5-domains-csv")
+    print(f"✅ Saved top 5 domains by total emissions ({top_5_domains.count()} records) - Parquet & CSV")
     return top_5_domains
 
 def generate_summary_report(spark, output_path, feature_results):
@@ -292,8 +313,10 @@ def generate_summary_report(spark, output_path, feature_results):
         ["feature_name", "record_count", "description"]
     ).withColumn("generated_at", current_timestamp())
     
+    # Save as both Parquet and CSV
     summary_df.write.mode("overwrite").parquet(f"{output_path}/business-logic-summary")
-    print(f"✅ Saved business logic summary")
+    summary_df.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{output_path}/business-logic-summary-csv")
+    print(f"✅ Saved business logic summary - Parquet & CSV")
     return summary_df
 
 def process_business_logic(spark, input_path, output_path):
@@ -346,13 +369,20 @@ def process_business_logic(spark, input_path, output_path):
         summary = generate_summary_report(spark, output_path, feature_results)
         
         print("\n🎉 All business logic features completed successfully!")
-        print("📁 Output datasets created:")
-        for i, feature in enumerate([
+        print("📁 Output datasets created (Parquet + CSV):")
+        features = [
             "top-domains-by-emissions", "data-quality-issues", "emission-type-contributions",
             "domain-coverage-by-format", "country-daily-trends", "unusual-emission-patterns", 
             "top-5-domains", "business-logic-summary"
-        ]):
-            print(f"   📄 {output_path}/{feature}/")
+        ]
+        for feature in features:
+            print(f"   📄 {output_path}/{feature}/ (Parquet)")
+            print(f"   📄 {output_path}/{feature}-csv/ (CSV for easy viewing)")
+        
+        print("\n💡 Quick CSV viewing tips:")
+        print("   - CSV files are in *-csv/ directories")
+        print("   - Use MinIO Console (http://localhost:9001) to download and view")
+        print("   - Or copy from container: docker cp spark-master:/path/to/csv /local/path")
         
     except Exception as e:
         print(f"❌ Error during business logic processing: {str(e)}")

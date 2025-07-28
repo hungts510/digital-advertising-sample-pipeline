@@ -59,9 +59,9 @@ transform_data = BashOperator(
     dag=dag
 )
 
-# Task 4: Business Logic Implementation (Final Output)
-final_output = BashOperator(
-    task_id='final_output',
+# Task 4: Calculate Final Output (Business Logic Implementation)
+calculate_final_output = BashOperator(
+    task_id='calculate_final_output',
     bash_command=f'{spark_submit_cmd} /opt/bitnami/spark/jobs/final_output.py '
                 '--input_path s3a://sample-bucket/staging/advertising_emissions.parquet '
                 '--output_path s3a://sample-bucket/output',
@@ -69,4 +69,4 @@ final_output = BashOperator(
 )
 
 # Define task dependencies
-ingest_data >> stage_data >> transform_data >> final_output 
+ingest_data >> stage_data >> transform_data >> calculate_final_output 
