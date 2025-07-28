@@ -1,117 +1,234 @@
-# PySpark + MinIO + Airflow - Local Data Pipeline (Docker Compose)
+# Digital Advertising Emissions Data Pipeline
 
-## Overview
-This project provides a local data engineering stack using **PySpark**, **MinIO** (S3-compatible object storage), **Airflow** (orchestration), and **Docker Compose**. It is designed for rapid prototyping and local development of Spark jobs that interact with S3 storage and can be orchestrated with Airflow.
+A comprehensive data engineering stack for processing digital advertising emissions data using **Apache Spark**, **DBT**, **MinIO**, **Airflow**, and **Docker Compose**. This project provides both traditional Spark-based and modern SQL-first DBT-based data pipelines for local development and prototyping.
 
----
+## 🏗️ Architecture
 
-## Prerequisites
-- [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/)
-- (Optional) [Python 3.8+](https://www.python.org/) if you want to run/test PySpark jobs locally
+### Tech Stack
+- **Apache Spark**: Distributed data processing engine
+- **DBT (Data Build Tool)**: SQL-first transformation tool
+- **MinIO**: S3-compatible object storage
+- **Apache Airflow**: Workflow orchestration
+- **PostgreSQL**: Airflow metadata database
+- **Docker & Docker Compose**: Containerization
 
----
+### Data Pipeline Overview
+The project implements two parallel data processing approaches:
 
-## Quick Start: Clean and Create the Stack
+1. **Spark Pipeline**: Traditional PySpark-based ETL pipeline
+2. **DBT Pipeline**: Modern SQL-first transformation pipeline
 
-### 1. **Clone the repository**
-```sh
-git clone <your-repo-url>
-cd <your-repo-directory>
+Both pipelines process advertising emissions data through ingestion, staging, transformation, and business logic implementation stages.
+
+## 📁 Project Structure
+
+```
+digital-advertising-sample-pipeline/
+├── airflow/
+│   └── dags/
+│       ├── advertising_emissions_pipeline.py      # Spark-based DAG
+│       └── advertising_emissions_dbt_pipeline.py  # DBT-based DAG
+├── spark/
+│   ├── jobs/
+│   │   ├── ingest_data.py           # Data ingestion
+│   │   ├── stage_data.py            # Data staging & cleaning
+│   │   ├── transform_data.py        # Data transformation
+│   │   ├── final_output.py          # Business logic implementation
+│   │   └── test_business_model.py   # Data quality tests
+│   ├── conf/                        # Spark configuration
+│   └── init/                        # Initialization scripts
+├── dbt_project/
+│   ├── models/
+│   │   ├── staging/                 # Staging models
+│   │   ├── marts/                   # Data marts
+│   │   └── business_logic/          # Business logic models
+│   ├── tests/                       # DBT tests
+│   ├── docs/                        # Documentation
+│   └── Dockerfile                   # DBT container image
+├── data/
+│   └── raw/
+│       └── advertising_emissions.csv  # Sample dataset
+├── scripts/                         # Utility scripts
+├── docker-compose.yml               # Service definitions
+├── create-stack.sh                  # Stack setup script
+└── clean-stack.sh                   # Stack cleanup script
 ```
 
-### 2. **Clean the stack (recommended for a fresh start)**
-This will remove all containers, images, volumes, and networks related to this project, ensuring a clean environment:
-```sh
+## 🚀 Quick Start
+
+### Prerequisites
+- [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/)
+- At least 8GB RAM recommended
+
+### 1. Clone and Setup
+```bash
+git clone <your-repo-url>
+cd digital-advertising-sample-pipeline
+```
+
+### 2. Clean Start (Recommended)
+```bash
 ./clean-stack.sh
 ```
-- **Note:** This is safe to run multiple times and will not affect other Docker projects on your system.
 
-### 3. **Create and start the stack**
-This will build and launch all services:
-```sh
+### 3. Create and Start Services
+```bash
 ./create-stack.sh
 ```
-- This will:
-  - Start MinIO, Spark (master/worker), Airflow (webserver/scheduler), and Postgres
-  - Upload the sample CSV to MinIO
-  - Download all required Spark/Hadoop/AWS JARs for S3A support
-  - Set up all configs and volumes
-  - Create a default Airflow admin user
 
-### ⚠️ Note on Airflow Startup Time
+This will:
+- Start all Docker services
+- Initialize MinIO with sample data
+- Download required Spark/Hadoop JARs
+- Set up Airflow with default admin user
 
-After running `./create-stack.sh`, it may take **3–5 minutes** for the Airflow web UI to become accessible at [http://localhost:8081](http://localhost:8081). This is normal, especially after a full clean or on the first run, as Airflow needs to initialize its database and install dependencies.
+### 4. Access Services
 
-- You can check progress with:
-  ```sh
-  docker compose logs -f airflow-webserver
-  ```
-- The UI will be available once you see a message like:
-  `Listening at: http://0.0.0.0:8080`
+| Service | URL | Credentials |
+|---------|-----|-------------|
+| **MinIO Console** | [http://localhost:9001](http://localhost:9001) | `minioadmin` / `minioadmin` |
+| **Spark Master UI** | [http://localhost:8080](http://localhost:8080) | - |
+| **Airflow UI** | [http://localhost:8081](http://localhost:8081) | `admin` / `admin` |
 
-### 4. **Access the services**
-- **MinIO UI:** [http://localhost:9001](http://localhost:9001)
-  - **Username:** `minioadmin`
-  - **Password:** `minioadmin`
-- **Spark Master UI:** [http://localhost:8080](http://localhost:8080)
-- **Airflow UI:** [http://localhost:8081](http://localhost:8081)
-  - **Username:** `admin`
-  - **Password:** `admin`
-- The sample data should be in the `sample-bucket` bucket in MinIO.
+⚠️ **Note**: Airflow may take 3-5 minutes to fully initialize after first startup.
 
-### 5. **Run a PySpark job**
-- Example: Read a CSV from S3 and print its schema/rows
-- From inside the spark-master container:
-  ```sh
-  docker exec -it spark-master /bin/bash
-  spark-submit --master spark://spark-master:7077 /opt/bitnami/spark/jobs/read_s3_csv.py
-  ```
-- Or trigger via Airflow (see the DAG in `airflow/dags/`).
+## 📊 Data Pipelines
 
-### 6. **Add your own jobs**
-- Place new PySpark scripts in `spark/jobs/`.
-- Use the S3A path format: `s3a://sample-bucket/yourfile.csv`
-- All S3A configs are handled in `spark/conf/spark-defaults.conf` and `core-site.xml`.
+### Spark Pipeline (`advertising_emissions_pipeline`)
+Traditional PySpark-based pipeline with the following stages:
 
----
+1. **Data Ingestion**: Read CSV and convert to Parquet
+2. **Data Staging**: Clean and standardize data
+3. **Data Transformation**: Apply business transformations
+4. **Business Logic**: Calculate metrics and aggregations
+5. **Data Quality Testing**: Validate outputs
 
-## Cleaning the Stack (Advanced)
-If you ever want to fully reset your environment (for example, before testing changes or to ensure reproducibility), run:
-```sh
+**Data Flow**:
+```
+s3a://sample-bucket/raw/ → s3a://sample-bucket/staging/ → s3a://sample-bucket/output/
+```
+
+### DBT Pipeline (`advertising_emissions_dbt_pipeline`)
+Modern SQL-first pipeline using DBT for transformations:
+
+1. **Data Ingestion**: Ingest to DBT-specific raw folder
+2. **Data Staging**: DBT staging models
+3. **DBT Build**: Run all models, tests, and documentation
+4. **Documentation**: Generate DBT docs
+
+**Data Flow**:
+```
+s3a://sample-bucket/dbt/raw/ → s3a://sample-bucket/dbt/staging/ → DBT Models
+```
+
+### Key Features
+- **Top Domains Analysis**: Identify highest emitting domains
+- **Trend Analysis**: Time-series emission patterns
+- **Data Quality Checks**: Comprehensive validation rules
+- **Outlier Detection**: Statistical anomaly identification
+- **Emission Metrics**: Carbon footprint calculations
+
+## 🔧 Development
+
+### Running Spark Jobs
+```bash
+# Execute inside Spark master container
+docker exec -it spark-master spark-submit \
+  --master spark://spark-master:7077 \
+  /opt/bitnami/spark/jobs/your_job.py
+```
+
+### Running DBT Commands
+```bash
+# Execute inside DBT container
+docker exec -it dbt dbt run
+docker exec -it dbt dbt test
+docker exec -it dbt dbt docs generate
+```
+
+### Adding New Jobs
+1. **Spark Jobs**: Add Python files to `spark/jobs/`
+2. **DBT Models**: Add SQL files to `dbt_project/models/`
+3. **Airflow DAGs**: Add Python files to `airflow/dags/`
+
+### Data Access Patterns
+- **Spark**: Use `s3a://sample-bucket/` prefix for MinIO access
+- **DBT**: Models available via Spark's Hive metastore
+- **Local Files**: Mount volumes in `docker-compose.yml`
+
+## 🧪 Testing & Validation
+
+### Data Quality Checks
+Both pipelines include comprehensive data quality validation:
+- **Completeness**: Null value detection
+- **Accuracy**: Data type and range validation
+- **Consistency**: Cross-field validation
+- **Timeliness**: Date range checks
+
+### Running Tests
+```bash
+# Spark-based tests
+docker exec spark-master spark-submit /opt/bitnami/spark/jobs/test_business_model.py
+
+# DBT tests
+docker exec dbt dbt test
+```
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**Spark Jobs Failing**
+- Check S3A JARs are present: `docker exec spark-master ls /opt/bitnami/spark/jars/`
+- Verify MinIO connectivity: Test bucket access via MinIO console
+
+**DBT Connection Issues**
+- Ensure Spark master is running: `docker ps | grep spark-master`
+- Check DBT logs: `docker logs dbt`
+
+**Airflow DAGs Not Appearing**
+- Check DAG syntax: `docker exec airflow-webserver airflow dags list`
+- Review scheduler logs: `docker logs airflow-scheduler`
+
+**Storage Issues**
+- Monitor MinIO usage: Check console at [http://localhost:9001](http://localhost:9001)
+- Clean old data: Use MinIO console or `mc` commands
+
+### Log Access
+```bash
+# Service logs
+docker logs <container-name>
+
+# Follow logs in real-time
+docker logs -f <container-name>
+
+# Airflow task logs available in UI
+```
+
+## 🔄 Data Separation
+
+The project maintains separate data paths for each pipeline:
+- **Spark Pipeline**: `s3a://sample-bucket/{raw,staging,output}/`
+- **DBT Pipeline**: `s3a://sample-bucket/dbt/{raw,staging}/`
+
+This ensures no interference between pipeline runs and allows independent development.
+
+## 📚 Additional Resources
+
+- [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
+- [DBT Documentation](https://docs.getdbt.com/)
+- [Apache Airflow Documentation](https://airflow.apache.org/docs/)
+- [MinIO Documentation](https://min.io/docs/)
+
+## 🧹 Cleanup
+
+To completely reset the environment:
+```bash
 ./clean-stack.sh
 ```
-This will:
-- Stop and remove all containers, networks, and volumes defined in this project's `docker-compose.yml`
-- Remove all related Docker images
-- Remove any dangling images built by Compose
-- Remove only resources related to this project (safe for your other Docker projects)
+
+This safely removes all project-related Docker resources without affecting other projects.
 
 ---
 
-## Troubleshooting
-- **Dependency errors (ClassNotFoundException, NoClassDefFoundError):**
-  - Make sure all required Hadoop and AWS SDK v2 JARs are present in `/opt/bitnami/spark/jars/` in both master and worker containers.
-  - See the `spark-init.sh` logic (if present) or manually download missing JARs as described in the docs.
-- **MinIO/S3 errors:**
-  - Ensure MinIO is running and the sample data is uploaded to the correct bucket.
-- **Airflow issues:**
-  - Check the Airflow logs (`docker compose logs airflow-webserver`) and ensure all dependencies are installed.
-  - The default Airflow login is `admin` / `admin`.
-- **Permissions:**
-  - If you mount local directories, ensure they are writable by the container user (UID 1001 or root).
-
----
-
-## Notes
-- The stack is for local development and prototyping only.
-- All configuration is handled via Docker Compose and the `create-stack.sh` script.
-- You can extend the stack with more jobs, DAGs, or data as needed.
-- The `clean-stack.sh` script is a safe way to reset your environment for repeatable results.
-
----
-
-## Credits
-- Spark: https://spark.apache.org/
-- MinIO: https://min.io/
-- Airflow: https://airflow.apache.org/
-- Bitnami Docker images 
+**Note**: This stack is designed for local development and prototyping. For production use, additional security, scalability, and monitoring considerations are required. 
