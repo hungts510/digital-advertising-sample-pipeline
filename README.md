@@ -58,7 +58,6 @@ digital-advertising-sample-pipeline/
 
 ### Prerequisites
 - [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/)
-- At least 8GB RAM recommended
 
 ### 1. Clone and Setup
 ```bash
@@ -127,34 +126,6 @@ s3a://sample-bucket/dbt/raw/ → s3a://sample-bucket/dbt/staging/ → DBT Models
 - **Data Quality Checks**: Comprehensive validation rules
 - **Outlier Detection**: Statistical anomaly identification
 - **Emission Metrics**: Carbon footprint calculations
-
-## 🔧 Development
-
-### Running Spark Jobs
-```bash
-# Execute inside Spark master container
-docker exec -it spark-master spark-submit \
-  --master spark://spark-master:7077 \
-  /opt/bitnami/spark/jobs/your_job.py
-```
-
-### Running DBT Commands
-```bash
-# Execute inside DBT container
-docker exec -it dbt dbt run
-docker exec -it dbt dbt test
-docker exec -it dbt dbt docs generate
-```
-
-### Adding New Jobs
-1. **Spark Jobs**: Add Python files to `spark/jobs/`
-2. **DBT Models**: Add SQL files to `dbt_project/models/`
-3. **Airflow DAGs**: Add Python files to `airflow/dags/`
-
-### Data Access Patterns
-- **Spark**: Use `s3a://sample-bucket/` prefix for MinIO access
-- **DBT**: Models available via Spark's Hive metastore
-- **Local Files**: Mount volumes in `docker-compose.yml`
 
 ## 🧪 Testing & Validation
 
