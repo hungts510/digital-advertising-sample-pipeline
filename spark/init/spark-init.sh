@@ -149,8 +149,7 @@ mkdir -p /tmp/staging
 # Set proper permissions
 chmod 644 /opt/bitnami/spark/jars/*.jar
 
-echo "✅ Spark S3A configuration completed successfully!"
-echo "📄 Configuration files created:"
+echo "✅ Spark S3A configuration completed successfully!"echo "📄 Configuration files created:"
 echo "  - /opt/bitnami/spark/conf/spark-defaults.conf"
 echo "  - /opt/bitnami/spark/conf/core-site.xml"
 echo "📦 JAR files updated:"

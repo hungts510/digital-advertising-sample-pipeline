@@ -1,44 +1,41 @@
 FROM python:3.9-slim
 
-# Install system dependencies
+# Set working directory
+WORKDIR /usr/app/dbt
+
+# Install system dependencies including Java for Spark connectivity
 RUN apt-get update && apt-get install -y \
     curl \
-    openjdk-11-jdk \
+    git \
+    gcc \
+    g++ \
+    netcat-traditional \
+    default-jdk \
     && rm -rf /var/lib/apt/lists/*
 
 # Set JAVA_HOME
-ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+ENV JAVA_HOME=/usr/lib/jvm/default-java
 
-# Install DBT and dependencies
+# Install DBT core and Spark adapter
 RUN pip install --no-cache-dir \
-    dbt-core==1.8.7 \
-    dbt-spark==1.8.0 \
-    pyspark==3.5.0
-
-# Create app directory
-WORKDIR /usr/app/dbt
+    dbt-core==1.6.0 \
+    dbt-spark==1.6.0
 
 # Copy DBT project files
 COPY . .
 
-# Install DBT packages
-RUN dbt deps
-
-# Set DBT profiles directory
-ENV DBT_PROFILES_DIR=/usr/app/dbt
+# Install DBT dependencies
+RUN dbt deps --profiles-dir . || echo "No packages.yml found or deps failed"
 
 # Create entrypoint script
 RUN echo '#!/bin/bash\n\
-# Wait for Spark to be ready\n\
-echo "Waiting for Spark master to be ready..."\n\
-until curl -f http://spark-master:8080 > /dev/null 2>&1; do\n\
-  echo "Spark not ready, waiting..."\n\
-  sleep 5\n\
-done\n\
-echo "Spark is ready!"\n\
-\n\
-# Execute DBT command\n\
+echo "🔧 DBT container is ready"\n\
+echo "📁 Working directory: $(pwd)"\n\
+echo "🔍 Available files: $(ls -la)"\n\
 exec "$@"' > /entrypoint.sh && chmod +x /entrypoint.sh
 
+# Set the entrypoint
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["dbt", "run"] 
+
+# Default command - keep container alive
+CMD ["tail", "-f", "/dev/null"] 

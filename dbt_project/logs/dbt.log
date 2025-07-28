@@ -976,3 +976,31 @@ FROM cleaned_data
 [0m11:37:56.235442 [debug] [MainThread]: Command `dbt run` failed at 11:37:56.235388 after 8.87 seconds
 [0m11:37:56.235699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ee8370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107215c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077ecfa0>]}
 [0m11:37:56.235940 [debug] [MainThread]: Flushing usage events
+[0m09:01:00.814489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb9d850a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb906e580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb906e520>]}
+
+
+============================== 09:01:00.818734 | f40588ee-a463-481d-a69d-f3e60cbe1ab3 ==============================
+[0m09:01:00.818734 [info ] [MainThread]: Running with dbt=1.6.0
+[0m09:01:00.819215 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'partial_parse': 'True', 'printer_width': '80', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'static_parser': 'True', 'no_print': 'None', 'use_colors': 'True', 'introspect': 'True', 'profiles_dir': '.', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'invocation_command': 'dbt build --profiles-dir .', 'warn_error': 'None', 'log_cache_events': 'False', 'version_check': 'True', 'debug': 'False', 'log_path': '/usr/app/dbt/logs', 'quiet': 'False', 'fail_fast': 'False', 'use_experimental_parser': 'False'}
+[0m09:01:00.859384 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "advertising_emissions", target "dev" invalid: Runtime Error
+    thrift connection method requires additional dependencies. 
+    Install the additional required dependencies with `pip install dbt-spark[PyHive]`
+[0m09:01:00.860067 [debug] [MainThread]: Command `dbt build` failed at 09:01:00.859880 after 0.06 seconds
+[0m09:01:00.860475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb9d850a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb8fcaca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb8fca160>]}
+[0m09:01:00.860826 [debug] [MainThread]: Flushing usage events
+[0m10:06:02.560637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb3f0a6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb31fe5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb31fe550>]}
+
+
+============================== 10:06:02.563954 | 7f973ac8-3284-4014-99b9-665b40d3972d ==============================
+[0m10:06:02.563954 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:06:02.564454 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'debug': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'use_colors': 'True', 'log_cache_events': 'False', 'fail_fast': 'False', 'log_format': 'default', 'warn_error': 'None', 'invocation_command': 'dbt build --profiles-dir .', 'version_check': 'True', 'write_json': 'True', 'static_parser': 'True', 'target_path': 'None', 'partial_parse': 'True', 'printer_width': '80', 'no_print': 'None', 'quiet': 'False', 'log_path': '/usr/app/dbt/logs', 'indirect_selection': 'eager', 'profiles_dir': '.', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])'}
+[0m10:06:02.601099 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "advertising_emissions", target "dev" invalid: Runtime Error
+    thrift connection method requires additional dependencies. 
+    Install the additional required dependencies with `pip install dbt-spark[PyHive]`
+[0m10:06:02.601772 [debug] [MainThread]: Command `dbt build` failed at 10:06:02.601600 after 0.05 seconds
+[0m10:06:02.602084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb3f0a6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb313e0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb313ef10>]}
+[0m10:06:02.602373 [debug] [MainThread]: Flushing usage events

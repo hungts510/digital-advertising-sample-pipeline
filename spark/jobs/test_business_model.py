@@ -307,15 +307,65 @@ def run_all_tests(input_path=None):
     spark = create_spark_session()
     
     try:
-        # Load data - use test data if no input path provided
+        # Load data - if input_path is provided, test the business logic outputs
         if input_path:
-            print(f"Loading data from: {input_path}")
-            df = spark.read.parquet(input_path)
+            print(f"Testing business logic outputs from: {input_path}")
+            # Test the specific datasets created by final_output.py
+            datasets_to_test = [
+                "top-domains-by-emissions",
+                "data-quality-issues", 
+                "emission-type-contributions",
+                "domain-coverage-by-format",
+                "country-daily-trends",
+                "unusual-emission-patterns",
+                "top-5-domains",
+                "business-logic-summary"
+            ]
+            
+            print("📊 Testing business logic datasets:")
+            all_tests_passed = True
+            
+            # Datasets that SHOULD be empty when data quality is good
+            should_be_empty_when_good = {
+                "unusual-emission-patterns",  # Should be empty = no unusual patterns (good!)
+                "data-quality-issues"        # Should be empty = no quality issues (good!)
+            }
+            
+            for dataset in datasets_to_test:
+                try:
+                    dataset_path = f"{input_path}/{dataset}"
+                    df = spark.read.parquet(dataset_path)
+                    count = df.count()
+                    cols = len(df.columns)
+                    
+                    if count == 0 and dataset in should_be_empty_when_good:
+                        print(f"   ✅ {dataset}: {count} rows, {cols} columns (empty = good quality!)")
+                    elif count == 0:
+                        print(f"   ❌ {dataset}: {count} rows, {cols} columns (should have data)")
+                        all_tests_passed = False
+                    else:
+                        if dataset in should_be_empty_when_good:
+                            print(f"   ⚠️ {dataset}: {count} rows, {cols} columns (found issues - investigate)")
+                        else:
+                            print(f"   ✅ {dataset}: {count} rows, {cols} columns")
+                        
+                except Exception as e:
+                    print(f"   ❌ {dataset}: Failed to read - {str(e)}")
+                    all_tests_passed = False
+            
+            if not all_tests_passed:
+                raise Exception("Some business logic datasets failed validation")
+                
+            # Use the original staging data for detailed business logic tests
+            # The business logic summary is just metadata, we need the actual data
+            staging_data_path = "s3a://sample-bucket/staging/advertising_emissions.parquet"
+            df = spark.read.parquet(staging_data_path)
+            print(f"\n📋 Using original staging data for detailed tests: {df.count()} rows, {len(df.columns)} columns")
         else:
             print("Using generated test data")
             df = create_test_data(spark)
+            print(f"Dataset shape: {df.count()} rows, {len(df.columns)} columns")
         
-        print(f"Dataset shape: {df.count()} rows, {len(df.columns)} columns")
         print("Dataset schema:")
         df.printSchema()
         

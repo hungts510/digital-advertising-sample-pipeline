@@ -68,5 +68,13 @@ calculate_final_output = BashOperator(
     dag=dag
 )
 
+# Task 5: Test Business Logic Outputs
+test_business_logic = BashOperator(
+    task_id='test_business_logic',
+    bash_command=f'{spark_submit_cmd} /opt/bitnami/spark/jobs/test_business_model.py '
+                '--input_path s3a://sample-bucket/output',
+    dag=dag
+)
+
 # Define task dependencies
-ingest_data >> stage_data >> transform_data >> calculate_final_output 
+ingest_data >> stage_data >> transform_data >> calculate_final_output >> test_business_logic 

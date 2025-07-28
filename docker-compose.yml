@@ -164,6 +164,7 @@ services:
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./spark:/opt/airflow/spark
+      - ./dbt_project:/opt/airflow/dbt_project
       - /var/run/docker.sock:/var/run/docker.sock
     networks:
       - spark-net
@@ -182,6 +183,7 @@ services:
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./spark:/opt/airflow/spark
+      - ./dbt_project:/opt/airflow/dbt_project
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "8081:8080"
@@ -208,6 +210,7 @@ services:
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./spark:/opt/airflow/spark
+      - ./dbt_project:/opt/airflow/dbt_project
       - /var/run/docker.sock:/var/run/docker.sock
     depends_on:
       - airflow-webserver
@@ -216,6 +219,20 @@ services:
     command: scheduler
     networks:
       - spark-net
+
+  dbt:
+    build: ./dbt_project
+    container_name: dbt
+    environment:
+      - DBT_PROFILES_DIR=/usr/app/dbt
+    volumes:
+      - ./dbt_project:/usr/app/dbt
+    depends_on:
+      - spark-master
+      - minio
+    networks:
+      - spark-net
+    command: ["tail", "-f", "/dev/null"]  # Keep container running
 
 volumes:
   minio_data:
