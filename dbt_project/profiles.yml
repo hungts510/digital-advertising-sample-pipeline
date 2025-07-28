@@ -1,0 +1,36 @@
+advertising_emissions:
+  target: dev
+  outputs:
+    dev:
+      type: spark
+      method: thrift
+      schema: advertising_dev
+      host: spark-master
+      port: 10000
+      auth: NOSASL
+      driver: "/usr/local/lib/python3.9/site-packages/pyhive"
+      
+    prod:
+      type: spark
+      method: thrift
+      schema: advertising_prod
+      host: spark-master
+      port: 10000
+      auth: NOSASL
+
+# Session-based connection (alternative)
+advertising_emissions_session:
+  target: dev
+  outputs:
+    dev:
+      type: spark
+      method: session
+      schema: advertising_dev
+      spark_config:
+        spark.sql.warehouse.dir: "/tmp/warehouse"
+        spark.hadoop.fs.s3a.endpoint: "http://minio:9000"
+        spark.hadoop.fs.s3a.access.key: "minioadmin"
+        spark.hadoop.fs.s3a.secret.key: "minioadmin"
+        spark.hadoop.fs.s3a.path.style.access: "true"
+        spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
+        spark.hadoop.fs.s3a.connection.ssl.enabled: "false" 

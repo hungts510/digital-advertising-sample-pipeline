@@ -1,0 +1,59 @@
+name: 'advertising_emissions'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'advertising_emissions'
+
+# These configurations specify where dbt should look for different types of files.
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+# Configuring models
+models:
+  advertising_emissions:
+    # Staging models
+    staging:
+      +materialized: table
+      +schema: staging
+    
+    # Business model processing
+    marts:
+      +materialized: table
+      +schema: marts
+      
+    # Business logic implementation
+    business_logic:
+      +materialized: table
+      +schema: business_logic
+
+# Test configurations
+tests:
+  +store_failures: true
+  +schema: test_failures
+
+# Documentation
+docs-paths: ["docs"]
+
+# Seeds configuration
+seeds:
+  advertising_emissions:
+    +schema: raw
+
+# Variables
+vars:
+  # Date ranges for incremental models
+  start_date: '2024-01-01'
+  end_date: '2024-12-31'
+  
+  # Data quality thresholds
+  null_threshold: 0.05  # 5% null values allowed
+  duplicate_threshold: 0.01  # 1% duplicates allowed 

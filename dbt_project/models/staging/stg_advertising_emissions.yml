@@ -1,0 +1,115 @@
+version: 2
+
+models:
+  - name: stg_advertising_emissions
+    description: Cleaned and standardized advertising emissions data with data quality scoring
+    columns:
+      - name: event_date
+        description: Date of the advertising event
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: '2024-01-01'
+              max_value: '2024-12-31'
+              
+      - name: domain
+        description: Website domain (cleaned and lowercased)
+        tests:
+          - not_null
+          - dbt_utils.not_empty_string
+          
+      - name: ad_format
+        description: Advertisement format type (cleaned and lowercased)
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['banner', 'video', 'native', 'display', 'search']
+              
+      - name: country_code
+        description: Country code (cleaned and uppercased)
+        tests:
+          - not_null
+          - dbt_utils.not_empty_string
+          
+      - name: device_type
+        description: Device type (cleaned and lowercased)
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['mobile', 'desktop', 'tablet']
+              
+      - name: total_emissions
+        description: Total CO2 emissions in kg
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: -5.0  # Allow negative for carbon credits
+              max_value: 20.0
+              
+      - name: ad_selection_emissions
+        description: CO2 emissions from ad selection process
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: -1.0
+              max_value: 10.0
+              
+      - name: creative_distribution_emissions
+        description: CO2 emissions from creative distribution
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: -1.0
+              max_value: 10.0
+              
+      - name: media_distribution_emissions
+        description: CO2 emissions from media distribution
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: -1.0
+              max_value: 10.0
+              
+      - name: data_quality_score
+        description: Data quality score (0-100)
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 100
+              
+      - name: domain_coverage
+        description: Domain coverage classification
+        tests:
+          - not_null
+          
+    tests:
+      # Custom business logic tests
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - event_date
+            - domain
+            - ad_format
+            - country_code
+            - device_type
+            - ad_size
+      
+      # Data quality tests
+      - assert_emissions_components_sum_to_total
+      - assert_minimum_data_quality_threshold
+      - assert_reasonable_emission_ranges
+      - assert_no_extreme_outliers
+
+# Custom tests for business logic validation
+tests:
+  - name: assert_emissions_components_sum_to_total
+    description: "Test that ad_selection + creative_distribution + media_distribution approximately equals total_emissions"
+    
+  - name: assert_minimum_data_quality_threshold
+    description: "Test that at least 95% of records have data_quality_score >= 50"
+    
+  - name: assert_reasonable_emission_ranges
+    description: "Test that emissions values are within reasonable business ranges"
+    
+  - name: assert_no_extreme_outliers
+    description: "Test that there are no extreme outliers beyond 3 standard deviations" 

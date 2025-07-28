@@ -1,0 +1,99 @@
+version: 2
+
+sources:
+  - name: raw_advertising
+    description: Raw advertising emissions data from MinIO S3 bucket
+    tables:
+      - name: advertising_emissions_raw
+        description: Raw advertising emissions data in CSV format
+        external:
+          location: 's3a://sample-bucket/raw/advertising_emissions.csv'
+          file_format: csv
+          options:
+            header: true
+            infer_schema: true
+        columns:
+          - name: date
+            description: Date of the advertising event
+            tests:
+              - not_null
+              - dbt_utils.accepted_range:
+                  min_value: '2024-01-01'
+                  max_value: '2024-12-31'
+          
+          - name: domain
+            description: Website domain serving the advertisement
+            tests:
+              - not_null
+              - dbt_utils.not_empty_string
+          
+          - name: format
+            description: Advertisement format type
+            tests:
+              - not_null
+              - accepted_values:
+                  values: ['banner', 'video', 'native', 'display', 'search']
+          
+          - name: country
+            description: Country where the ad was served
+            tests:
+              - not_null
+              - dbt_utils.not_empty_string
+          
+          - name: ad_size
+            description: Size dimensions of the advertisement
+            tests:
+              - not_null
+          
+          - name: device
+            description: Device type (mobile, desktop, tablet)
+            tests:
+              - not_null
+              - accepted_values:
+                  values: ['mobile', 'desktop', 'tablet']
+          
+          - name: adSelectionEmissions
+            description: CO2 emissions from ad selection process (kg)
+            tests:
+              - not_null
+              - dbt_utils.accepted_range:
+                  min_value: -1.0  # Allow negative values for carbon credits
+                  max_value: 10.0
+          
+          - name: creativeDistributionEmissions
+            description: CO2 emissions from creative distribution (kg)
+            tests:
+              - not_null
+              - dbt_utils.accepted_range:
+                  min_value: -1.0
+                  max_value: 10.0
+          
+          - name: mediaDistributionEmissions
+            description: CO2 emissions from media distribution (kg)
+            tests:
+              - not_null
+              - dbt_utils.accepted_range:
+                  min_value: -1.0
+                  max_value: 10.0
+          
+          - name: totalEmissions
+            description: Total CO2 emissions (kg)
+            tests:
+              - not_null
+              - dbt_utils.accepted_range:
+                  min_value: -5.0  # Allow negative totals for net carbon credits
+                  max_value: 20.0
+          
+          - name: domainCoverage
+            description: Domain coverage metric
+            tests:
+              - not_null
+
+  # Staged parquet data source
+  - name: staged_advertising
+    description: Cleaned and staged advertising emissions data
+    tables:
+      - name: advertising_emissions_staged
+        description: Staged advertising emissions in Parquet format
+        meta:
+          external_location: 's3a://sample-bucket/staging/advertising_emissions.parquet' 

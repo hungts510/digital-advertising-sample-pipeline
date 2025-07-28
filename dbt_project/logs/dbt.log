@@ -1,0 +1,978 @@
+[0m11:35:45.802009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e383d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104be51c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c33f70>]}
+
+
+============================== 11:35:45.805440 | ed8a0b6d-f7e1-4a58-a0be-615ed4249453 ==============================
+[0m11:35:45.805440 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:35:45.805892 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/hungts/data/dev/digital-advertising-sample-pipeline/dbt_project', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/hungts/data/dev/digital-advertising-sample-pipeline/dbt_project/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:35:45.849725 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m11:35:45.850239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ed8a0b6d-f7e1-4a58-a0be-615ed4249453', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045350a0>]}
+[0m11:35:45.891448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ed8a0b6d-f7e1-4a58-a0be-615ed4249453', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c46bb0>]}
+[0m11:35:45.903315 [debug] [MainThread]: Set downloads directory='/var/folders/y9/z8vmx_wd5ybf9y29qmfk66x80000gn/T/dbt-downloads-ijqr8giv'
+[0m11:35:45.903749 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m11:35:46.106058 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m11:35:46.106604 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m11:35:46.194469 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m11:35:46.201853 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json
+[0m11:35:46.342657 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json 200
+[0m11:35:46.344484 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `calogica/dbt_expectations` package is deprecated in favor of
+`metaplane/dbt_expectations`. Please update your `packages.yml` configuration to
+use `metaplane/dbt_expectations` instead.
+[0m11:35:46.345262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ed8a0b6d-f7e1-4a58-a0be-615ed4249453', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e0cd60>]}
+[0m11:35:46.349178 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/audit_helper.json
+[0m11:35:46.500406 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/audit_helper.json 200
+[0m11:35:46.503298 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json
+[0m11:35:46.651167 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json 200
+[0m11:35:46.668464 [info ] [MainThread]: Updating lock file in file path: /Users/hungts/data/dev/digital-advertising-sample-pipeline/dbt_project/package-lock.yml
+[0m11:35:46.671571 [debug] [MainThread]: Set downloads directory='/var/folders/y9/z8vmx_wd5ybf9y29qmfk66x80000gn/T/dbt-downloads-ystmzg5k'
+[0m11:35:46.678966 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m11:35:47.244133 [info ] [MainThread]: Installed from version 1.1.1
+[0m11:35:47.244563 [info ] [MainThread]: Updated version available: 1.3.0
+[0m11:35:47.244839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'ed8a0b6d-f7e1-4a58-a0be-615ed4249453', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103785760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee5fd0>]}
+[0m11:35:47.245083 [info ] [MainThread]: Installing calogica/dbt_expectations
+[0m11:35:48.163344 [info ] [MainThread]: Installed from version 0.10.3
+[0m11:35:48.163653 [info ] [MainThread]: Updated version available: 0.10.4
+[0m11:35:48.163880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'ed8a0b6d-f7e1-4a58-a0be-615ed4249453', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e7c4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103749220>]}
+[0m11:35:48.164115 [info ] [MainThread]: Installing dbt-labs/audit_helper
+[0m11:35:48.565746 [info ] [MainThread]: Installed from version 0.9.0
+[0m11:35:48.566241 [info ] [MainThread]: Updated version available: 0.12.1
+[0m11:35:48.566617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'ed8a0b6d-f7e1-4a58-a0be-615ed4249453', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee5d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee51f0>]}
+[0m11:35:48.567006 [info ] [MainThread]: Installing calogica/dbt_date
+[0m11:35:48.968736 [info ] [MainThread]: Installed from version 0.10.1
+[0m11:35:48.969119 [info ] [MainThread]: Up to date!
+[0m11:35:48.969421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'ed8a0b6d-f7e1-4a58-a0be-615ed4249453', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f8e130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f8ee80>]}
+[0m11:35:48.969733 [info ] [MainThread]: 
+[0m11:35:48.969999 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils', 'calogica/dbt_expectations', 'dbt-labs/audit_helper']                 
+Update your versions in packages.yml, then run dbt deps
+[0m11:35:48.986231 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 3.2353723, "process_user_time": 1.025947, "process_kernel_time": 0.234518, "process_mem_max_rss": "103907328", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:35:48.986712 [debug] [MainThread]: Command `dbt deps` succeeded at 11:35:48.986620 after 3.24 seconds
+[0m11:35:48.987027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e383d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e1dd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103749220>]}
+[0m11:35:48.987333 [debug] [MainThread]: Flushing usage events
+[0m11:36:00.174177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103338370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050e9160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10512d8b0>]}
+
+
+============================== 11:36:00.177141 | 934dfb21-3e3f-49ab-a59b-4065c7fcfc8e ==============================
+[0m11:36:00.177141 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:36:00.177497 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/hungts/data/dev/digital-advertising-sample-pipeline/dbt_project', 'log_path': '/Users/hungts/data/dev/digital-advertising-sample-pipeline/dbt_project/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:36:00.250349 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:36:00.250840 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:36:00.251133 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:36:03.588016 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m11:36:03.588407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105354550>]}
+[0m11:36:03.642542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107593c10>]}
+[0m11:36:03.676146 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f8bb0>]}
+[0m11:36:03.676660 [info ] [MainThread]: Registered adapter: spark=1.8.0
+[0m11:36:03.709834 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m11:36:03.710571 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m11:36:03.710812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12708f400>]}
+[0m11:36:05.298853 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.advertising_emissions
+[0m11:36:05.308976 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13412f640>]}
+[0m11:36:05.461172 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12743fd00>]}
+[0m11:36:05.461605 [info ] [MainThread]: Found 7 models, 48 data tests, 2 sources, 869 macros
+[0m11:36:05.461830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x127401fa0>]}
+[0m11:36:05.463277 [info ] [MainThread]: 
+[0m11:36:05.463691 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m11:36:05.468447 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m11:36:05.475728 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m11:36:05.475995 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m11:36:05.476177 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:36:12.530279 [debug] [ThreadPool]: SQL status: OK in 7.054 seconds
+[0m11:36:12.622443 [debug] [ThreadPool]: On list_schemas: Close
+[0m11:36:12.625470 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m11:36:12.625711 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m11:36:12.625894 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:12.658526 [debug] [ThreadPool]: SQL status: OK in 0.033 seconds
+[0m11:36:12.666160 [debug] [ThreadPool]: On list_schemas: Close
+[0m11:36:12.669494 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m11:36:12.669770 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m11:36:12.669963 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:12.686172 [debug] [ThreadPool]: SQL status: OK in 0.016 seconds
+[0m11:36:12.694246 [debug] [ThreadPool]: On list_schemas: Close
+[0m11:36:12.694882 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now create__advertising_dev_staging)
+[0m11:36:12.695251 [debug] [ThreadPool]: Creating schema "schema: "advertising_dev_staging"
+"
+[0m11:36:12.698971 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:12.699240 [debug] [ThreadPool]: Using spark connection "create__advertising_dev_staging"
+[0m11:36:12.699432 [debug] [ThreadPool]: On create__advertising_dev_staging: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "create__advertising_dev_staging"} */
+create schema if not exists advertising_dev_staging
+  
+[0m11:36:12.699609 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:13.033491 [debug] [ThreadPool]: SQL status: OK in 0.334 seconds
+[0m11:36:13.034233 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m11:36:13.034448 [debug] [ThreadPool]: On create__advertising_dev_staging: ROLLBACK
+[0m11:36:13.034630 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.034799 [debug] [ThreadPool]: On create__advertising_dev_staging: Close
+[0m11:36:13.035152 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create__advertising_dev_staging, now create__advertising_dev_business_logic)
+[0m11:36:13.035453 [debug] [ThreadPool]: Creating schema "schema: "advertising_dev_business_logic"
+"
+[0m11:36:13.037337 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.037517 [debug] [ThreadPool]: Using spark connection "create__advertising_dev_business_logic"
+[0m11:36:13.037690 [debug] [ThreadPool]: On create__advertising_dev_business_logic: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "create__advertising_dev_business_logic"} */
+create schema if not exists advertising_dev_business_logic
+  
+[0m11:36:13.037861 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:13.079204 [debug] [ThreadPool]: SQL status: OK in 0.041 seconds
+[0m11:36:13.079968 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m11:36:13.080207 [debug] [ThreadPool]: On create__advertising_dev_business_logic: ROLLBACK
+[0m11:36:13.080412 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.080781 [debug] [ThreadPool]: On create__advertising_dev_business_logic: Close
+[0m11:36:13.081283 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create__advertising_dev_business_logic, now create__advertising_dev_marts)
+[0m11:36:13.081670 [debug] [ThreadPool]: Creating schema "schema: "advertising_dev_marts"
+"
+[0m11:36:13.083863 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.084081 [debug] [ThreadPool]: Using spark connection "create__advertising_dev_marts"
+[0m11:36:13.084266 [debug] [ThreadPool]: On create__advertising_dev_marts: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "create__advertising_dev_marts"} */
+create schema if not exists advertising_dev_marts
+  
+[0m11:36:13.084440 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:13.118121 [debug] [ThreadPool]: SQL status: OK in 0.034 seconds
+[0m11:36:13.118994 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m11:36:13.119400 [debug] [ThreadPool]: On create__advertising_dev_marts: ROLLBACK
+[0m11:36:13.119616 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.119797 [debug] [ThreadPool]: On create__advertising_dev_marts: Close
+[0m11:36:13.123253 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create__advertising_dev_marts, now list_None_advertising_dev_staging)
+[0m11:36:13.128365 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.128611 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_staging"
+[0m11:36:13.128793 [debug] [ThreadPool]: On list_None_advertising_dev_staging: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_staging"} */
+show table extended in advertising_dev_staging like '*'
+  
+[0m11:36:13.128965 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:13.190784 [debug] [ThreadPool]: SQL status: OK in 0.062 seconds
+[0m11:36:13.198128 [debug] [ThreadPool]: On list_None_advertising_dev_staging: ROLLBACK
+[0m11:36:13.198457 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.198648 [debug] [ThreadPool]: On list_None_advertising_dev_staging: Close
+[0m11:36:13.198986 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_None_advertising_dev_staging, now list_None_advertising_dev_business_logic)
+[0m11:36:13.200983 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.201251 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_business_logic"
+[0m11:36:13.201465 [debug] [ThreadPool]: On list_None_advertising_dev_business_logic: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_business_logic"} */
+show table extended in advertising_dev_business_logic like '*'
+  
+[0m11:36:13.201656 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:13.214654 [debug] [ThreadPool]: SQL status: OK in 0.013 seconds
+[0m11:36:13.221797 [debug] [ThreadPool]: On list_None_advertising_dev_business_logic: ROLLBACK
+[0m11:36:13.222130 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.222310 [debug] [ThreadPool]: On list_None_advertising_dev_business_logic: Close
+[0m11:36:13.222628 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_None_advertising_dev_business_logic, now list_None_advertising_dev_test_failures)
+[0m11:36:13.224599 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.224885 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_test_failures"
+[0m11:36:13.225068 [debug] [ThreadPool]: On list_None_advertising_dev_test_failures: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_test_failures"} */
+show table extended in advertising_dev_test_failures like '*'
+  
+[0m11:36:13.225260 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:13.249425 [debug] [ThreadPool]: Spark adapter: Error while running:
+/* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_test_failures"} */
+show table extended in advertising_dev_test_failures like '*'
+  
+[0m11:36:13.249748 [debug] [ThreadPool]: Spark adapter: Runtime Error
+  [SCHEMA_NOT_FOUND] The schema `advertising_dev_test_failures` cannot be found. Verify the spelling and correctness of the schema and catalog.
+  If you did not qualify the name with a catalog, verify the current_schema() output, or qualify the name with the correct catalog.
+  To tolerate the error on drop use DROP SCHEMA IF EXISTS.
+[0m11:36:13.250010 [debug] [ThreadPool]: Spark adapter: Error while running:
+macro list_relations_without_caching
+[0m11:36:13.250196 [debug] [ThreadPool]: Spark adapter: Runtime Error
+  Runtime Error
+    [SCHEMA_NOT_FOUND] The schema `advertising_dev_test_failures` cannot be found. Verify the spelling and correctness of the schema and catalog.
+    If you did not qualify the name with a catalog, verify the current_schema() output, or qualify the name with the correct catalog.
+    To tolerate the error on drop use DROP SCHEMA IF EXISTS.
+[0m11:36:13.250576 [debug] [ThreadPool]: Spark adapter: Error while retrieving information about advertising_dev_test_failures: Runtime Error
+  Runtime Error
+    [SCHEMA_NOT_FOUND] The schema `advertising_dev_test_failures` cannot be found. Verify the spelling and correctness of the schema and catalog.
+    If you did not qualify the name with a catalog, verify the current_schema() output, or qualify the name with the correct catalog.
+    To tolerate the error on drop use DROP SCHEMA IF EXISTS.
+[0m11:36:13.250782 [debug] [ThreadPool]: On list_None_advertising_dev_test_failures: ROLLBACK
+[0m11:36:13.250953 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.251110 [debug] [ThreadPool]: On list_None_advertising_dev_test_failures: Close
+[0m11:36:13.251423 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_None_advertising_dev_test_failures, now list_None_advertising_dev_marts)
+[0m11:36:13.253340 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.253550 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_marts"
+[0m11:36:13.253732 [debug] [ThreadPool]: On list_None_advertising_dev_marts: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_marts"} */
+show table extended in advertising_dev_marts like '*'
+  
+[0m11:36:13.253901 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:36:13.266965 [debug] [ThreadPool]: SQL status: OK in 0.013 seconds
+[0m11:36:13.273020 [debug] [ThreadPool]: On list_None_advertising_dev_marts: ROLLBACK
+[0m11:36:13.273328 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.273505 [debug] [ThreadPool]: On list_None_advertising_dev_marts: Close
+[0m11:36:13.273919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1340bb370>]}
+[0m11:36:13.274275 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.274470 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m11:36:13.274827 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:36:13.275067 [info ] [MainThread]: 
+[0m11:36:13.276629 [debug] [Thread-3  ]: Began running node model.advertising_emissions.stg_advertising_emissions
+[0m11:36:13.277011 [info ] [Thread-3  ]: 1 of 7 START sql table model advertising_dev_staging.stg_advertising_emissions . [RUN]
+[0m11:36:13.277294 [debug] [Thread-3  ]: Re-using an available connection from the pool (formerly list_None_advertising_dev_marts, now model.advertising_emissions.stg_advertising_emissions)
+[0m11:36:13.277522 [debug] [Thread-3  ]: Began compiling node model.advertising_emissions.stg_advertising_emissions
+[0m11:36:13.285966 [debug] [Thread-3  ]: Writing injected SQL for node "model.advertising_emissions.stg_advertising_emissions"
+[0m11:36:13.286756 [debug] [Thread-3  ]: Began executing node model.advertising_emissions.stg_advertising_emissions
+[0m11:36:13.301164 [debug] [Thread-3  ]: Using spark connection "model.advertising_emissions.stg_advertising_emissions"
+[0m11:36:13.301453 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "node_id": "model.advertising_emissions.stg_advertising_emissions"} */
+drop table if exists advertising_dev_staging.stg_advertising_emissions
+[0m11:36:13.301666 [debug] [Thread-3  ]: Opening a new connection, currently in state closed
+[0m11:36:13.338722 [debug] [Thread-3  ]: SQL status: OK in 0.037 seconds
+[0m11:36:13.363162 [debug] [Thread-3  ]: Writing runtime sql for node "model.advertising_emissions.stg_advertising_emissions"
+[0m11:36:13.364076 [debug] [Thread-3  ]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.364314 [debug] [Thread-3  ]: Using spark connection "model.advertising_emissions.stg_advertising_emissions"
+[0m11:36:13.364655 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "node_id": "model.advertising_emissions.stg_advertising_emissions"} */
+
+  
+    
+        create table advertising_dev_staging.stg_advertising_emissions
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+WITH raw_data AS (
+    SELECT * FROM staged_advertising.advertising_emissions_staged
+),
+
+cleaned_data AS (
+    SELECT
+        -- Date standardization
+        CAST(date AS DATE) AS event_date,
+        
+        -- String cleaning and standardization
+        LOWER(TRIM(domain)) AS domain,
+        LOWER(TRIM(format)) AS ad_format,
+        UPPER(TRIM(country)) AS country_code,
+        TRIM(ad_size) AS ad_size,
+        LOWER(TRIM(device)) AS device_type,
+        
+        -- Emissions data with quality checks
+        CAST(adSelectionEmissions AS DECIMAL(10,6)) AS ad_selection_emissions,
+        CAST(creativeDistributionEmissions AS DECIMAL(10,6)) AS creative_distribution_emissions,
+        CAST(mediaDistributionEmissions AS DECIMAL(10,6)) AS media_distribution_emissions,
+        CAST(totalEmissions AS DECIMAL(10,6)) AS total_emissions,
+        
+        -- Domain coverage handling
+        CASE 
+            WHEN domainCoverage IS NULL OR domainCoverage = '' THEN 'unknown'
+            ELSE LOWER(TRIM(domainCoverage))
+        END AS domain_coverage,
+        
+        -- Data quality flags
+        CASE 
+            WHEN adSelectionEmissions IS NULL 
+                OR creativeDistributionEmissions IS NULL 
+                OR mediaDistributionEmissions IS NULL 
+                OR totalEmissions IS NULL 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_null_emissions,
+        
+        CASE 
+            WHEN ABS(
+                (adSelectionEmissions + creativeDistributionEmissions + mediaDistributionEmissions) - totalEmissions
+            ) > 0.001 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_emissions_mismatch,
+        
+        CASE 
+            WHEN totalEmissions < -5.0 OR totalEmissions > 20.0 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_extreme_emissions,
+        
+        -- Calculated fields
+        adSelectionEmissions + creativeDistributionEmissions + mediaDistributionEmissions AS calculated_total_emissions,
+        
+        -- Extract date components for analysis
+        YEAR(date) AS year,
+        MONTH(date) AS month,
+        DAY(date) AS day,
+        DAYOFWEEK(date) AS day_of_week,
+        DATE_FORMAT(date, 'yyyy-MM') AS year_month,
+        
+        -- Add row quality score (0-100)
+        100 - (
+            CASE WHEN has_null_emissions THEN 30 ELSE 0 END +
+            CASE WHEN has_emissions_mismatch THEN 20 ELSE 0 END +
+            CASE WHEN has_extreme_emissions THEN 25 ELSE 0 END +
+            CASE WHEN domain IS NULL OR domain = '' THEN 15 ELSE 0 END +
+            CASE WHEN country IS NULL OR country = '' THEN 10 ELSE 0 END
+        ) AS data_quality_score,
+        
+        -- Record metadata
+        CURRENT_TIMESTAMP() AS processed_at,
+        '2024-01-01' AS processing_date_range_start,
+        '2024-12-31' AS processing_date_range_end
+        
+    FROM raw_data
+    WHERE 
+        -- Basic data quality filters
+        date IS NOT NULL
+        AND domain IS NOT NULL
+        AND domain != ''
+        AND format IS NOT NULL
+        AND country IS NOT NULL
+        AND device IS NOT NULL
+),
+
+final_data AS (
+    SELECT 
+        *,
+        -- Emission percentage calculations
+        CASE 
+            WHEN total_emissions != 0 THEN 
+                ROUND((ad_selection_emissions / total_emissions) * 100, 2)
+            ELSE 0 
+        END AS ad_selection_pct,
+        
+        CASE 
+            WHEN total_emissions != 0 THEN 
+                ROUND((creative_distribution_emissions / total_emissions) * 100, 2)
+            ELSE 0 
+        END AS creative_distribution_pct,
+        
+        CASE 
+            WHEN total_emissions != 0 THEN 
+                ROUND((media_distribution_emissions / total_emissions) * 100, 2)
+            ELSE 0 
+        END AS media_distribution_pct
+        
+    FROM cleaned_data
+)
+
+SELECT * FROM final_data
+
+-- Data quality validation
+-- Only include records that meet minimum quality standards
+WHERE data_quality_score >= 50  -- Configurable threshold
+  
+[0m11:36:13.628764 [debug] [Thread-3  ]: Spark adapter: Error while running:
+/* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "node_id": "model.advertising_emissions.stg_advertising_emissions"} */
+
+  
+    
+        create table advertising_dev_staging.stg_advertising_emissions
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+WITH raw_data AS (
+    SELECT * FROM staged_advertising.advertising_emissions_staged
+),
+
+cleaned_data AS (
+    SELECT
+        -- Date standardization
+        CAST(date AS DATE) AS event_date,
+        
+        -- String cleaning and standardization
+        LOWER(TRIM(domain)) AS domain,
+        LOWER(TRIM(format)) AS ad_format,
+        UPPER(TRIM(country)) AS country_code,
+        TRIM(ad_size) AS ad_size,
+        LOWER(TRIM(device)) AS device_type,
+        
+        -- Emissions data with quality checks
+        CAST(adSelectionEmissions AS DECIMAL(10,6)) AS ad_selection_emissions,
+        CAST(creativeDistributionEmissions AS DECIMAL(10,6)) AS creative_distribution_emissions,
+        CAST(mediaDistributionEmissions AS DECIMAL(10,6)) AS media_distribution_emissions,
+        CAST(totalEmissions AS DECIMAL(10,6)) AS total_emissions,
+        
+        -- Domain coverage handling
+        CASE 
+            WHEN domainCoverage IS NULL OR domainCoverage = '' THEN 'unknown'
+            ELSE LOWER(TRIM(domainCoverage))
+        END AS domain_coverage,
+        
+        -- Data quality flags
+        CASE 
+            WHEN adSelectionEmissions IS NULL 
+                OR creativeDistributionEmissions IS NULL 
+                OR mediaDistributionEmissions IS NULL 
+                OR totalEmissions IS NULL 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_null_emissions,
+        
+        CASE 
+            WHEN ABS(
+                (adSelectionEmissions + creativeDistributionEmissions + mediaDistributionEmissions) - totalEmissions
+            ) > 0.001 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_emissions_mismatch,
+        
+        CASE 
+            WHEN totalEmissions < -5.0 OR totalEmissions > 20.0 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_extreme_emissions,
+        
+        -- Calculated fields
+        adSelectionEmissions + creativeDistributionEmissions + mediaDistributionEmissions AS calculated_total_emissions,
+        
+        -- Extract date components for analysis
+        YEAR(date) AS year,
+        MONTH(date) AS month,
+        DAY(date) AS day,
+        DAYOFWEEK(date) AS day_of_week,
+        DATE_FORMAT(date, 'yyyy-MM') AS year_month,
+        
+        -- Add row quality score (0-100)
+        100 - (
+            CASE WHEN has_null_emissions THEN 30 ELSE 0 END +
+            CASE WHEN has_emissions_mismatch THEN 20 ELSE 0 END +
+            CASE WHEN has_extreme_emissions THEN 25 ELSE 0 END +
+            CASE WHEN domain IS NULL OR domain = '' THEN 15 ELSE 0 END +
+            CASE WHEN country IS NULL OR country = '' THEN 10 ELSE 0 END
+        ) AS data_quality_score,
+        
+        -- Record metadata
+        CURRENT_TIMESTAMP() AS processed_at,
+        '2024-01-01' AS processing_date_range_start,
+        '2024-12-31' AS processing_date_range_end
+        
+    FROM raw_data
+    WHERE 
+        -- Basic data quality filters
+        date IS NOT NULL
+        AND domain IS NOT NULL
+        AND domain != ''
+        AND format IS NOT NULL
+        AND country IS NOT NULL
+        AND device IS NOT NULL
+),
+
+final_data AS (
+    SELECT 
+        *,
+        -- Emission percentage calculations
+        CASE 
+            WHEN total_emissions != 0 THEN 
+                ROUND((ad_selection_emissions / total_emissions) * 100, 2)
+            ELSE 0 
+        END AS ad_selection_pct,
+        
+        CASE 
+            WHEN total_emissions != 0 THEN 
+                ROUND((creative_distribution_emissions / total_emissions) * 100, 2)
+            ELSE 0 
+        END AS creative_distribution_pct,
+        
+        CASE 
+            WHEN total_emissions != 0 THEN 
+                ROUND((media_distribution_emissions / total_emissions) * 100, 2)
+            ELSE 0 
+        END AS media_distribution_pct
+        
+    FROM cleaned_data
+)
+
+SELECT * FROM final_data
+
+-- Data quality validation
+-- Only include records that meet minimum quality standards
+WHERE data_quality_score >= 50  -- Configurable threshold
+  
+[0m11:36:13.629357 [debug] [Thread-3  ]: Spark adapter: Runtime Error
+  [TABLE_OR_VIEW_NOT_FOUND] The table or view `staged_advertising`.`advertising_emissions_staged` cannot be found. Verify the spelling and correctness of the schema and catalog.
+  If you did not qualify the name with a schema, verify the current_schema() output, or qualify the name with the correct schema and catalog.
+  To tolerate the error on drop use DROP VIEW IF EXISTS or DROP TABLE IF EXISTS.; line 19 pos 18;
+  'CreateTable `spark_catalog`.`advertising_dev_staging`.`stg_advertising_emissions`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+  +- 'Project [*]
+     +- 'Filter ('data_quality_score >= 50)
+        +- 'SubqueryAlias final_data
+           +- 'Project [*, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('ad_selection_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS ad_selection_pct#74, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('creative_distribution_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS creative_distribution_pct#75, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('media_distribution_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS media_distribution_pct#76]
+              +- 'SubqueryAlias cleaned_data
+                 +- 'Project [cast('date as date) AS event_date#50, 'LOWER('TRIM('domain)) AS domain#51, 'LOWER('TRIM('format)) AS ad_format#52, 'UPPER('TRIM('country)) AS country_code#53, 'TRIM('ad_size) AS ad_size#54, 'LOWER('TRIM('device)) AS device_type#55, cast('adSelectionEmissions as decimal(10,6)) AS ad_selection_emissions#56, cast('creativeDistributionEmissions as decimal(10,6)) AS creative_distribution_emissions#57, cast('mediaDistributionEmissions as decimal(10,6)) AS media_distribution_emissions#58, cast('totalEmissions as decimal(10,6)) AS total_emissions#59, CASE WHEN (isnull('domainCoverage) OR ('domainCoverage = )) THEN unknown ELSE 'LOWER('TRIM('domainCoverage)) END AS domain_coverage#60, CASE WHEN ((isnull('adSelectionEmissions) OR isnull('creativeDistributionEmissions)) OR (isnull('mediaDistributionEmissions) OR isnull('totalEmissions))) THEN true ELSE false END AS has_null_emissions#61, CASE WHEN ('ABS(((('adSelectionEmissions + 'creativeDistributionEmissions) + 'mediaDistributionEmissions) - 'totalEmissions)) > 0.001) THEN true ELSE false END AS has_emissions_mismatch#62, CASE WHEN (('totalEmissions < -5.0) OR ('totalEmissions > 20.0)) THEN true ELSE false END AS has_extreme_emissions#63, (('adSelectionEmissions + 'creativeDistributionEmissions) + 'mediaDistributionEmissions) AS calculated_total_emissions#64, 'YEAR('date) AS year#65, 'MONTH('date) AS month#66, 'DAY('date) AS day#67, 'DAYOFWEEK('date) AS day_of_week#68, 'DATE_FORMAT('date, yyyy-MM) AS year_month#69, (100 - ((((CASE WHEN 'has_null_emissions THEN 30 ELSE 0 END + CASE WHEN 'has_emissions_mismatch THEN 20 ELSE 0 END) + CASE WHEN 'has_extreme_emissions THEN 25 ELSE 0 END) + CASE WHEN (isnull('domain) OR ('domain = )) THEN 15 ELSE 0 END) + CASE WHEN (isnull('country) OR ('country = )) THEN 10 ELSE 0 END)) AS data_quality_score#70, current_timestamp() AS processed_at#71, 2024-01-01 AS processing_date_range_start#72, 2024-12-31 AS processing_date_range_end#73]
+                    +- 'Filter (((isnotnull('date) AND isnotnull('domain)) AND NOT ('domain = )) AND ((isnotnull('format) AND isnotnull('country)) AND isnotnull('device)))
+                       +- 'SubqueryAlias raw_data
+                          +- 'Project [*]
+                             +- 'UnresolvedRelation [staged_advertising, advertising_emissions_staged], [], false
+  
+[0m11:36:13.629773 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions: ROLLBACK
+[0m11:36:13.629986 [debug] [Thread-3  ]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.630186 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions: Close
+[0m11:36:13.638943 [debug] [Thread-3  ]: Runtime Error in model stg_advertising_emissions (models/staging/stg_advertising_emissions.sql)
+  Runtime Error
+    [TABLE_OR_VIEW_NOT_FOUND] The table or view `staged_advertising`.`advertising_emissions_staged` cannot be found. Verify the spelling and correctness of the schema and catalog.
+    If you did not qualify the name with a schema, verify the current_schema() output, or qualify the name with the correct schema and catalog.
+    To tolerate the error on drop use DROP VIEW IF EXISTS or DROP TABLE IF EXISTS.; line 19 pos 18;
+    'CreateTable `spark_catalog`.`advertising_dev_staging`.`stg_advertising_emissions`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'Filter ('data_quality_score >= 50)
+          +- 'SubqueryAlias final_data
+             +- 'Project [*, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('ad_selection_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS ad_selection_pct#74, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('creative_distribution_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS creative_distribution_pct#75, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('media_distribution_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS media_distribution_pct#76]
+                +- 'SubqueryAlias cleaned_data
+                   +- 'Project [cast('date as date) AS event_date#50, 'LOWER('TRIM('domain)) AS domain#51, 'LOWER('TRIM('format)) AS ad_format#52, 'UPPER('TRIM('country)) AS country_code#53, 'TRIM('ad_size) AS ad_size#54, 'LOWER('TRIM('device)) AS device_type#55, cast('adSelectionEmissions as decimal(10,6)) AS ad_selection_emissions#56, cast('creativeDistributionEmissions as decimal(10,6)) AS creative_distribution_emissions#57, cast('mediaDistributionEmissions as decimal(10,6)) AS media_distribution_emissions#58, cast('totalEmissions as decimal(10,6)) AS total_emissions#59, CASE WHEN (isnull('domainCoverage) OR ('domainCoverage = )) THEN unknown ELSE 'LOWER('TRIM('domainCoverage)) END AS domain_coverage#60, CASE WHEN ((isnull('adSelectionEmissions) OR isnull('creativeDistributionEmissions)) OR (isnull('mediaDistributionEmissions) OR isnull('totalEmissions))) THEN true ELSE false END AS has_null_emissions#61, CASE WHEN ('ABS(((('adSelectionEmissions + 'creativeDistributionEmissions) + 'mediaDistributionEmissions) - 'totalEmissions)) > 0.001) THEN true ELSE false END AS has_emissions_mismatch#62, CASE WHEN (('totalEmissions < -5.0) OR ('totalEmissions > 20.0)) THEN true ELSE false END AS has_extreme_emissions#63, (('adSelectionEmissions + 'creativeDistributionEmissions) + 'mediaDistributionEmissions) AS calculated_total_emissions#64, 'YEAR('date) AS year#65, 'MONTH('date) AS month#66, 'DAY('date) AS day#67, 'DAYOFWEEK('date) AS day_of_week#68, 'DATE_FORMAT('date, yyyy-MM) AS year_month#69, (100 - ((((CASE WHEN 'has_null_emissions THEN 30 ELSE 0 END + CASE WHEN 'has_emissions_mismatch THEN 20 ELSE 0 END) + CASE WHEN 'has_extreme_emissions THEN 25 ELSE 0 END) + CASE WHEN (isnull('domain) OR ('domain = )) THEN 15 ELSE 0 END) + CASE WHEN (isnull('country) OR ('country = )) THEN 10 ELSE 0 END)) AS data_quality_score#70, current_timestamp() AS processed_at#71, 2024-01-01 AS processing_date_range_start#72, 2024-12-31 AS processing_date_range_end#73]
+                      +- 'Filter (((isnotnull('date) AND isnotnull('domain)) AND NOT ('domain = )) AND ((isnotnull('format) AND isnotnull('country)) AND isnotnull('device)))
+                         +- 'SubqueryAlias raw_data
+                            +- 'Project [*]
+                               +- 'UnresolvedRelation [staged_advertising, advertising_emissions_staged], [], false
+    
+[0m11:36:13.640243 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '934dfb21-3e3f-49ab-a59b-4065c7fcfc8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13430bbb0>]}
+[0m11:36:13.640666 [error] [Thread-3  ]: 1 of 7 ERROR creating sql table model advertising_dev_staging.stg_advertising_emissions  [[31mERROR[0m in 0.36s]
+[0m11:36:13.641135 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.stg_advertising_emissions
+[0m11:36:13.641845 [debug] [Thread-3  ]: Began running node model.advertising_emissions.daily_summary_country_device
+[0m11:36:13.642200 [info ] [Thread-3  ]: 2 of 7 SKIP relation advertising_dev_marts.daily_summary_country_device ........ [[33mSKIP[0m]
+[0m11:36:13.642560 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.daily_summary_country_device
+[0m11:36:13.642835 [debug] [Thread-3  ]: Began running node model.advertising_emissions.daily_summary_domain_format
+[0m11:36:13.643120 [info ] [Thread-3  ]: 3 of 7 SKIP relation advertising_dev_marts.daily_summary_domain_format ......... [[33mSKIP[0m]
+[0m11:36:13.643407 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.daily_summary_domain_format
+[0m11:36:13.643643 [debug] [Thread-3  ]: Began running node model.advertising_emissions.data_quality_analysis
+[0m11:36:13.643867 [info ] [Thread-3  ]: 4 of 7 SKIP relation advertising_dev_business_logic.data_quality_analysis ...... [[33mSKIP[0m]
+[0m11:36:13.644134 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.data_quality_analysis
+[0m11:36:13.644369 [debug] [Thread-3  ]: Began running node model.advertising_emissions.domain_coverage_by_format
+[0m11:36:13.644600 [info ] [Thread-3  ]: 5 of 7 SKIP relation advertising_dev_business_logic.domain_coverage_by_format .. [[33mSKIP[0m]
+[0m11:36:13.644840 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.domain_coverage_by_format
+[0m11:36:13.645055 [debug] [Thread-3  ]: Began running node model.advertising_emissions.emission_type_contributions
+[0m11:36:13.645264 [info ] [Thread-3  ]: 6 of 7 SKIP relation advertising_dev_business_logic.emission_type_contributions  [[33mSKIP[0m]
+[0m11:36:13.645540 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.emission_type_contributions
+[0m11:36:13.645856 [debug] [Thread-3  ]: Began running node model.advertising_emissions.top_domains_by_emissions
+[0m11:36:13.646153 [info ] [Thread-3  ]: 7 of 7 SKIP relation advertising_dev_business_logic.top_domains_by_emissions ... [[33mSKIP[0m]
+[0m11:36:13.646423 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.top_domains_by_emissions
+[0m11:36:13.647146 [debug] [MainThread]: On master: ROLLBACK
+[0m11:36:13.647432 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:36:13.647628 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.647798 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m11:36:13.647959 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m11:36:13.648115 [debug] [MainThread]: On master: ROLLBACK
+[0m11:36:13.648275 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m11:36:13.648428 [debug] [MainThread]: On master: Close
+[0m11:36:13.648649 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:36:13.648810 [debug] [MainThread]: Connection 'model.advertising_emissions.stg_advertising_emissions' was properly closed.
+[0m11:36:13.649054 [info ] [MainThread]: 
+[0m11:36:13.649251 [info ] [MainThread]: Finished running 7 table models in 0 hours 0 minutes and 8.19 seconds (8.19s).
+[0m11:36:13.649814 [debug] [MainThread]: Command end result
+[0m11:36:13.689444 [info ] [MainThread]: 
+[0m11:36:13.689883 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m11:36:13.690127 [info ] [MainThread]: 
+[0m11:36:13.690476 [error] [MainThread]:   Runtime Error in model stg_advertising_emissions (models/staging/stg_advertising_emissions.sql)
+  Runtime Error
+    [TABLE_OR_VIEW_NOT_FOUND] The table or view `staged_advertising`.`advertising_emissions_staged` cannot be found. Verify the spelling and correctness of the schema and catalog.
+    If you did not qualify the name with a schema, verify the current_schema() output, or qualify the name with the correct schema and catalog.
+    To tolerate the error on drop use DROP VIEW IF EXISTS or DROP TABLE IF EXISTS.; line 19 pos 18;
+    'CreateTable `spark_catalog`.`advertising_dev_staging`.`stg_advertising_emissions`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'Filter ('data_quality_score >= 50)
+          +- 'SubqueryAlias final_data
+             +- 'Project [*, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('ad_selection_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS ad_selection_pct#74, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('creative_distribution_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS creative_distribution_pct#75, CASE WHEN NOT ('total_emissions = 0) THEN 'ROUND((('media_distribution_emissions / 'total_emissions) * 100), 2) ELSE 0 END AS media_distribution_pct#76]
+                +- 'SubqueryAlias cleaned_data
+                   +- 'Project [cast('date as date) AS event_date#50, 'LOWER('TRIM('domain)) AS domain#51, 'LOWER('TRIM('format)) AS ad_format#52, 'UPPER('TRIM('country)) AS country_code#53, 'TRIM('ad_size) AS ad_size#54, 'LOWER('TRIM('device)) AS device_type#55, cast('adSelectionEmissions as decimal(10,6)) AS ad_selection_emissions#56, cast('creativeDistributionEmissions as decimal(10,6)) AS creative_distribution_emissions#57, cast('mediaDistributionEmissions as decimal(10,6)) AS media_distribution_emissions#58, cast('totalEmissions as decimal(10,6)) AS total_emissions#59, CASE WHEN (isnull('domainCoverage) OR ('domainCoverage = )) THEN unknown ELSE 'LOWER('TRIM('domainCoverage)) END AS domain_coverage#60, CASE WHEN ((isnull('adSelectionEmissions) OR isnull('creativeDistributionEmissions)) OR (isnull('mediaDistributionEmissions) OR isnull('totalEmissions))) THEN true ELSE false END AS has_null_emissions#61, CASE WHEN ('ABS(((('adSelectionEmissions + 'creativeDistributionEmissions) + 'mediaDistributionEmissions) - 'totalEmissions)) > 0.001) THEN true ELSE false END AS has_emissions_mismatch#62, CASE WHEN (('totalEmissions < -5.0) OR ('totalEmissions > 20.0)) THEN true ELSE false END AS has_extreme_emissions#63, (('adSelectionEmissions + 'creativeDistributionEmissions) + 'mediaDistributionEmissions) AS calculated_total_emissions#64, 'YEAR('date) AS year#65, 'MONTH('date) AS month#66, 'DAY('date) AS day#67, 'DAYOFWEEK('date) AS day_of_week#68, 'DATE_FORMAT('date, yyyy-MM) AS year_month#69, (100 - ((((CASE WHEN 'has_null_emissions THEN 30 ELSE 0 END + CASE WHEN 'has_emissions_mismatch THEN 20 ELSE 0 END) + CASE WHEN 'has_extreme_emissions THEN 25 ELSE 0 END) + CASE WHEN (isnull('domain) OR ('domain = )) THEN 15 ELSE 0 END) + CASE WHEN (isnull('country) OR ('country = )) THEN 10 ELSE 0 END)) AS data_quality_score#70, current_timestamp() AS processed_at#71, 2024-01-01 AS processing_date_range_start#72, 2024-12-31 AS processing_date_range_end#73]
+                      +- 'Filter (((isnotnull('date) AND isnotnull('domain)) AND NOT ('domain = )) AND ((isnotnull('format) AND isnotnull('country)) AND isnotnull('device)))
+                         +- 'SubqueryAlias raw_data
+                            +- 'Project [*]
+                               +- 'UnresolvedRelation [staged_advertising, advertising_emissions_staged], [], false
+    
+[0m11:36:13.690941 [info ] [MainThread]: 
+[0m11:36:13.691205 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=6 TOTAL=7
+[0m11:36:13.692886 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 13.5647, "process_user_time": 3.773313, "process_kernel_time": 1.263852, "process_mem_max_rss": "139755520", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:36:13.693224 [debug] [MainThread]: Command `dbt run` failed at 11:36:13.693167 after 13.57 seconds
+[0m11:36:13.693497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103338370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104374d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1275a0be0>]}
+[0m11:36:13.693733 [debug] [MainThread]: Flushing usage events
+[0m11:37:47.417052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ee8370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105568e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055d3c10>]}
+
+
+============================== 11:37:47.420458 | 16e4b83e-5d44-4244-9a68-41c6911953c2 ==============================
+[0m11:37:47.420458 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:37:47.420947 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/hungts/data/dev/digital-advertising-sample-pipeline/dbt_project', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/hungts/data/dev/digital-advertising-sample-pipeline/dbt_project/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --models stg_advertising_emissions_simple', 'send_anonymous_usage_stats': 'True'}
+[0m11:37:47.482942 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:37:47.483405 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:37:47.483632 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:37:47.821873 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m11:37:47.822509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ca17c0>]}
+[0m11:37:47.881396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107215c40>]}
+[0m11:37:47.914079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107230790>]}
+[0m11:37:47.914549 [info ] [MainThread]: Registered adapter: spark=1.8.0
+[0m11:37:47.947891 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m11:37:48.130169 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 2 files changed.
+[0m11:37:48.130710 [debug] [MainThread]: Partial parsing: added file: advertising_emissions://models/staging/stg_advertising_emissions_simple.sql
+[0m11:37:48.130955 [debug] [MainThread]: Partial parsing: added file: advertising_emissions://models/business_logic/top_5_domains_simple.sql
+[0m11:37:48.131647 [debug] [MainThread]: Partial parsing: updated file: advertising_emissions://models/staging/sources.yml
+[0m11:37:48.131850 [debug] [MainThread]: Partial parsing: updated file: advertising_emissions://models/staging/stg_advertising_emissions.sql
+[0m11:37:48.553782 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.advertising_emissions
+[0m11:37:48.565558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107cdb8b0>]}
+[0m11:37:48.712546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b704c0>]}
+[0m11:37:48.712941 [info ] [MainThread]: Found 48 data tests, 9 models, 2 sources, 869 macros
+[0m11:37:48.713164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b26d90>]}
+[0m11:37:48.714202 [info ] [MainThread]: 
+[0m11:37:48.714658 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m11:37:48.715267 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m11:37:48.722880 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m11:37:48.723200 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m11:37:48.723388 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:37:55.233987 [debug] [ThreadPool]: SQL status: OK in 6.510 seconds
+[0m11:37:55.335543 [debug] [ThreadPool]: On list_schemas: Close
+[0m11:37:55.344100 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now list_None_advertising_dev_marts)
+[0m11:37:55.349364 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:37:55.349625 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_marts"
+[0m11:37:55.349831 [debug] [ThreadPool]: On list_None_advertising_dev_marts: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_marts"} */
+show table extended in advertising_dev_marts like '*'
+  
+[0m11:37:55.350048 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:37:55.638585 [debug] [ThreadPool]: SQL status: OK in 0.288 seconds
+[0m11:37:55.651510 [debug] [ThreadPool]: On list_None_advertising_dev_marts: ROLLBACK
+[0m11:37:55.651826 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:37:55.652011 [debug] [ThreadPool]: On list_None_advertising_dev_marts: Close
+[0m11:37:55.652349 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_None_advertising_dev_marts, now list_None_advertising_dev_staging)
+[0m11:37:55.654624 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:37:55.654874 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_staging"
+[0m11:37:55.655060 [debug] [ThreadPool]: On list_None_advertising_dev_staging: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_staging"} */
+show table extended in advertising_dev_staging like '*'
+  
+[0m11:37:55.655232 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:37:55.673507 [debug] [ThreadPool]: SQL status: OK in 0.018 seconds
+[0m11:37:55.681127 [debug] [ThreadPool]: On list_None_advertising_dev_staging: ROLLBACK
+[0m11:37:55.681462 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:37:55.681647 [debug] [ThreadPool]: On list_None_advertising_dev_staging: Close
+[0m11:37:55.681986 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_None_advertising_dev_staging, now list_None_advertising_dev_business_logic)
+[0m11:37:55.683999 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:37:55.684275 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_business_logic"
+[0m11:37:55.684580 [debug] [ThreadPool]: On list_None_advertising_dev_business_logic: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_business_logic"} */
+show table extended in advertising_dev_business_logic like '*'
+  
+[0m11:37:55.684763 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:37:55.698461 [debug] [ThreadPool]: SQL status: OK in 0.014 seconds
+[0m11:37:55.705236 [debug] [ThreadPool]: On list_None_advertising_dev_business_logic: ROLLBACK
+[0m11:37:55.705532 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:37:55.705717 [debug] [ThreadPool]: On list_None_advertising_dev_business_logic: Close
+[0m11:37:55.706053 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_None_advertising_dev_business_logic, now list_None_advertising_dev_test_failures)
+[0m11:37:55.708951 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m11:37:55.709226 [debug] [ThreadPool]: Using spark connection "list_None_advertising_dev_test_failures"
+[0m11:37:55.709530 [debug] [ThreadPool]: On list_None_advertising_dev_test_failures: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_test_failures"} */
+show table extended in advertising_dev_test_failures like '*'
+  
+[0m11:37:55.709726 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:37:55.735947 [debug] [ThreadPool]: Spark adapter: Error while running:
+/* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "connection_name": "list_None_advertising_dev_test_failures"} */
+show table extended in advertising_dev_test_failures like '*'
+  
+[0m11:37:55.736381 [debug] [ThreadPool]: Spark adapter: Runtime Error
+  [SCHEMA_NOT_FOUND] The schema `advertising_dev_test_failures` cannot be found. Verify the spelling and correctness of the schema and catalog.
+  If you did not qualify the name with a catalog, verify the current_schema() output, or qualify the name with the correct catalog.
+  To tolerate the error on drop use DROP SCHEMA IF EXISTS.
+[0m11:37:55.736665 [debug] [ThreadPool]: Spark adapter: Error while running:
+macro list_relations_without_caching
+[0m11:37:55.736853 [debug] [ThreadPool]: Spark adapter: Runtime Error
+  Runtime Error
+    [SCHEMA_NOT_FOUND] The schema `advertising_dev_test_failures` cannot be found. Verify the spelling and correctness of the schema and catalog.
+    If you did not qualify the name with a catalog, verify the current_schema() output, or qualify the name with the correct catalog.
+    To tolerate the error on drop use DROP SCHEMA IF EXISTS.
+[0m11:37:55.737102 [debug] [ThreadPool]: Spark adapter: Error while retrieving information about advertising_dev_test_failures: Runtime Error
+  Runtime Error
+    [SCHEMA_NOT_FOUND] The schema `advertising_dev_test_failures` cannot be found. Verify the spelling and correctness of the schema and catalog.
+    If you did not qualify the name with a catalog, verify the current_schema() output, or qualify the name with the correct catalog.
+    To tolerate the error on drop use DROP SCHEMA IF EXISTS.
+[0m11:37:55.737306 [debug] [ThreadPool]: On list_None_advertising_dev_test_failures: ROLLBACK
+[0m11:37:55.737471 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m11:37:55.737628 [debug] [ThreadPool]: On list_None_advertising_dev_test_failures: Close
+[0m11:37:55.738052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b88bb0>]}
+[0m11:37:55.738359 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m11:37:55.738532 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m11:37:55.738803 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:37:55.739006 [info ] [MainThread]: 
+[0m11:37:55.741565 [debug] [Thread-3  ]: Began running node model.advertising_emissions.stg_advertising_emissions_simple
+[0m11:37:55.741981 [info ] [Thread-3  ]: 1 of 1 START sql table model advertising_dev_staging.stg_advertising_emissions_simple  [RUN]
+[0m11:37:55.742266 [debug] [Thread-3  ]: Re-using an available connection from the pool (formerly list_None_advertising_dev_test_failures, now model.advertising_emissions.stg_advertising_emissions_simple)
+[0m11:37:55.742652 [debug] [Thread-3  ]: Began compiling node model.advertising_emissions.stg_advertising_emissions_simple
+[0m11:37:55.748587 [debug] [Thread-3  ]: Writing injected SQL for node "model.advertising_emissions.stg_advertising_emissions_simple"
+[0m11:37:55.749535 [debug] [Thread-3  ]: Began executing node model.advertising_emissions.stg_advertising_emissions_simple
+[0m11:37:55.764494 [debug] [Thread-3  ]: Using spark connection "model.advertising_emissions.stg_advertising_emissions_simple"
+[0m11:37:55.764829 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions_simple: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "node_id": "model.advertising_emissions.stg_advertising_emissions_simple"} */
+drop table if exists advertising_dev_staging.stg_advertising_emissions_simple
+[0m11:37:55.765056 [debug] [Thread-3  ]: Opening a new connection, currently in state closed
+[0m11:37:55.808442 [debug] [Thread-3  ]: SQL status: OK in 0.043 seconds
+[0m11:37:55.833783 [debug] [Thread-3  ]: Writing runtime sql for node "model.advertising_emissions.stg_advertising_emissions_simple"
+[0m11:37:55.834560 [debug] [Thread-3  ]: Spark adapter: NotImplemented: add_begin_query
+[0m11:37:55.834798 [debug] [Thread-3  ]: Using spark connection "model.advertising_emissions.stg_advertising_emissions_simple"
+[0m11:37:55.835113 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions_simple: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "node_id": "model.advertising_emissions.stg_advertising_emissions_simple"} */
+
+  
+    
+        create table advertising_dev_staging.stg_advertising_emissions_simple
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+WITH base_data AS (
+    -- Direct read from your existing staged parquet file
+    SELECT 
+        date,
+        domain,
+        format,
+        country,
+        ad_size,
+        device,
+        adSelectionEmissions,
+        creativeDistributionEmissions,
+        mediaDistributionEmissions,
+        totalEmissions,
+        domainCoverage
+    FROM parquet.`s3a://sample-bucket/staging/advertising_emissions.parquet`
+),
+
+cleaned_data AS (
+    SELECT
+        -- Date standardization
+        CAST(date AS DATE) AS event_date,
+        
+        -- String cleaning and standardization
+        LOWER(TRIM(domain)) AS domain,
+        LOWER(TRIM(format)) AS ad_format,
+        UPPER(TRIM(country)) AS country_code,
+        TRIM(ad_size) AS ad_size,
+        LOWER(TRIM(device)) AS device_type,
+        
+        -- Emissions data with quality checks
+        CAST(adSelectionEmissions AS DECIMAL(10,6)) AS ad_selection_emissions,
+        CAST(creativeDistributionEmissions AS DECIMAL(10,6)) AS creative_distribution_emissions,
+        CAST(mediaDistributionEmissions AS DECIMAL(10,6)) AS media_distribution_emissions,
+        CAST(totalEmissions AS DECIMAL(10,6)) AS total_emissions,
+        
+        -- Domain coverage handling
+        CASE 
+            WHEN domainCoverage IS NULL OR domainCoverage = '' THEN 'unknown'
+            ELSE LOWER(TRIM(domainCoverage))
+        END AS domain_coverage,
+        
+        -- Basic data quality flags
+        CASE 
+            WHEN adSelectionEmissions IS NULL 
+                OR creativeDistributionEmissions IS NULL 
+                OR mediaDistributionEmissions IS NULL 
+                OR totalEmissions IS NULL 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_null_emissions,
+        
+        -- Extract date components
+        YEAR(date) AS year,
+        MONTH(date) AS month,
+        DAY(date) AS day,
+        
+        -- Record metadata
+        CURRENT_TIMESTAMP() AS processed_at
+        
+    FROM base_data
+    WHERE 
+        -- Basic filters
+        date IS NOT NULL
+        AND domain IS NOT NULL
+        AND domain != ''
+        AND format IS NOT NULL
+        AND country IS NOT NULL
+        AND device IS NOT NULL
+)
+
+SELECT 
+    *,
+    -- Emission percentage calculations
+    CASE 
+        WHEN total_emissions != 0 THEN 
+            ROUND((ad_selection_emissions / total_emissions) * 100, 2)
+        ELSE 0 
+    END AS ad_selection_pct,
+    
+    CASE 
+        WHEN total_emissions != 0 THEN 
+            ROUND((creative_distribution_emissions / total_emissions) * 100, 2)
+        ELSE 0 
+    END AS creative_distribution_pct,
+    
+    CASE 
+        WHEN total_emissions != 0 THEN 
+            ROUND((media_distribution_emissions / total_emissions) * 100, 2)
+        ELSE 0 
+    END AS media_distribution_pct
+
+FROM cleaned_data
+  
+[0m11:37:56.177599 [debug] [Thread-3  ]: Spark adapter: Error while running:
+/* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "advertising_emissions", "target_name": "dev", "node_id": "model.advertising_emissions.stg_advertising_emissions_simple"} */
+
+  
+    
+        create table advertising_dev_staging.stg_advertising_emissions_simple
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+WITH base_data AS (
+    -- Direct read from your existing staged parquet file
+    SELECT 
+        date,
+        domain,
+        format,
+        country,
+        ad_size,
+        device,
+        adSelectionEmissions,
+        creativeDistributionEmissions,
+        mediaDistributionEmissions,
+        totalEmissions,
+        domainCoverage
+    FROM parquet.`s3a://sample-bucket/staging/advertising_emissions.parquet`
+),
+
+cleaned_data AS (
+    SELECT
+        -- Date standardization
+        CAST(date AS DATE) AS event_date,
+        
+        -- String cleaning and standardization
+        LOWER(TRIM(domain)) AS domain,
+        LOWER(TRIM(format)) AS ad_format,
+        UPPER(TRIM(country)) AS country_code,
+        TRIM(ad_size) AS ad_size,
+        LOWER(TRIM(device)) AS device_type,
+        
+        -- Emissions data with quality checks
+        CAST(adSelectionEmissions AS DECIMAL(10,6)) AS ad_selection_emissions,
+        CAST(creativeDistributionEmissions AS DECIMAL(10,6)) AS creative_distribution_emissions,
+        CAST(mediaDistributionEmissions AS DECIMAL(10,6)) AS media_distribution_emissions,
+        CAST(totalEmissions AS DECIMAL(10,6)) AS total_emissions,
+        
+        -- Domain coverage handling
+        CASE 
+            WHEN domainCoverage IS NULL OR domainCoverage = '' THEN 'unknown'
+            ELSE LOWER(TRIM(domainCoverage))
+        END AS domain_coverage,
+        
+        -- Basic data quality flags
+        CASE 
+            WHEN adSelectionEmissions IS NULL 
+                OR creativeDistributionEmissions IS NULL 
+                OR mediaDistributionEmissions IS NULL 
+                OR totalEmissions IS NULL 
+            THEN TRUE 
+            ELSE FALSE 
+        END AS has_null_emissions,
+        
+        -- Extract date components
+        YEAR(date) AS year,
+        MONTH(date) AS month,
+        DAY(date) AS day,
+        
+        -- Record metadata
+        CURRENT_TIMESTAMP() AS processed_at
+        
+    FROM base_data
+    WHERE 
+        -- Basic filters
+        date IS NOT NULL
+        AND domain IS NOT NULL
+        AND domain != ''
+        AND format IS NOT NULL
+        AND country IS NOT NULL
+        AND device IS NOT NULL
+)
+
+SELECT 
+    *,
+    -- Emission percentage calculations
+    CASE 
+        WHEN total_emissions != 0 THEN 
+            ROUND((ad_selection_emissions / total_emissions) * 100, 2)
+        ELSE 0 
+    END AS ad_selection_pct,
+    
+    CASE 
+        WHEN total_emissions != 0 THEN 
+            ROUND((creative_distribution_emissions / total_emissions) * 100, 2)
+        ELSE 0 
+    END AS creative_distribution_pct,
+    
+    CASE 
+        WHEN total_emissions != 0 THEN 
+            ROUND((media_distribution_emissions / total_emissions) * 100, 2)
+        ELSE 0 
+    END AS media_distribution_pct
+
+FROM cleaned_data
+  
+[0m11:37:56.178083 [debug] [Thread-3  ]: Spark adapter: Runtime Error
+  [UNSUPPORTED_DATASOURCE_FOR_DIRECT_QUERY] Unsupported data source type for direct query on files: parquet; line 32 pos 9
+[0m11:37:56.178400 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions_simple: ROLLBACK
+[0m11:37:56.178628 [debug] [Thread-3  ]: Spark adapter: NotImplemented: rollback
+[0m11:37:56.178928 [debug] [Thread-3  ]: On model.advertising_emissions.stg_advertising_emissions_simple: Close
+[0m11:37:56.186131 [debug] [Thread-3  ]: Runtime Error in model stg_advertising_emissions_simple (models/staging/stg_advertising_emissions_simple.sql)
+  Runtime Error
+    [UNSUPPORTED_DATASOURCE_FOR_DIRECT_QUERY] Unsupported data source type for direct query on files: parquet; line 32 pos 9
+[0m11:37:56.187212 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '16e4b83e-5d44-4244-9a68-41c6911953c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078dd970>]}
+[0m11:37:56.187704 [error] [Thread-3  ]: 1 of 1 ERROR creating sql table model advertising_dev_staging.stg_advertising_emissions_simple  [[31mERROR[0m in 0.44s]
+[0m11:37:56.188125 [debug] [Thread-3  ]: Finished running node model.advertising_emissions.stg_advertising_emissions_simple
+[0m11:37:56.188849 [debug] [MainThread]: On master: ROLLBACK
+[0m11:37:56.189058 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:37:56.189259 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m11:37:56.189436 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m11:37:56.189596 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m11:37:56.189753 [debug] [MainThread]: On master: ROLLBACK
+[0m11:37:56.189911 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m11:37:56.190063 [debug] [MainThread]: On master: Close
+[0m11:37:56.190260 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:37:56.190415 [debug] [MainThread]: Connection 'model.advertising_emissions.stg_advertising_emissions_simple' was properly closed.
+[0m11:37:56.190594 [info ] [MainThread]: 
+[0m11:37:56.190787 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.48 seconds (7.48s).
+[0m11:37:56.191165 [debug] [MainThread]: Command end result
+[0m11:37:56.232222 [info ] [MainThread]: 
+[0m11:37:56.232582 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m11:37:56.232773 [info ] [MainThread]: 
+[0m11:37:56.233016 [error] [MainThread]:   Runtime Error in model stg_advertising_emissions_simple (models/staging/stg_advertising_emissions_simple.sql)
+  Runtime Error
+    [UNSUPPORTED_DATASOURCE_FOR_DIRECT_QUERY] Unsupported data source type for direct query on files: parquet; line 32 pos 9
+[0m11:37:56.233204 [info ] [MainThread]: 
+[0m11:37:56.233396 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m11:37:56.235097 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 8.870828, "process_user_time": 3.374912, "process_kernel_time": 0.457729, "process_mem_max_rss": "140427264", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:37:56.235442 [debug] [MainThread]: Command `dbt run` failed at 11:37:56.235388 after 8.87 seconds
+[0m11:37:56.235699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ee8370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107215c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077ecfa0>]}
+[0m11:37:56.235940 [debug] [MainThread]: Flushing usage events
